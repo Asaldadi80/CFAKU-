@@ -1,0 +1,2765 @@
+base-bug:
+  bug:
+#XL VISION+
+    - &bug-ip1 162.159.128.70
+    - &bug-ip2 162.159.138.60
+    - &bug-ip3 101.21.235.171
+    - &bug-ip4 104.17.2.81
+    - &bug-ip5 104.17.3.81
+    - &bug-ip6 104.18.20.94
+    - &bug-ip7 104.18.225.52
+    - &bug-ip8 104.18.226.52
+    - &bug-ip9 104.21.235.171
+    - &bug-ip10 104.21.235.172
+    - &bug-ip11 104.22.62.150
+    - &bug-ip12 104.22.63.150
+    - &bug-ip13 172.64.198.18
+    - &bug-ip14 172.64.199.18
+    - &bug-ip15 172.67.8.9
+    - &bug-ip16 api.midtrans.com
+    - &bug-ip17 api.onesignal.com
+    - &bug-ip18 api.visionplus.id
+    - &bug-ip19 cdn.appflyers.com
+    - &bug-ip20 cdn.appsflyer.com
+    - &bug-ip21 sb.scorecardresearch.com
+    - &bug-ip22 stream.visionplus.id
+    - &bug-ip23 visionplus.id
+    - &bug-ip24 www.visionplus.id
+    - &bug-ip25 zendesk1.shopee.ph
+    - &bug-ip26 zendesk1.shopee.sg
+    - &bug-ip27 zendesk1.shopee.tw
+#XL FLEX WLG JATENG
+    - &bug-ip28 sogood.linefriends.com
+    - &bug-ip29 collection.linefriends.com
+    - &bug-ip30 104.22.2.25
+    - &bug-ip31 104.22.3.25
+    - &bug-ip32 172.67.26.118
+    - &bug-ip33 104.21.71.112
+#OPOK
+    - &bug-ip34 104.18.38.229
+    - &bug-ip35 104.22.24.131
+    - &bug-ip36 104.22.29.102
+    - &bug-ip37 104.26.4.192
+    - &bug-ip38 api.midtrans.com
+    - &bug-ip39 covid19.com
+    - &bug-ip40 covid19.go.id
+    - &bug-ip41 crl.globalsign.net
+    - &bug-ip42 my.orbit.com
+    - &bug-ip43 myorbit.id
+    - &bug-ip44 Opensignal.com
+    - &bug-ip45 partialshop.com
+    - &bug-ip46 space.byu.id
+    - &bug-ip47 support.liveon.id
+    - &bug-ip48 teams.microsoft.com
+    - &bug-ip49 telkomsel.com
+    - &bug-ip50 tsel.me
+    - &bug-ip51 vpnstore.udemy.com
+#XL AKRAB ALL TKP
+    - &bug-ip52 162.159.128.70
+    - &bug-ip53 104.17.2.81
+    - &bug-ip54 104.17.3.81
+    - &bug-ip55 104.18.10.39
+    - &bug-ip56 104.18.11.39
+    - &bug-ip57 104.18.20.226
+    - &bug-ip58 104.18.21.226
+    - &bug-ip59 104.18.210.56
+    - &bug-ip60 104.18.211.56
+    - &bug-ip61 104.18.24.243
+    - &bug-ip62 104.18.25.243
+    - &bug-ip63 104.21.21.147
+    - &bug-ip64 104.21.90.167
+    - &bug-ip65 104.26.4.10
+    - &bug-ip66 104.26.5.10
+    - &bug-ip67 172.67.158.52
+    - &bug-ip68 172.67.182.69
+    - &bug-ip69 172.67.199.34
+    - &bug-ip70 360kidsacademy.com
+    - &bug-ip71 access.zoominfo.com
+    - &bug-ip72 alphassl.com
+    - &bug-ip73 anitoc.com
+    - &bug-ip74 api.kno2fy.com
+    - &bug-ip75 auth.kno2fy.com
+    - &bug-ip76 blog.webex.com
+    - &bug-ip77 cs-dashboard.zoominfo.com
+    - &bug-ip78 engage.zoominfo.com
+    - &bug-ip79 info.microsoft.com
+    - &bug-ip80 lms.uin-antasari.ac.id
+    - &bug-ip81 millig.shop
+    - &bug-ip82 news.microsoft.com
+    - &bug-ip83 ssl.readmessl.com
+    - &bug-ip84 store.zoom.us
+    - &bug-ip85 t.aboutyou.ch
+    - &bug-ip86 Teams.microsoft.com
+    - &bug-ip87 www3.webex.com
+    - &bug-ip88 xl.gandring.my.id
+    - &bug-ip89 xlllakrab.pointdns.click
+#EDUKASI
+    - &bug-ip90 141.193.213.10
+    - &bug-ip91 141.193.213.20
+    - &bug-ip92 141.193.213.21
+    - &bug-ip93 162.159.128.70
+    - &bug-ip94 162.159.135.42
+    - &bug-ip95 162.159.138.60
+    - &bug-ip96 104.16.51.111
+    - &bug-ip97 104.16.53.111
+    - &bug-ip98 104.16.65.85
+    - &bug-ip99 104.16.66.85
+    - &bug-ip100 104.17.2.81
+    - &bug-ip101 104.17.3.81
+    - &bug-ip102 104.17.70.206
+    - &bug-ip103 104.17.71.206
+    - &bug-ip104 104.18.24.139
+    - &bug-ip105 104.18.25.139
+    - &bug-ip106 104.20.74.141
+    - &bug-ip107 104.21.73.168
+    - &bug-ip108 104.21.78.142
+    - &bug-ip109 104.21.83.237
+    - &bug-ip110 104.21.96.123
+    - &bug-ip111 104.26.2.138
+    - &bug-ip112 104.26.3.138
+    - &bug-ip113 104.26.4.192
+    - &bug-ip114 104.26.5.192
+    - &bug-ip115 170.114.52.2
+    - &bug-ip116 170.114.52.3
+    - &bug-ip117 172.67.146.74
+    - &bug-ip118 172.67.180.16
+    - &bug-ip119 172.67.183.115
+    - &bug-ip120 172.67.222.11
+    - &bug-ip121 172.67.69.152
+    - &bug-ip122 172.67.73.5
+    - &bug-ip123 almaiyyah.iainpare.ac.id
+    - &bug-ip124 api.midtrans.com
+    - &bug-ip125 bimbel.ruangguru.com
+    - &bug-ip126 callinghelp.webex.com
+    - &bug-ip127 chat.sociomile.com
+    - &bug-ip128 chat-xlcare.sociomile.com
+    - &bug-ip129 dashboard.midtrans.com
+    - &bug-ip130 e-journal.iainpekalongan.ac.id
+    - &bug-ip131 elearning.uty.ac.id
+    - &bug-ip132 gw.ruangguru.com
+    - &bug-ip133 iaimnumetrolampung.ac.id
+    - &bug-ip134 iainkendari.ac.id
+    - &bug-ip135 iainpare.ac.id
+    - &bug-ip136 iainpekalongan.ac.id
+    - &bug-ip137 io.ruangguru.com
+    - &bug-ip138 journal.iaimnumetrolampung.ac.id
+    - &bug-ip139 journal.stkipnurulhuda.ac.id
+    - &bug-ip140 layanan.ruangguru.com
+    - &bug-ip141 lsp.unisnu.ac.id
+    - &bug-ip142 meet.unisnu.ac.id
+    - &bug-ip143 mikrotik.staia-sw.ac.id
+    - &bug-ip144 pps.iainpekalongan.ac.id
+    - &bug-ip145 prodi.staia-sw.ac.id
+    - &bug-ip146 proxy.iainkendari.ac.id
+    - &bug-ip147 steialishlah.ac.id
+    - &bug-ip148 stkipnurulhuda.ac.id
+    - &bug-ip149 support.zoom.us
+    - &bug-ip150 unisnu.ac.id
+    - &bug-ip151 us02web.zoom.us
+    - &bug-ip152 vsb72.tawk.to
+    - &bug-ip153 www.skillacademy.com
+    - &bug-ip154 www.steialishlah.ac.id
+    - &bug-ip155 www.udemy.com
+    - &bug-ip156 www.zoom.us
+    - &bug-ip157 xlcare.sociomile.com
+    - &bug-ip158 zendesk1.appsflyer.com
+    - &bug-ip159 zoom.us
+    - &bug-ip160 zoomcares.zoom.us
+    - &bug-ip161 robo.ruangguru.com
+#LiveOn
+    - &bug-ip162 162.159.128.70
+    - &bug-ip163 162.159.138.60
+    - &bug-ip164 104.16.51.111
+    - &bug-ip165 104.16.53.111
+    - &bug-ip166 104.21.8.121
+    - &bug-ip167 172.67.139.111
+    - &bug-ip168 beacon.liveon.id
+    - &bug-ip169 support.liveon.id
+    - &bug-ip170 zendesk1.appsflyer.com
+#Game
+    - &bug-ip171 104.17.202.159
+    - &bug-ip172 104.17.203.159
+    - &bug-ip173 104.18.10.40
+    - &bug-ip174 104.18.11.40
+    - &bug-ip175 104.18.12.120
+    - &bug-ip176 104.18.13.120
+    - &bug-ip177 104.18.2.179
+    - &bug-ip178 104.18.20.219
+    - &bug-ip179 104.18.21.219
+    - &bug-ip180 104.18.22.187
+    - &bug-ip181 104.18.23.187
+    - &bug-ip182 104.18.28.70 
+    - &bug-ip183 104.18.29.70
+    - &bug-ip184 104.18.3.179
+    - &bug-ip185 104.18.30.102
+    - &bug-ip186 104.18.31.102
+    - &bug-ip187 104.18.41.141
+    - &bug-ip188 104.19.142.108
+    - &bug-ip189 104.19.143.108
+    - &bug-ip190 104.19.186.16
+    - &bug-ip191 172.64.146.115
+    - &bug-ip192 api.duniagames.co.id
+    - &bug-ip193 article.nimo.tv
+    - &bug-ip194 cftxvidtest.vod.nimo.tv
+    - &bug-ip195 cf-vod.nimo.tv
+    - &bug-ip196 duniagames.co.id
+    - &bug-ip197 esports.duniagames.co.id
+    - &bug-ip198 ir.huya.com 
+    - &bug-ip199 link.duniagames.co.id
+    - &bug-ip200 override.cf.hls.nimo.tv
+    - &bug-ip201 override.cf-test.hls.nimo.tv
+    - &bug-ip202 poe.garena.com
+    - &bug-ip203 rn-static.nimo.tv
+    - &bug-ip204 stage5.duniagames.co.id
+    - &bug-ip205 update2.farlight84miraclegames.com.b.galileo.jcloud-cdn.com
+    - &bug-ip206 update2.farlight84miraclegames.com.cdn.jcloudcdn.com
+
+    
+base-proxy:
+  vmess:
+    - &basevmess
+      type: vmess
+      alterId: 0
+      cipher: auto
+      udp: true
+      udp-over-tcp: true
+      network: ws
+      tls: true
+      skip-cert-verify: true
+  trojan:
+    - &basetrojan
+      type: trojan
+      port: 443
+      udp: true
+      skip-cert-verify: true
+      network: ws
+  gfw:
+    - &basegrpc
+      type: trojan
+      port: 443
+      udp: true
+      skip-cert-verify: true
+  ss:
+    - &basess
+      type: ss
+      port: 1443
+      udp: true
+      skip-cert-verify: true
+base-proxy-group:
+  url:
+    - &url-gg http://www.gstatic.com/generate_204
+    - &url-cf http://cp.cloudflare.com/generate_204
+
+proxies:
+#asia
+    - &asia
+      <<: *basevmess
+      name: asia1
+      server: *bug-ip1 
+      port: 443
+      uuid: 3d55d410-b9fe-11ed-b039-205c6d5f5d78
+      servername: asia1.oceis.net
+      ws-opts:
+        path: /vmws
+        headers:
+          Host: asia1.oceis.net
+          Early-Data: 1
+    - <<: *asia
+      name: asia2
+      server: *bug-ip2
+    - <<: *asia
+      name: asia3
+      server: *bug-ip3
+    - <<: *asia
+      name: asia4
+      server: *bug-ip4
+    - <<: *asia
+      name: asia5
+      server: *bug-ip5
+    - <<: *asia
+      name: asia6
+      server: *bug-ip6
+    - <<: *asia
+      name: asia7
+      server: *bug-ip7
+    - <<: *asia
+      name: asia8
+      server: *bug-ip8
+    - <<: *asia
+      name: asia9
+      server: *bug-ip9
+    - <<: *asia
+      name: asia10
+      server: *bug-ip10
+    - <<: *asia
+      name: asia11
+      server: *bug-ip11
+    - <<: *asia
+      name: asia12
+      server: *bug-ip12
+    - <<: *asia
+      name: asia13
+      server: *bug-ip13
+    - <<: *asia
+      name: asia14
+      server: *bug-ip14
+    - <<: *asia
+      name: asia15
+      server: *bug-ip15
+    - <<: *asia
+      name: asia16
+      server: *bug-ip16
+    - <<: *asia
+      name: asia17
+      server: *bug-ip17
+    - <<: *asia
+      name: asia18
+      server: *bug-ip18
+    - <<: *asia
+      name: asia19
+      server: *bug-ip19
+    - <<: *asia
+      name: asia20
+      server: *bug-ip20
+    - <<: *asia
+      name: asia21
+      server: *bug-ip21
+    - <<: *asia
+      name: asia22
+      server: *bug-ip22
+    - <<: *asia
+      name: asia23
+      server: *bug-ip23
+    - <<: *asia
+      name: asia24
+      server: *bug-ip24
+    - <<: *asia
+      name: asia25
+      server: *bug-ip25
+    - <<: *asia
+      name: asia26
+      server: *bug-ip26
+    - <<: *asia
+      name: asia27
+      server: *bug-ip27
+    - <<: *asia
+      name: asia28
+      server: *bug-ip28
+    - <<: *asia
+      name: asia29
+      server: *bug-ip29
+    - <<: *asia
+      name: asia30
+      server: *bug-ip30
+    - <<: *asia
+      name: asia31
+      server: *bug-ip31
+    - <<: *asia
+      name: asia32
+      server: *bug-ip32
+    - <<: *asia
+      name: asia33
+      server: *bug-ip33
+    - <<: *asia
+      name: asia34
+      server: *bug-ip34
+    - <<: *asia
+      name: asia35
+      server: *bug-ip35
+    - <<: *asia
+      name: asia36
+      server: *bug-ip36
+    - <<: *asia
+      name: asia37
+      server: *bug-ip37
+    - <<: *asia
+      name: asia38
+      server: *bug-ip38
+    - <<: *asia
+      name: asia39
+      server: *bug-ip39
+    - <<: *asia
+      name: asia40
+      server: *bug-ip40
+    - <<: *asia
+      name: asia41
+      server: *bug-ip41
+    - <<: *asia
+      name: asia42
+      server: *bug-ip42
+    - <<: *asia
+      name: asia43
+      server: *bug-ip43
+    - <<: *asia
+      name: asia44
+      server: *bug-ip44
+    - <<: *asia
+      name: asia45
+      server: *bug-ip45
+    - <<: *asia
+      name: asia46
+      server: *bug-ip46
+    - <<: *asia
+      name: asia47
+      server: *bug-ip47
+    - <<: *asia
+      name: asia48
+      server: *bug-ip48
+    - <<: *asia
+      name: asia49
+      server: *bug-ip49
+    - <<: *asia
+      name: asia50
+      server: *bug-ip50
+    - <<: *asia
+      name: asia51
+      server: *bug-ip51
+    - <<: *asia
+      name: asia52
+      server: *bug-ip52
+    - <<: *asia
+      name: asia53
+      server: *bug-ip53
+    - <<: *asia
+      name: asia54
+      server: *bug-ip54
+    - <<: *asia
+      name: asia55
+      server: *bug-ip55
+    - <<: *asia
+      name: asia56
+      server: *bug-ip56
+    - <<: *asia
+      name: asia57
+      server: *bug-ip57
+    - <<: *asia
+      name: asia58
+      server: *bug-ip58
+    - <<: *asia
+      name: asia59
+      server: *bug-ip59
+    - <<: *asia
+      name: asia60
+      server: *bug-ip60
+    - <<: *asia
+      name: asia61
+      server: *bug-ip61
+    - <<: *asia
+      name: asia62
+      server: *bug-ip62
+    - <<: *asia
+      name: asia63
+      server: *bug-ip63
+    - <<: *asia
+      name: asia64
+      server: *bug-ip64
+    - <<: *asia
+      name: asia65
+      server: *bug-ip65
+    - <<: *asia
+      name: asia66
+      server: *bug-ip66
+    - <<: *asia
+      name: asia67
+      server: *bug-ip67
+    - <<: *asia
+      name: asia68
+      server: *bug-ip68
+    - <<: *asia
+      name: asia69
+      server: *bug-ip69
+    - <<: *asia
+      name: asia70
+      server: *bug-ip70
+    - <<: *asia
+      name: asia71
+      server: *bug-ip71
+    - <<: *asia
+      name: asia72
+      server: *bug-ip72
+    - <<: *asia
+      name: asia73
+      server: *bug-ip73
+    - <<: *asia
+      name: asia74
+      server: *bug-ip74
+    - <<: *asia
+      name: asia75
+      server: *bug-ip75
+    - <<: *asia
+      name: asia76
+      server: *bug-ip76
+    - <<: *asia
+      name: asia77
+      server: *bug-ip77
+    - <<: *asia
+      name: asia78
+      server: *bug-ip78
+    - <<: *asia
+      name: asia79
+      server: *bug-ip79
+    - <<: *asia
+      name: asia80
+      server: *bug-ip80
+    - <<: *asia
+      name: asia81
+      server: *bug-ip81
+    - <<: *asia
+      name: asia82
+      server: *bug-ip82
+    - <<: *asia
+      name: asia83
+      server: *bug-ip83
+    - <<: *asia
+      name: asia84
+      server: *bug-ip84
+    - <<: *asia
+      name: asia85
+      server: *bug-ip85
+    - <<: *asia
+      name: asia86
+      server: *bug-ip86
+    - <<: *asia
+      name: asia87
+      server: *bug-ip87
+    - <<: *asia
+      name: asia88
+      server: *bug-ip88
+    - <<: *asia
+      name: asia89
+      server: *bug-ip89
+    - <<: *asia
+      name: asia90
+      server: *bug-ip90
+    - <<: *asia
+      name: asia91
+      server: *bug-ip91
+    - <<: *asia
+      name: asia92
+      server: *bug-ip92
+    - <<: *asia
+      name: asia93
+      server: *bug-ip93
+    - <<: *asia
+      name: asia94
+      server: *bug-ip94
+    - <<: *asia
+      name: asia95
+      server: *bug-ip95
+    - <<: *asia
+      name: asia96
+      server: *bug-ip96
+    - <<: *asia
+      name: asia97
+      server: *bug-ip97
+    - <<: *asia
+      name: asia98
+      server: *bug-ip98
+    - <<: *asia
+      name: asia99
+      server: *bug-ip99
+    - <<: *asia
+      name: asia100
+      server: *bug-ip100
+    - <<: *asia
+      name: asia101
+      server: *bug-ip101
+    - <<: *asia
+      name: asia102
+      server: *bug-ip102
+    - <<: *asia
+      name: asia103
+      server: *bug-ip103
+    - <<: *asia
+      name: asia104
+      server: *bug-ip104
+    - <<: *asia
+      name: asia105
+      server: *bug-ip105
+    - <<: *asia
+      name: asia106
+      server: *bug-ip106
+    - <<: *asia
+      name: asia107
+      server: *bug-ip107
+    - <<: *asia
+      name: asia108
+      server: *bug-ip108
+    - <<: *asia
+      name: asia109
+      server: *bug-ip109
+    - <<: *asia
+      name: asia110
+      server: *bug-ip110
+    - <<: *asia
+      name: asia111
+      server: *bug-ip111
+    - <<: *asia
+      name: asia112
+      server: *bug-ip112
+    - <<: *asia
+      name: asia113
+      server: *bug-ip113
+    - <<: *asia
+      name: asia114
+      server: *bug-ip114
+    - <<: *asia
+      name: asia115
+      server: *bug-ip115
+    - <<: *asia
+      name: asia116
+      server: *bug-ip116
+    - <<: *asia
+      name: asia117
+      server: *bug-ip117
+    - <<: *asia
+      name: asia118
+      server: *bug-ip118
+    - <<: *asia
+      name: asia119
+      server: *bug-ip119
+    - <<: *asia
+      name: asia120
+      server: *bug-ip120
+    - <<: *asia
+      name: asia121
+      server: *bug-ip121
+    - <<: *asia
+      name: asia122
+      server: *bug-ip122
+    - <<: *asia
+      name: asia123
+      server: *bug-ip123
+    - <<: *asia
+      name: asia124
+      server: *bug-ip124
+    - <<: *asia
+      name: asia125
+      server: *bug-ip125
+    - <<: *asia
+      name: asia126
+      server: *bug-ip126
+    - <<: *asia
+      name: asia127
+      server: *bug-ip127
+    - <<: *asia
+      name: asia128
+      server: *bug-ip128
+    - <<: *asia
+      name: asia129
+      server: *bug-ip129
+    - <<: *asia
+      name: asia130
+      server: *bug-ip130
+    - <<: *asia
+      name: asia131
+      server: *bug-ip131
+    - <<: *asia
+      name: asia132
+      server: *bug-ip132
+    - <<: *asia
+      name: asia133
+      server: *bug-ip133
+    - <<: *asia
+      name: asia134
+      server: *bug-ip134
+    - <<: *asia
+      name: asia135
+      server: *bug-ip135
+    - <<: *asia
+      name: asia136
+      server: *bug-ip136
+    - <<: *asia
+      name: asia137
+      server: *bug-ip137
+    - <<: *asia
+      name: asia138
+      server: *bug-ip138
+    - <<: *asia
+      name: asia139
+      server: *bug-ip139
+    - <<: *asia
+      name: asia140
+      server: *bug-ip140
+    - <<: *asia
+      name: asia141
+      server: *bug-ip141
+    - <<: *asia
+      name: asia142
+      server: *bug-ip142
+    - <<: *asia
+      name: asia143
+      server: *bug-ip143
+    - <<: *asia
+      name: asia144
+      server: *bug-ip144
+    - <<: *asia
+      name: asia145
+      server: *bug-ip145
+    - <<: *asia
+      name: asia146
+      server: *bug-ip146
+    - <<: *asia
+      name: asia147
+      server: *bug-ip147
+    - <<: *asia
+      name: asia148
+      server: *bug-ip148
+    - <<: *asia
+      name: asia149
+      server: *bug-ip149
+    - <<: *asia
+      name: asia150
+      server: *bug-ip150
+    - <<: *asia
+      name: asia151
+      server: *bug-ip151
+    - <<: *asia
+      name: asia152
+      server: *bug-ip152
+    - <<: *asia
+      name: asia153
+      server: *bug-ip153
+    - <<: *asia
+      name: asia154
+      server: *bug-ip154
+    - <<: *asia
+      name: asia155
+      server: *bug-ip155
+    - <<: *asia
+      name: asia156
+      server: *bug-ip156
+    - <<: *asia
+      name: asia157
+      server: *bug-ip157
+    - <<: *asia
+      name: asia158
+      server: *bug-ip158
+    - <<: *asia
+      name: asia159
+      server: *bug-ip159
+    - <<: *asia
+      name: asia160
+      server: *bug-ip160
+    - <<: *asia
+      name: asia161
+      server: *bug-ip161
+    - <<: *asia
+      name: asia162
+      server: *bug-ip162
+    - <<: *asia
+      name: asia163
+      server: *bug-ip163
+    - <<: *asia
+      name: asia164
+      server: *bug-ip164
+    - <<: *asia
+      name: asia165
+      server: *bug-ip165
+    - <<: *asia
+      name: asia166
+      server: *bug-ip166
+    - <<: *asia
+      name: asia167
+      server: *bug-ip167
+    - <<: *asia
+      name: asia168
+      server: *bug-ip168
+    - <<: *asia
+      name: asia169
+      server: *bug-ip169
+    - <<: *asia
+      name: asia170
+      server: *bug-ip170
+    - <<: *asia
+      name: asia171
+      server: *bug-ip171
+    - <<: *asia
+      name: asia172
+      server: *bug-ip172
+    - <<: *asia
+      name: asia173
+      server: *bug-ip173
+    - <<: *asia
+      name: asia174
+      server: *bug-ip174
+    - <<: *asia
+      name: asia175
+      server: *bug-ip175
+    - <<: *asia
+      name: asia176
+      server: *bug-ip176
+    - <<: *asia
+      name: asia177
+      server: *bug-ip177
+    - <<: *asia
+      name: asia178
+      server: *bug-ip178
+    - <<: *asia
+      name: asia179
+      server: *bug-ip179
+    - <<: *asia
+      name: asia180
+      server: *bug-ip180
+    - <<: *asia
+      name: asia181
+      server: *bug-ip181
+    - <<: *asia
+      name: asia182
+      server: *bug-ip182
+    - <<: *asia
+      name: asia183
+      server: *bug-ip183
+    - <<: *asia
+      name: asia184
+      server: *bug-ip184
+    - <<: *asia
+      name: asia185
+      server: *bug-ip185
+    - <<: *asia
+      name: asia186
+      server: *bug-ip186
+    - <<: *asia
+      name: asia187
+      server: *bug-ip187
+    - <<: *asia
+      name: asia188
+      server: *bug-ip188
+    - <<: *asia
+      name: asia189
+      server: *bug-ip189
+    - <<: *asia
+      name: asia190
+      server: *bug-ip190
+    - <<: *asia
+      name: asia191
+      server: *bug-ip191
+    - <<: *asia
+      name: asia192
+      server: *bug-ip192
+    - <<: *asia
+      name: asia193
+      server: *bug-ip193
+    - <<: *asia
+      name: asia194
+      server: *bug-ip194
+    - <<: *asia
+      name: asia195
+      server: *bug-ip195
+    - <<: *asia
+      name: asia196
+      server: *bug-ip196
+    - <<: *asia
+      name: asia197
+      server: *bug-ip197
+    - <<: *asia
+      name: asia198
+      server: *bug-ip198
+    - <<: *asia
+      name: asia199
+      server: *bug-ip199
+    - <<: *asia
+      name: asia200
+      server: *bug-ip200
+    - <<: *asia
+      name: asia201
+      server: *bug-ip201
+    - <<: *asia
+      name: asia202
+      server: *bug-ip202
+    - <<: *asia
+      name: asia203
+      server: *bug-ip203
+    - <<: *asia
+      name: asia204
+      server: *bug-ip204
+    - <<: *asia
+      name: asia205
+      server: *bug-ip205
+    - <<: *asia
+      name: asia206
+      server: *bug-ip206
+
+ #trojan-amp   
+    - &ampip
+      <<: *basetrojan
+      name: amp1
+      server: *bug-ip1
+      password: bebas
+      sni: w5mv6f.scsidklongtong.tech
+      ws-opts:
+        path: /trojan
+        headers:
+          Host: w5mv6f.scsidklongtong.tech
+          Early-Data: 1
+    - <<: *ampip	
+      name: amp2	
+      server: *bug-ip2	
+    - <<: *ampip	
+      name: amp3	
+      server: *bug-ip3	
+    - <<: *ampip	
+      name: amp4	
+      server: *bug-ip4	
+    - <<: *ampip	
+      name: amp5	
+      server: *bug-ip5	
+    - <<: *ampip	
+      name: amp6	
+      server: *bug-ip6	
+    - <<: *ampip	
+      name: amp7	
+      server: *bug-ip7	
+    - <<: *ampip	
+      name: amp8	
+      server: *bug-ip8	
+    - <<: *ampip	
+      name: amp9	
+      server: *bug-ip9	
+    - <<: *ampip	
+      name: amp10	
+      server: *bug-ip10	
+    - <<: *ampip	
+      name: amp11	
+      server: *bug-ip11	
+    - <<: *ampip	
+      name: amp12	
+      server: *bug-ip12	
+    - <<: *ampip	
+      name: amp13	
+      server: *bug-ip13	
+    - <<: *ampip	
+      name: amp14	
+      server: *bug-ip14	
+    - <<: *ampip	
+      name: amp15	
+      server: *bug-ip15	
+    - <<: *ampip	
+      name: amp16	
+      server: *bug-ip16	
+    - <<: *ampip	
+      name: amp17	
+      server: *bug-ip17	
+    - <<: *ampip	
+      name: amp18	
+      server: *bug-ip18	
+    - <<: *ampip	
+      name: amp19	
+      server: *bug-ip19	
+    - <<: *ampip	
+      name: amp20	
+      server: *bug-ip20	
+    - <<: *ampip	
+      name: amp21	
+      server: *bug-ip21	
+    - <<: *ampip	
+      name: amp22	
+      server: *bug-ip22	
+    - <<: *ampip	
+      name: amp23	
+      server: *bug-ip23	
+    - <<: *ampip	
+      name: amp24	
+      server: *bug-ip24	
+    - <<: *ampip	
+      name: amp25	
+      server: *bug-ip25	
+    - <<: *ampip	
+      name: amp26	
+      server: *bug-ip26	
+    - <<: *ampip	
+      name: amp27	
+      server: *bug-ip27	
+    - <<: *ampip	
+      name: amp28	
+      server: *bug-ip28	
+    - <<: *ampip	
+      name: amp29	
+      server: *bug-ip29	
+    - <<: *ampip	
+      name: amp30	
+      server: *bug-ip30	
+    - <<: *ampip	
+      name: amp31	
+      server: *bug-ip31	
+    - <<: *ampip	
+      name: amp32	
+      server: *bug-ip32	
+    - <<: *ampip	
+      name: amp33	
+      server: *bug-ip33	
+    - <<: *ampip	
+      name: amp34	
+      server: *bug-ip34	
+    - <<: *ampip	
+      name: amp35	
+      server: *bug-ip35	
+    - <<: *ampip	
+      name: amp36	
+      server: *bug-ip36	
+    - <<: *ampip	
+      name: amp37	
+      server: *bug-ip37	
+    - <<: *ampip	
+      name: amp38	
+      server: *bug-ip38	
+    - <<: *ampip	
+      name: amp39	
+      server: *bug-ip39	
+    - <<: *ampip	
+      name: amp40	
+      server: *bug-ip40	
+    - <<: *ampip	
+      name: amp41	
+      server: *bug-ip41	
+    - <<: *ampip	
+      name: amp42	
+      server: *bug-ip42	
+    - <<: *ampip	
+      name: amp43	
+      server: *bug-ip43	
+    - <<: *ampip	
+      name: amp44	
+      server: *bug-ip44	
+    - <<: *ampip	
+      name: amp45	
+      server: *bug-ip45	
+    - <<: *ampip	
+      name: amp46	
+      server: *bug-ip46	
+    - <<: *ampip	
+      name: amp47	
+      server: *bug-ip47	
+    - <<: *ampip	
+      name: amp48	
+      server: *bug-ip48	
+    - <<: *ampip	
+      name: amp49	
+      server: *bug-ip49	
+    - <<: *ampip	
+      name: amp50	
+      server: *bug-ip50	
+    - <<: *ampip	
+      name: amp51	
+      server: *bug-ip51	
+    - <<: *ampip	
+      name: amp52	
+      server: *bug-ip52	
+    - <<: *ampip	
+      name: amp53	
+      server: *bug-ip53	
+    - <<: *ampip	
+      name: amp54	
+      server: *bug-ip54	
+    - <<: *ampip	
+      name: amp55	
+      server: *bug-ip55	
+    - <<: *ampip	
+      name: amp56	
+      server: *bug-ip56	
+    - <<: *ampip	
+      name: amp57	
+      server: *bug-ip57	
+    - <<: *ampip	
+      name: amp58	
+      server: *bug-ip58	
+    - <<: *ampip	
+      name: amp59	
+      server: *bug-ip59	
+    - <<: *ampip	
+      name: amp60	
+      server: *bug-ip60	
+    - <<: *ampip	
+      name: amp61	
+      server: *bug-ip61	
+    - <<: *ampip	
+      name: amp62	
+      server: *bug-ip62	
+    - <<: *ampip	
+      name: amp63	
+      server: *bug-ip63	
+    - <<: *ampip	
+      name: amp64	
+      server: *bug-ip64	
+    - <<: *ampip	
+      name: amp65	
+      server: *bug-ip65	
+    - <<: *ampip	
+      name: amp66	
+      server: *bug-ip66	
+    - <<: *ampip	
+      name: amp67	
+      server: *bug-ip67	
+    - <<: *ampip	
+      name: amp68	
+      server: *bug-ip68	
+    - <<: *ampip	
+      name: amp69	
+      server: *bug-ip69	
+    - <<: *ampip	
+      name: amp70	
+      server: *bug-ip70	
+    - <<: *ampip	
+      name: amp71	
+      server: *bug-ip71	
+    - <<: *ampip	
+      name: amp72	
+      server: *bug-ip72	
+    - <<: *ampip	
+      name: amp73	
+      server: *bug-ip73	
+    - <<: *ampip	
+      name: amp74	
+      server: *bug-ip74	
+    - <<: *ampip	
+      name: amp75	
+      server: *bug-ip75	
+    - <<: *ampip	
+      name: amp76	
+      server: *bug-ip76	
+    - <<: *ampip	
+      name: amp77	
+      server: *bug-ip77	
+    - <<: *ampip	
+      name: amp78	
+      server: *bug-ip78	
+    - <<: *ampip	
+      name: amp79	
+      server: *bug-ip79	
+    - <<: *ampip	
+      name: amp80	
+      server: *bug-ip80	
+    - <<: *ampip	
+      name: amp81	
+      server: *bug-ip81	
+    - <<: *ampip	
+      name: amp82	
+      server: *bug-ip82	
+    - <<: *ampip	
+      name: amp83	
+      server: *bug-ip83	
+    - <<: *ampip	
+      name: amp84	
+      server: *bug-ip84	
+    - <<: *ampip	
+      name: amp85	
+      server: *bug-ip85	
+    - <<: *ampip	
+      name: amp86	
+      server: *bug-ip86	
+    - <<: *ampip	
+      name: amp87	
+      server: *bug-ip87	
+    - <<: *ampip	
+      name: amp88	
+      server: *bug-ip88	
+    - <<: *ampip	
+      name: amp89	
+      server: *bug-ip89	
+    - <<: *ampip	
+      name: amp90	
+      server: *bug-ip90	
+    - <<: *ampip	
+      name: amp91	
+      server: *bug-ip91	
+    - <<: *ampip	
+      name: amp92	
+      server: *bug-ip92	
+    - <<: *ampip	
+      name: amp93	
+      server: *bug-ip93	
+    - <<: *ampip	
+      name: amp94	
+      server: *bug-ip94	
+    - <<: *ampip	
+      name: amp95	
+      server: *bug-ip95	
+    - <<: *ampip	
+      name: amp96	
+      server: *bug-ip96	
+    - <<: *ampip	
+      name: amp97	
+      server: *bug-ip97	
+    - <<: *ampip	
+      name: amp98	
+      server: *bug-ip98	
+    - <<: *ampip	
+      name: amp99	
+      server: *bug-ip99	
+    - <<: *ampip	
+      name: amp100	
+      server: *bug-ip100	
+    - <<: *ampip	
+      name: amp101	
+      server: *bug-ip101	
+    - <<: *ampip	
+      name: amp102	
+      server: *bug-ip102	
+    - <<: *ampip	
+      name: amp103	
+      server: *bug-ip103	
+    - <<: *ampip	
+      name: amp104	
+      server: *bug-ip104	
+    - <<: *ampip	
+      name: amp105	
+      server: *bug-ip105	
+    - <<: *ampip	
+      name: amp106	
+      server: *bug-ip106	
+    - <<: *ampip	
+      name: amp107	
+      server: *bug-ip107	
+    - <<: *ampip	
+      name: amp108	
+      server: *bug-ip108	
+    - <<: *ampip	
+      name: amp109	
+      server: *bug-ip109	
+    - <<: *ampip	
+      name: amp110	
+      server: *bug-ip110	
+    - <<: *ampip	
+      name: amp111	
+      server: *bug-ip111	
+    - <<: *ampip	
+      name: amp112	
+      server: *bug-ip112	
+    - <<: *ampip	
+      name: amp113	
+      server: *bug-ip113	
+    - <<: *ampip	
+      name: amp114	
+      server: *bug-ip114	
+    - <<: *ampip	
+      name: amp115	
+      server: *bug-ip115	
+    - <<: *ampip	
+      name: amp116	
+      server: *bug-ip116	
+    - <<: *ampip	
+      name: amp117	
+      server: *bug-ip117	
+    - <<: *ampip	
+      name: amp118	
+      server: *bug-ip118	
+    - <<: *ampip	
+      name: amp119	
+      server: *bug-ip119	
+    - <<: *ampip	
+      name: amp120	
+      server: *bug-ip120	
+    - <<: *ampip	
+      name: amp121	
+      server: *bug-ip121	
+    - <<: *ampip	
+      name: amp122	
+      server: *bug-ip122	
+    - <<: *ampip	
+      name: amp123	
+      server: *bug-ip123	
+    - <<: *ampip	
+      name: amp124	
+      server: *bug-ip124	
+    - <<: *ampip	
+      name: amp125	
+      server: *bug-ip125	
+    - <<: *ampip	
+      name: amp126	
+      server: *bug-ip126	
+    - <<: *ampip	
+      name: amp127	
+      server: *bug-ip127	
+    - <<: *ampip	
+      name: amp128	
+      server: *bug-ip128	
+    - <<: *ampip	
+      name: amp129	
+      server: *bug-ip129	
+    - <<: *ampip	
+      name: amp130	
+      server: *bug-ip130	
+    - <<: *ampip	
+      name: amp131	
+      server: *bug-ip131	
+    - <<: *ampip	
+      name: amp132	
+      server: *bug-ip132	
+    - <<: *ampip	
+      name: amp133	
+      server: *bug-ip133	
+    - <<: *ampip	
+      name: amp134	
+      server: *bug-ip134	
+    - <<: *ampip	
+      name: amp135	
+      server: *bug-ip135	
+    - <<: *ampip	
+      name: amp136	
+      server: *bug-ip136	
+    - <<: *ampip	
+      name: amp137	
+      server: *bug-ip137	
+    - <<: *ampip	
+      name: amp138	
+      server: *bug-ip138	
+    - <<: *ampip	
+      name: amp139	
+      server: *bug-ip139	
+    - <<: *ampip	
+      name: amp140	
+      server: *bug-ip140	
+    - <<: *ampip	
+      name: amp141	
+      server: *bug-ip141	
+    - <<: *ampip	
+      name: amp142	
+      server: *bug-ip142	
+    - <<: *ampip	
+      name: amp143	
+      server: *bug-ip143	
+    - <<: *ampip	
+      name: amp144	
+      server: *bug-ip144	
+    - <<: *ampip	
+      name: amp145	
+      server: *bug-ip145	
+    - <<: *ampip	
+      name: amp146	
+      server: *bug-ip146	
+    - <<: *ampip	
+      name: amp147	
+      server: *bug-ip147	
+    - <<: *ampip	
+      name: amp148	
+      server: *bug-ip148	
+    - <<: *ampip	
+      name: amp149	
+      server: *bug-ip149	
+    - <<: *ampip	
+      name: amp150	
+      server: *bug-ip150	
+    - <<: *ampip	
+      name: amp151	
+      server: *bug-ip151	
+    - <<: *ampip	
+      name: amp152	
+      server: *bug-ip152	
+    - <<: *ampip	
+      name: amp153	
+      server: *bug-ip153	
+    - <<: *ampip	
+      name: amp154	
+      server: *bug-ip154	
+    - <<: *ampip	
+      name: amp155	
+      server: *bug-ip155	
+    - <<: *ampip	
+      name: amp156	
+      server: *bug-ip156	
+    - <<: *ampip	
+      name: amp157	
+      server: *bug-ip157	
+    - <<: *ampip	
+      name: amp158	
+      server: *bug-ip158	
+    - <<: *ampip	
+      name: amp159	
+      server: *bug-ip159	
+    - <<: *ampip	
+      name: amp160	
+      server: *bug-ip160	
+    - <<: *ampip	
+      name: amp161	
+      server: *bug-ip161	
+    - <<: *ampip	
+      name: amp162	
+      server: *bug-ip162	
+    - <<: *ampip	
+      name: amp163	
+      server: *bug-ip163	
+    - <<: *ampip	
+      name: amp164	
+      server: *bug-ip164	
+    - <<: *ampip	
+      name: amp165	
+      server: *bug-ip165	
+    - <<: *ampip	
+      name: amp166	
+      server: *bug-ip166	
+    - <<: *ampip	
+      name: amp167	
+      server: *bug-ip167	
+    - <<: *ampip	
+      name: amp168	
+      server: *bug-ip168	
+    - <<: *ampip	
+      name: amp169	
+      server: *bug-ip169	
+    - <<: *ampip	
+      name: amp170	
+      server: *bug-ip170	
+    - <<: *ampip	
+      name: amp171	
+      server: *bug-ip171	
+    - <<: *ampip	
+      name: amp172	
+      server: *bug-ip172	
+    - <<: *ampip	
+      name: amp173	
+      server: *bug-ip173	
+    - <<: *ampip	
+      name: amp174	
+      server: *bug-ip174	
+    - <<: *ampip	
+      name: amp175	
+      server: *bug-ip175	
+    - <<: *ampip	
+      name: amp176	
+      server: *bug-ip176	
+    - <<: *ampip	
+      name: amp177	
+      server: *bug-ip177	
+    - <<: *ampip	
+      name: amp178	
+      server: *bug-ip178	
+    - <<: *ampip	
+      name: amp179	
+      server: *bug-ip179	
+    - <<: *ampip	
+      name: amp180	
+      server: *bug-ip180	
+    - <<: *ampip	
+      name: amp181	
+      server: *bug-ip181	
+    - <<: *ampip	
+      name: amp182	
+      server: *bug-ip182	
+    - <<: *ampip	
+      name: amp183	
+      server: *bug-ip183	
+    - <<: *ampip	
+      name: amp184	
+      server: *bug-ip184	
+    - <<: *ampip	
+      name: amp185	
+      server: *bug-ip185	
+    - <<: *ampip	
+      name: amp186	
+      server: *bug-ip186	
+    - <<: *ampip	
+      name: amp187	
+      server: *bug-ip187	
+    - <<: *ampip	
+      name: amp188	
+      server: *bug-ip188	
+    - <<: *ampip	
+      name: amp189	
+      server: *bug-ip189	
+    - <<: *ampip	
+      name: amp190	
+      server: *bug-ip190	
+    - <<: *ampip	
+      name: amp191	
+      server: *bug-ip191	
+    - <<: *ampip	
+      name: amp192	
+      server: *bug-ip192	
+    - <<: *ampip	
+      name: amp193	
+      server: *bug-ip193	
+    - <<: *ampip	
+      name: amp194	
+      server: *bug-ip194	
+    - <<: *ampip	
+      name: amp195	
+      server: *bug-ip195	
+    - <<: *ampip	
+      name: amp196	
+      server: *bug-ip196	
+    - <<: *ampip	
+      name: amp197	
+      server: *bug-ip197	
+    - <<: *ampip	
+      name: amp198	
+      server: *bug-ip198	
+    - <<: *ampip	
+      name: amp199	
+      server: *bug-ip199	
+    - <<: *ampip	
+      name: amp200	
+      server: *bug-ip200	
+    - <<: *ampip	
+      name: amp201	
+      server: *bug-ip201	
+    - <<: *ampip	
+      name: amp202	
+      server: *bug-ip202	
+    - <<: *ampip	
+      name: amp203	
+      server: *bug-ip203	
+    - <<: *ampip	
+      name: amp204	
+      server: *bug-ip204	
+    - <<: *ampip	
+      name: amp205	
+      server: *bug-ip205	
+    - <<: *ampip	
+      name: amp206	
+      server: *bug-ip206	
+
+#trojan-herza
+    - &herzaip
+      <<: *basetrojan
+      name: herza1
+      server: *bug-ip1
+      password: 8017a420-ba03-11ed-a830-1239d0255272
+      sni: id-1.test3.net
+      ws-opts:
+        path: /howdy
+        headers:
+          Host: id-1.test3.net
+          Early-Data: 1
+    - <<: *herzaip	
+      name: herza2	
+      server: *bug-ip2	
+    - <<: *herzaip	
+      name: herza3	
+      server: *bug-ip3	
+    - <<: *herzaip	
+      name: herza4	
+      server: *bug-ip4	
+    - <<: *herzaip	
+      name: herza5	
+      server: *bug-ip5	
+    - <<: *herzaip	
+      name: herza6	
+      server: *bug-ip6	
+    - <<: *herzaip	
+      name: herza7	
+      server: *bug-ip7	
+    - <<: *herzaip	
+      name: herza8	
+      server: *bug-ip8	
+    - <<: *herzaip	
+      name: herza9	
+      server: *bug-ip9	
+    - <<: *herzaip	
+      name: herza10	
+      server: *bug-ip10	
+    - <<: *herzaip	
+      name: herza11	
+      server: *bug-ip11	
+    - <<: *herzaip	
+      name: herza12	
+      server: *bug-ip12	
+    - <<: *herzaip	
+      name: herza13	
+      server: *bug-ip13	
+    - <<: *herzaip	
+      name: herza14	
+      server: *bug-ip14	
+    - <<: *herzaip	
+      name: herza15	
+      server: *bug-ip15	
+    - <<: *herzaip	
+      name: herza16	
+      server: *bug-ip16	
+    - <<: *herzaip	
+      name: herza17	
+      server: *bug-ip17	
+    - <<: *herzaip	
+      name: herza18	
+      server: *bug-ip18	
+    - <<: *herzaip	
+      name: herza19	
+      server: *bug-ip19	
+    - <<: *herzaip	
+      name: herza20	
+      server: *bug-ip20	
+    - <<: *herzaip	
+      name: herza21	
+      server: *bug-ip21	
+    - <<: *herzaip	
+      name: herza22	
+      server: *bug-ip22	
+    - <<: *herzaip	
+      name: herza23	
+      server: *bug-ip23	
+    - <<: *herzaip	
+      name: herza24	
+      server: *bug-ip24	
+    - <<: *herzaip	
+      name: herza25	
+      server: *bug-ip25	
+    - <<: *herzaip	
+      name: herza26	
+      server: *bug-ip26	
+    - <<: *herzaip	
+      name: herza27	
+      server: *bug-ip27	
+    - <<: *herzaip	
+      name: herza28	
+      server: *bug-ip28	
+    - <<: *herzaip	
+      name: herza29	
+      server: *bug-ip29	
+    - <<: *herzaip	
+      name: herza30	
+      server: *bug-ip30	
+    - <<: *herzaip	
+      name: herza31	
+      server: *bug-ip31	
+    - <<: *herzaip	
+      name: herza32	
+      server: *bug-ip32	
+    - <<: *herzaip	
+      name: herza33	
+      server: *bug-ip33	
+    - <<: *herzaip	
+      name: herza34	
+      server: *bug-ip34	
+    - <<: *herzaip	
+      name: herza35	
+      server: *bug-ip35	
+    - <<: *herzaip	
+      name: herza36	
+      server: *bug-ip36	
+    - <<: *herzaip	
+      name: herza37	
+      server: *bug-ip37	
+    - <<: *herzaip	
+      name: herza38	
+      server: *bug-ip38	
+    - <<: *herzaip	
+      name: herza39	
+      server: *bug-ip39	
+    - <<: *herzaip	
+      name: herza40	
+      server: *bug-ip40	
+    - <<: *herzaip	
+      name: herza41	
+      server: *bug-ip41	
+    - <<: *herzaip	
+      name: herza42	
+      server: *bug-ip42	
+    - <<: *herzaip	
+      name: herza43	
+      server: *bug-ip43	
+    - <<: *herzaip	
+      name: herza44	
+      server: *bug-ip44	
+    - <<: *herzaip	
+      name: herza45	
+      server: *bug-ip45	
+    - <<: *herzaip	
+      name: herza46	
+      server: *bug-ip46	
+    - <<: *herzaip	
+      name: herza47	
+      server: *bug-ip47	
+    - <<: *herzaip	
+      name: herza48	
+      server: *bug-ip48	
+    - <<: *herzaip	
+      name: herza49	
+      server: *bug-ip49	
+    - <<: *herzaip	
+      name: herza50	
+      server: *bug-ip50	
+    - <<: *herzaip	
+      name: herza51	
+      server: *bug-ip51	
+    - <<: *herzaip	
+      name: herza52	
+      server: *bug-ip52	
+    - <<: *herzaip	
+      name: herza53	
+      server: *bug-ip53	
+    - <<: *herzaip	
+      name: herza54	
+      server: *bug-ip54	
+    - <<: *herzaip	
+      name: herza55	
+      server: *bug-ip55	
+    - <<: *herzaip	
+      name: herza56	
+      server: *bug-ip56	
+    - <<: *herzaip	
+      name: herza57	
+      server: *bug-ip57	
+    - <<: *herzaip	
+      name: herza58	
+      server: *bug-ip58	
+    - <<: *herzaip	
+      name: herza59	
+      server: *bug-ip59	
+    - <<: *herzaip	
+      name: herza60	
+      server: *bug-ip60	
+    - <<: *herzaip	
+      name: herza61	
+      server: *bug-ip61	
+    - <<: *herzaip	
+      name: herza62	
+      server: *bug-ip62	
+    - <<: *herzaip	
+      name: herza63	
+      server: *bug-ip63	
+    - <<: *herzaip	
+      name: herza64	
+      server: *bug-ip64	
+    - <<: *herzaip	
+      name: herza65	
+      server: *bug-ip65	
+    - <<: *herzaip	
+      name: herza66	
+      server: *bug-ip66	
+    - <<: *herzaip	
+      name: herza67	
+      server: *bug-ip67	
+    - <<: *herzaip	
+      name: herza68	
+      server: *bug-ip68	
+    - <<: *herzaip	
+      name: herza69	
+      server: *bug-ip69	
+    - <<: *herzaip	
+      name: herza70	
+      server: *bug-ip70	
+    - <<: *herzaip	
+      name: herza71	
+      server: *bug-ip71	
+    - <<: *herzaip	
+      name: herza72	
+      server: *bug-ip72	
+    - <<: *herzaip	
+      name: herza73	
+      server: *bug-ip73	
+    - <<: *herzaip	
+      name: herza74	
+      server: *bug-ip74	
+    - <<: *herzaip	
+      name: herza75	
+      server: *bug-ip75	
+    - <<: *herzaip	
+      name: herza76	
+      server: *bug-ip76	
+    - <<: *herzaip	
+      name: herza77	
+      server: *bug-ip77	
+    - <<: *herzaip	
+      name: herza78	
+      server: *bug-ip78	
+    - <<: *herzaip	
+      name: herza79	
+      server: *bug-ip79	
+    - <<: *herzaip	
+      name: herza80	
+      server: *bug-ip80	
+    - <<: *herzaip	
+      name: herza81	
+      server: *bug-ip81	
+    - <<: *herzaip	
+      name: herza82	
+      server: *bug-ip82	
+    - <<: *herzaip	
+      name: herza83	
+      server: *bug-ip83	
+    - <<: *herzaip	
+      name: herza84	
+      server: *bug-ip84	
+    - <<: *herzaip	
+      name: herza85	
+      server: *bug-ip85	
+    - <<: *herzaip	
+      name: herza86	
+      server: *bug-ip86	
+    - <<: *herzaip	
+      name: herza87	
+      server: *bug-ip87	
+    - <<: *herzaip	
+      name: herza88	
+      server: *bug-ip88	
+    - <<: *herzaip	
+      name: herza89	
+      server: *bug-ip89	
+    - <<: *herzaip	
+      name: herza90	
+      server: *bug-ip90	
+    - <<: *herzaip	
+      name: herza91	
+      server: *bug-ip91	
+    - <<: *herzaip	
+      name: herza92	
+      server: *bug-ip92	
+    - <<: *herzaip	
+      name: herza93	
+      server: *bug-ip93	
+    - <<: *herzaip	
+      name: herza94	
+      server: *bug-ip94	
+    - <<: *herzaip	
+      name: herza95	
+      server: *bug-ip95	
+    - <<: *herzaip	
+      name: herza96	
+      server: *bug-ip96	
+    - <<: *herzaip	
+      name: herza97	
+      server: *bug-ip97	
+    - <<: *herzaip	
+      name: herza98	
+      server: *bug-ip98	
+    - <<: *herzaip	
+      name: herza99	
+      server: *bug-ip99	
+    - <<: *herzaip	
+      name: herza100	
+      server: *bug-ip100	
+    - <<: *herzaip	
+      name: herza101	
+      server: *bug-ip101	
+    - <<: *herzaip	
+      name: herza102	
+      server: *bug-ip102	
+    - <<: *herzaip	
+      name: herza103	
+      server: *bug-ip103	
+    - <<: *herzaip	
+      name: herza104	
+      server: *bug-ip104	
+    - <<: *herzaip	
+      name: herza105	
+      server: *bug-ip105	
+    - <<: *herzaip	
+      name: herza106	
+      server: *bug-ip106	
+    - <<: *herzaip	
+      name: herza107	
+      server: *bug-ip107	
+    - <<: *herzaip	
+      name: herza108	
+      server: *bug-ip108	
+    - <<: *herzaip	
+      name: herza109	
+      server: *bug-ip109	
+    - <<: *herzaip	
+      name: herza110	
+      server: *bug-ip110	
+    - <<: *herzaip	
+      name: herza111	
+      server: *bug-ip111	
+    - <<: *herzaip	
+      name: herza112	
+      server: *bug-ip112	
+    - <<: *herzaip	
+      name: herza113	
+      server: *bug-ip113	
+    - <<: *herzaip	
+      name: herza114	
+      server: *bug-ip114	
+    - <<: *herzaip	
+      name: herza115	
+      server: *bug-ip115	
+    - <<: *herzaip	
+      name: herza116	
+      server: *bug-ip116	
+    - <<: *herzaip	
+      name: herza117	
+      server: *bug-ip117	
+    - <<: *herzaip	
+      name: herza118	
+      server: *bug-ip118	
+    - <<: *herzaip	
+      name: herza119	
+      server: *bug-ip119	
+    - <<: *herzaip	
+      name: herza120	
+      server: *bug-ip120	
+    - <<: *herzaip	
+      name: herza121	
+      server: *bug-ip121	
+    - <<: *herzaip	
+      name: herza122	
+      server: *bug-ip122	
+    - <<: *herzaip	
+      name: herza123	
+      server: *bug-ip123	
+    - <<: *herzaip	
+      name: herza124	
+      server: *bug-ip124	
+    - <<: *herzaip	
+      name: herza125	
+      server: *bug-ip125	
+    - <<: *herzaip	
+      name: herza126	
+      server: *bug-ip126	
+    - <<: *herzaip	
+      name: herza127	
+      server: *bug-ip127	
+    - <<: *herzaip	
+      name: herza128	
+      server: *bug-ip128	
+    - <<: *herzaip	
+      name: herza129	
+      server: *bug-ip129	
+    - <<: *herzaip	
+      name: herza130	
+      server: *bug-ip130	
+    - <<: *herzaip	
+      name: herza131	
+      server: *bug-ip131	
+    - <<: *herzaip	
+      name: herza132	
+      server: *bug-ip132	
+    - <<: *herzaip	
+      name: herza133	
+      server: *bug-ip133	
+    - <<: *herzaip	
+      name: herza134	
+      server: *bug-ip134	
+    - <<: *herzaip	
+      name: herza135	
+      server: *bug-ip135	
+    - <<: *herzaip	
+      name: herza136	
+      server: *bug-ip136	
+    - <<: *herzaip	
+      name: herza137	
+      server: *bug-ip137	
+    - <<: *herzaip	
+      name: herza138	
+      server: *bug-ip138	
+    - <<: *herzaip	
+      name: herza139	
+      server: *bug-ip139	
+    - <<: *herzaip	
+      name: herza140	
+      server: *bug-ip140	
+    - <<: *herzaip	
+      name: herza141	
+      server: *bug-ip141	
+    - <<: *herzaip	
+      name: herza142	
+      server: *bug-ip142	
+    - <<: *herzaip	
+      name: herza143	
+      server: *bug-ip143	
+    - <<: *herzaip	
+      name: herza144	
+      server: *bug-ip144	
+    - <<: *herzaip	
+      name: herza145	
+      server: *bug-ip145	
+    - <<: *herzaip	
+      name: herza146	
+      server: *bug-ip146	
+    - <<: *herzaip	
+      name: herza147	
+      server: *bug-ip147	
+    - <<: *herzaip	
+      name: herza148	
+      server: *bug-ip148	
+    - <<: *herzaip	
+      name: herza149	
+      server: *bug-ip149	
+    - <<: *herzaip	
+      name: herza150	
+      server: *bug-ip150	
+    - <<: *herzaip	
+      name: herza151	
+      server: *bug-ip151	
+    - <<: *herzaip	
+      name: herza152	
+      server: *bug-ip152	
+    - <<: *herzaip	
+      name: herza153	
+      server: *bug-ip153	
+    - <<: *herzaip	
+      name: herza154	
+      server: *bug-ip154	
+    - <<: *herzaip	
+      name: herza155	
+      server: *bug-ip155	
+    - <<: *herzaip	
+      name: herza156	
+      server: *bug-ip156	
+    - <<: *herzaip	
+      name: herza157	
+      server: *bug-ip157	
+    - <<: *herzaip	
+      name: herza158	
+      server: *bug-ip158	
+    - <<: *herzaip	
+      name: herza159	
+      server: *bug-ip159	
+    - <<: *herzaip	
+      name: herza160	
+      server: *bug-ip160	
+    - <<: *herzaip	
+      name: herza161	
+      server: *bug-ip161	
+    - <<: *herzaip	
+      name: herza162	
+      server: *bug-ip162	
+    - <<: *herzaip	
+      name: herza163	
+      server: *bug-ip163	
+    - <<: *herzaip	
+      name: herza164	
+      server: *bug-ip164	
+    - <<: *herzaip	
+      name: herza165	
+      server: *bug-ip165	
+    - <<: *herzaip	
+      name: herza166	
+      server: *bug-ip166	
+    - <<: *herzaip	
+      name: herza167	
+      server: *bug-ip167	
+    - <<: *herzaip	
+      name: herza168	
+      server: *bug-ip168	
+    - <<: *herzaip	
+      name: herza169	
+      server: *bug-ip169	
+    - <<: *herzaip	
+      name: herza170	
+      server: *bug-ip170	
+    - <<: *herzaip	
+      name: herza171	
+      server: *bug-ip171	
+    - <<: *herzaip	
+      name: herza172	
+      server: *bug-ip172	
+    - <<: *herzaip	
+      name: herza173	
+      server: *bug-ip173	
+    - <<: *herzaip	
+      name: herza174	
+      server: *bug-ip174	
+    - <<: *herzaip	
+      name: herza175	
+      server: *bug-ip175	
+    - <<: *herzaip	
+      name: herza176	
+      server: *bug-ip176	
+    - <<: *herzaip	
+      name: herza177	
+      server: *bug-ip177	
+    - <<: *herzaip	
+      name: herza178	
+      server: *bug-ip178	
+    - <<: *herzaip	
+      name: herza179	
+      server: *bug-ip179	
+    - <<: *herzaip	
+      name: herza180	
+      server: *bug-ip180	
+    - <<: *herzaip	
+      name: herza181	
+      server: *bug-ip181	
+    - <<: *herzaip	
+      name: herza182	
+      server: *bug-ip182	
+    - <<: *herzaip	
+      name: herza183	
+      server: *bug-ip183	
+    - <<: *herzaip	
+      name: herza184	
+      server: *bug-ip184	
+    - <<: *herzaip	
+      name: herza185	
+      server: *bug-ip185	
+    - <<: *herzaip	
+      name: herza186	
+      server: *bug-ip186	
+    - <<: *herzaip	
+      name: herza187	
+      server: *bug-ip187	
+    - <<: *herzaip	
+      name: herza188	
+      server: *bug-ip188	
+    - <<: *herzaip	
+      name: herza189	
+      server: *bug-ip189	
+    - <<: *herzaip	
+      name: herza190	
+      server: *bug-ip190	
+    - <<: *herzaip	
+      name: herza191	
+      server: *bug-ip191	
+    - <<: *herzaip	
+      name: herza192	
+      server: *bug-ip192	
+    - <<: *herzaip	
+      name: herza193	
+      server: *bug-ip193	
+    - <<: *herzaip	
+      name: herza194	
+      server: *bug-ip194	
+    - <<: *herzaip	
+      name: herza195	
+      server: *bug-ip195	
+    - <<: *herzaip	
+      name: herza196	
+      server: *bug-ip196	
+    - <<: *herzaip	
+      name: herza197	
+      server: *bug-ip197	
+    - <<: *herzaip	
+      name: herza198	
+      server: *bug-ip198	
+    - <<: *herzaip	
+      name: herza199	
+      server: *bug-ip199	
+    - <<: *herzaip	
+      name: herza200	
+      server: *bug-ip200	
+    - <<: *herzaip	
+      name: herza201	
+      server: *bug-ip201	
+    - <<: *herzaip	
+      name: herza202	
+      server: *bug-ip202	
+    - <<: *herzaip	
+      name: herza203	
+      server: *bug-ip203	
+    - <<: *herzaip	
+      name: herza204	
+      server: *bug-ip204	
+    - <<: *herzaip	
+      name: herza205	
+      server: *bug-ip205	
+    - <<: *herzaip	
+      name: herza206	
+      server: *bug-ip206	 
+      
+#Shadowsock
+    - &ssip
+      <<: *basess
+      name: ss1
+      server: 103.169.7.216
+      cipher: chacha20-ietf-poly1305
+      password: NGI4N2Mz
+      plugin: obfs
+      plugin-opts:
+        mode: tls
+      host: *bug-ip1
+      Early-Data: 1
+    - <<: *ssip
+      name: ss2
+      host: *bug-ip2
+    - <<: *ssip
+      name: ss3
+      host: *bug-ip3
+    - <<: *ssip
+      name: ss4
+      host: *bug-ip4
+    - <<: *ssip
+      name: ss5
+      host: *bug-ip5
+    - <<: *ssip
+      name: ss6
+      host: *bug-ip6
+    - <<: *ssip
+      name: ss7
+      host: *bug-ip7
+    - <<: *ssip
+      name: ss8
+      host: *bug-ip8
+    - <<: *ssip
+      name: ss9
+      host: *bug-ip9
+    - <<: *ssip
+      name: ss10
+      host: *bug-ip10
+    - <<: *ssip
+      name: ss11
+      host: *bug-ip11
+    - <<: *ssip
+      name: ss12
+      host: *bug-ip12
+    - <<: *ssip
+      name: ss13
+      host: *bug-ip13
+    - <<: *ssip
+      name: ss14
+      host: *bug-ip14
+    - <<: *ssip
+      name: ss15
+      host: *bug-ip15
+    - <<: *ssip
+      name: ss16
+      host: *bug-ip16
+    - <<: *ssip
+      name: ss17
+      host: *bug-ip17
+    - <<: *ssip
+      name: ss18
+      host: *bug-ip18
+    - <<: *ssip
+      name: ss19
+      host: *bug-ip19
+    - <<: *ssip
+      name: ss20
+      host: *bug-ip20
+    - <<: *ssip
+      name: ss21
+      host: *bug-ip21
+    - <<: *ssip
+      name: ss22
+      host: *bug-ip22
+    - <<: *ssip
+      name: ss23
+      host: *bug-ip23
+    - <<: *ssip
+      name: ss24
+      host: *bug-ip24
+    - <<: *ssip
+      name: ss25
+      host: *bug-ip25
+    - <<: *ssip
+      name: ss26
+      host: *bug-ip26
+    - <<: *ssip
+      name: ss27
+      host: *bug-ip27
+    - <<: *ssip
+      name: ss28
+      host: *bug-ip28
+    - <<: *ssip
+      name: ss29
+      host: *bug-ip29
+    - <<: *ssip
+      name: ss30
+      host: *bug-ip30
+    - <<: *ssip
+      name: ss31
+      host: *bug-ip31
+    - <<: *ssip
+      name: ss32
+      host: *bug-ip32
+    - <<: *ssip
+      name: ss33
+      host: *bug-ip33
+    - <<: *ssip
+      name: ss34
+      host: *bug-ip34
+    - <<: *ssip
+      name: ss35
+      host: *bug-ip35
+    - <<: *ssip
+      name: ss36
+      host: *bug-ip36
+    - <<: *ssip
+      name: ss37
+      host: *bug-ip37
+    - <<: *ssip
+      name: ss38
+      host: *bug-ip38
+    - <<: *ssip
+      name: ss39
+      host: *bug-ip39
+    - <<: *ssip
+      name: ss40
+      host: *bug-ip40
+    - <<: *ssip
+      name: ss41
+      host: *bug-ip41
+    - <<: *ssip
+      name: ss42
+      host: *bug-ip42
+    - <<: *ssip
+      name: ss43
+      host: *bug-ip43
+    - <<: *ssip
+      name: ss44
+      host: *bug-ip44
+    - <<: *ssip
+      name: ss45
+      host: *bug-ip45
+    - <<: *ssip
+      name: ss46
+      host: *bug-ip46
+    - <<: *ssip
+      name: ss47
+      host: *bug-ip47
+    - <<: *ssip
+      name: ss48
+      host: *bug-ip48
+    - <<: *ssip
+      name: ss49
+      host: *bug-ip49
+    - <<: *ssip
+      name: ss50
+      host: *bug-ip50
+    - <<: *ssip
+      name: ss51
+      host: *bug-ip51
+    - <<: *ssip
+      name: ss52
+      host: *bug-ip52
+    - <<: *ssip
+      name: ss53
+      host: *bug-ip53
+    - <<: *ssip
+      name: ss54
+      host: *bug-ip54
+    - <<: *ssip
+      name: ss55
+      host: *bug-ip55
+    - <<: *ssip
+      name: ss56
+      host: *bug-ip56
+    - <<: *ssip
+      name: ss57
+      host: *bug-ip57
+    - <<: *ssip
+      name: ss58
+      host: *bug-ip58
+    - <<: *ssip
+      name: ss59
+      host: *bug-ip59
+    - <<: *ssip
+      name: ss60
+      host: *bug-ip60
+    - <<: *ssip
+      name: ss61
+      host: *bug-ip61
+    - <<: *ssip
+      name: ss62
+      host: *bug-ip62
+    - <<: *ssip
+      name: ss63
+      host: *bug-ip63
+    - <<: *ssip
+      name: ss64
+      host: *bug-ip64
+    - <<: *ssip
+      name: ss65
+      host: *bug-ip65
+    - <<: *ssip
+      name: ss66
+      host: *bug-ip66
+    - <<: *ssip
+      name: ss67
+      host: *bug-ip67
+    - <<: *ssip
+      name: ss68
+      host: *bug-ip68
+    - <<: *ssip
+      name: ss69
+      host: *bug-ip69
+    - <<: *ssip
+      name: ss70
+      host: *bug-ip70
+    - <<: *ssip
+      name: ss71
+      host: *bug-ip71
+    - <<: *ssip
+      name: ss72
+      host: *bug-ip72
+    - <<: *ssip
+      name: ss73
+      host: *bug-ip73
+    - <<: *ssip
+      name: ss74
+      host: *bug-ip74
+    - <<: *ssip
+      name: ss75
+      host: *bug-ip75
+    - <<: *ssip
+      name: ss76
+      host: *bug-ip76
+    - <<: *ssip
+      name: ss77
+      host: *bug-ip77
+    - <<: *ssip
+      name: ss78
+      host: *bug-ip78
+    - <<: *ssip
+      name: ss79
+      host: *bug-ip79
+    - <<: *ssip
+      name: ss80
+      host: *bug-ip80
+    - <<: *ssip
+      name: ss81
+      host: *bug-ip81
+    - <<: *ssip
+      name: ss82
+      host: *bug-ip82
+    - <<: *ssip
+      name: ss83
+      host: *bug-ip83
+    - <<: *ssip
+      name: ss84
+      host: *bug-ip84
+    - <<: *ssip
+      name: ss85
+      host: *bug-ip85
+    - <<: *ssip
+      name: ss86
+      host: *bug-ip86
+    - <<: *ssip
+      name: ss87
+      host: *bug-ip87
+    - <<: *ssip
+      name: ss88
+      host: *bug-ip88
+    - <<: *ssip
+      name: ss89
+      host: *bug-ip89
+    - <<: *ssip
+      name: ss90
+      host: *bug-ip90
+    - <<: *ssip
+      name: ss91
+      host: *bug-ip91
+    - <<: *ssip
+      name: ss92
+      host: *bug-ip92
+    - <<: *ssip
+      name: ss93
+      host: *bug-ip93
+    - <<: *ssip
+      name: ss94
+      host: *bug-ip94
+    - <<: *ssip
+      name: ss95
+      host: *bug-ip95
+    - <<: *ssip
+      name: ss96
+      host: *bug-ip96
+    - <<: *ssip
+      name: ss97
+      host: *bug-ip97
+    - <<: *ssip
+      name: ss98
+      host: *bug-ip98
+    - <<: *ssip
+      name: ss99
+      host: *bug-ip99
+    - <<: *ssip
+      name: ss100
+      host: *bug-ip100
+    - <<: *ssip
+      name: ss101
+      host: *bug-ip101
+    - <<: *ssip
+      name: ss102
+      host: *bug-ip102
+    - <<: *ssip
+      name: ss103
+      host: *bug-ip103
+    - <<: *ssip
+      name: ss104
+      host: *bug-ip104
+    - <<: *ssip
+      name: ss105
+      host: *bug-ip105
+    - <<: *ssip
+      name: ss106
+      host: *bug-ip106
+    - <<: *ssip
+      name: ss107
+      host: *bug-ip107
+    - <<: *ssip
+      name: ss108
+      host: *bug-ip108
+    - <<: *ssip
+      name: ss109
+      host: *bug-ip109
+    - <<: *ssip
+      name: ss110
+      host: *bug-ip110
+    - <<: *ssip
+      name: ss111
+      host: *bug-ip111
+    - <<: *ssip
+      name: ss112
+      host: *bug-ip112
+    - <<: *ssip
+      name: ss113
+      host: *bug-ip113
+    - <<: *ssip
+      name: ss114
+      host: *bug-ip114
+    - <<: *ssip
+      name: ss115
+      host: *bug-ip115
+    - <<: *ssip
+      name: ss116
+      host: *bug-ip116
+    - <<: *ssip
+      name: ss117
+      host: *bug-ip117
+    - <<: *ssip
+      name: ss118
+      host: *bug-ip118
+    - <<: *ssip
+      name: ss119
+      host: *bug-ip119
+    - <<: *ssip
+      name: ss120
+      host: *bug-ip120
+    - <<: *ssip
+      name: ss121
+      host: *bug-ip121
+    - <<: *ssip
+      name: ss122
+      host: *bug-ip122
+    - <<: *ssip
+      name: ss123
+      host: *bug-ip123
+    - <<: *ssip
+      name: ss124
+      host: *bug-ip124
+    - <<: *ssip
+      name: ss125
+      host: *bug-ip125
+    - <<: *ssip
+      name: ss126
+      host: *bug-ip126
+    - <<: *ssip
+      name: ss127
+      host: *bug-ip127
+    - <<: *ssip
+      name: ss128
+      host: *bug-ip128
+    - <<: *ssip
+      name: ss129
+      host: *bug-ip129
+    - <<: *ssip
+      name: ss130
+      host: *bug-ip130
+    - <<: *ssip
+      name: ss131
+      host: *bug-ip131
+    - <<: *ssip
+      name: ss132
+      host: *bug-ip132
+    - <<: *ssip
+      name: ss133
+      host: *bug-ip133
+    - <<: *ssip
+      name: ss134
+      host: *bug-ip134
+    - <<: *ssip
+      name: ss135
+      host: *bug-ip135
+    - <<: *ssip
+      name: ss136
+      host: *bug-ip136
+    - <<: *ssip
+      name: ss137
+      host: *bug-ip137
+    - <<: *ssip
+      name: ss138
+      host: *bug-ip138
+    - <<: *ssip
+      name: ss139
+      host: *bug-ip139
+    - <<: *ssip
+      name: ss140
+      host: *bug-ip140
+    - <<: *ssip
+      name: ss141
+      host: *bug-ip141
+    - <<: *ssip
+      name: ss142
+      host: *bug-ip142
+    - <<: *ssip
+      name: ss143
+      host: *bug-ip143
+    - <<: *ssip
+      name: ss144
+      host: *bug-ip144
+    - <<: *ssip
+      name: ss145
+      host: *bug-ip145
+    - <<: *ssip
+      name: ss146
+      host: *bug-ip146
+    - <<: *ssip
+      name: ss147
+      host: *bug-ip147
+    - <<: *ssip
+      name: ss148
+      host: *bug-ip148
+    - <<: *ssip
+      name: ss149
+      host: *bug-ip149
+    - <<: *ssip
+      name: ss150
+      host: *bug-ip150
+    - <<: *ssip
+      name: ss151
+      host: *bug-ip151
+    - <<: *ssip
+      name: ss152
+      host: *bug-ip152
+    - <<: *ssip
+      name: ss153
+      host: *bug-ip153
+    - <<: *ssip
+      name: ss154
+      host: *bug-ip154
+    - <<: *ssip
+      name: ss155
+      host: *bug-ip155
+    - <<: *ssip
+      name: ss156
+      host: *bug-ip156
+    - <<: *ssip
+      name: ss157
+      host: *bug-ip157
+    - <<: *ssip
+      name: ss158
+      host: *bug-ip158
+    - <<: *ssip
+      name: ss159
+      host: *bug-ip159
+    - <<: *ssip
+      name: ss160
+      host: *bug-ip160
+    - <<: *ssip
+      name: ss161
+      host: *bug-ip161
+    - <<: *ssip
+      name: ss162
+      host: *bug-ip162
+    - <<: *ssip
+      name: ss163
+      host: *bug-ip163
+    - <<: *ssip
+      name: ss164
+      host: *bug-ip164
+    - <<: *ssip
+      name: ss165
+      host: *bug-ip165
+    - <<: *ssip
+      name: ss166
+      host: *bug-ip166
+    - <<: *ssip
+      name: ss167
+      host: *bug-ip167
+    - <<: *ssip
+      name: ss168
+      host: *bug-ip168
+    - <<: *ssip
+      name: ss169
+      host: *bug-ip169
+    - <<: *ssip
+      name: ss170
+      host: *bug-ip170
+    - <<: *ssip
+      name: ss171
+      host: *bug-ip171
+    - <<: *ssip
+      name: ss172
+      host: *bug-ip172
+    - <<: *ssip
+      name: ss173
+      host: *bug-ip173
+    - <<: *ssip
+      name: ss174
+      host: *bug-ip174
+    - <<: *ssip
+      name: ss175
+      host: *bug-ip175
+    - <<: *ssip
+      name: ss176
+      host: *bug-ip176
+    - <<: *ssip
+      name: ss177
+      host: *bug-ip177
+    - <<: *ssip
+      name: ss178
+      host: *bug-ip178
+    - <<: *ssip
+      name: ss179
+      host: *bug-ip179
+    - <<: *ssip
+      name: ss180
+      host: *bug-ip180
+    - <<: *ssip
+      name: ss181
+      host: *bug-ip181
+    - <<: *ssip
+      name: ss182
+      host: *bug-ip182
+    - <<: *ssip
+      name: ss183
+      host: *bug-ip183
+    - <<: *ssip
+      name: ss184
+      host: *bug-ip184
+    - <<: *ssip
+      name: ss185
+      host: *bug-ip185
+    - <<: *ssip
+      name: ss186
+      host: *bug-ip186
+    - <<: *ssip
+      name: ss187
+      host: *bug-ip187
+    - <<: *ssip
+      name: ss188
+      host: *bug-ip188
+    - <<: *ssip
+      name: ss189
+      host: *bug-ip189
+    - <<: *ssip
+      name: ss190
+      host: *bug-ip190
+    - <<: *ssip
+      name: ss191
+      host: *bug-ip191
+    - <<: *ssip
+      name: ss192
+      host: *bug-ip192
+    - <<: *ssip
+      name: ss193
+      host: *bug-ip193
+    - <<: *ssip
+      name: ss194
+      host: *bug-ip194
+    - <<: *ssip
+      name: ss195
+      host: *bug-ip195
+    - <<: *ssip
+      name: ss196
+      host: *bug-ip196
+    - <<: *ssip
+      name: ss197
+      host: *bug-ip197
+    - <<: *ssip
+      name: ss198
+      host: *bug-ip198
+    - <<: *ssip
+      name: ss199
+      host: *bug-ip199
+    - <<: *ssip
+      name: ss200
+      host: *bug-ip200
+    - <<: *ssip
+      name: ss201
+      host: *bug-ip201
+    - <<: *ssip
+      name: ss202
+      host: *bug-ip202
+    - <<: *ssip
+      name: ss203
+      host: *bug-ip203
+    - <<: *ssip
+      name: ss204
+      host: *bug-ip204
+    - <<: *ssip
+      name: ss205
+      host: *bug-ip205
+    - <<: *ssip
+      name: ss206
+      host: *bug-ip206
