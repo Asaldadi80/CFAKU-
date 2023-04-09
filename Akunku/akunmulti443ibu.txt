@@ -1,0 +1,4938 @@
+base-bug:
+  bug:
+#Tsel
+    - &bug-Tsel1 static.starmakerstudios.com
+    - &bug-Tsel2 .api-t3.tiktokv.com
+    - &bug-Tsel3 104.16.65.85
+    - &bug-Tsel4 104.16.66.85
+    - &bug-Tsel5 104.16.85.20
+    - &bug-Tsel6 104.16.86.20
+    - &bug-Tsel7 104.16.87.20
+    - &bug-Tsel8 104.16.88.20
+    - &bug-Tsel9 104.16.89.20
+    - &bug-Tsel10 104.17.2.81
+    - &bug-Tsel11 104.17.202.159
+    - &bug-Tsel12 104.17.203.159
+    - &bug-Tsel13 104.17.3.81
+    - &bug-Tsel14 104.18.10.40
+    - &bug-Tsel15 104.18.11.40
+    - &bug-Tsel16 104.18.12.120
+    - &bug-Tsel17 104.18.13.120
+    - &bug-Tsel18 104.18.169.91
+    - &bug-Tsel19 104.18.18.183
+    - &bug-Tsel20 104.18.2.179
+    - &bug-Tsel21 104.18.2.2
+    - &bug-Tsel22 104.18.20.219
+    - &bug-Tsel23 104.18.21.219
+    - &bug-Tsel24 104.18.22.187
+    - &bug-Tsel25 104.18.23.187
+    - &bug-Tsel26 104.18.28.70 
+    - &bug-Tsel27 104.18.29.70
+    - &bug-Tsel28 104.18.3.179
+    - &bug-Tsel29 104.18.3.2
+    - &bug-Tsel30 104.18.30.102
+    - &bug-Tsel31 104.18.31.102
+    - &bug-Tsel32 104.18.41.141
+    - &bug-Tsel33 104.19.143.108
+    - &bug-Tsel34 104.19.186.16
+    - &bug-Tsel35 104.22.24.131
+    - &bug-Tsel36 104.22.24.131
+    - &bug-Tsel37 104.26.4.192
+    - &bug-Tsel38 104.26.4.192
+    - &bug-Tsel39 104.26.5.192
+    - &bug-Tsel40 104.26.5.192
+    - &bug-Tsel41 104.26.7.171
+    - &bug-Tsel42 104.26.7.171
+    - &bug-Tsel43 172.64.146.115
+    - &bug-Tsel44 172.67.38.66
+    - &bug-Tsel45 172.67.73.5
+    - &bug-Tsel46 172.67.73.5
+    - &bug-Tsel47 api.duniagames.co.id
+    - &bug-Tsel48 api.joox.com
+    - &bug-Tsel49 api.midtrans.com
+    - &bug-Tsel50 api22-normal-c-alisg.tiktokv.com
+    - &bug-Tsel51 api2-t3.musical.ly
+    - &bug-Tsel52 api-t3.tiktokv.com
+    - &bug-Tsel53 article.nimo.tv
+    - &bug-Tsel54 Cdn.jsdelivr.net
+    - &bug-Tsel55 cftxvidtest.vod.nimo.tv
+    - &bug-Tsel56 cf-vod.nimo.tv
+    - &bug-Tsel57 chat.sociomile.com
+    - &bug-Tsel58 desk.covid19.go.id
+    - &bug-Tsel59 duniagames.co.id
+    - &bug-Tsel60 esports.duniagames.co.id
+    - &bug-Tsel61 investors.spotify.com
+    - &bug-Tsel62 ir.huya.com 
+    - &bug-Tsel63 link.duniagames.co.id
+    - &bug-Tsel64 loop.co.id
+    - &bug-Tsel65 Midtrans.com
+    - &bug-Tsel66 override.cf.hls.nimo.tv
+    - &bug-Tsel67 override.cf-test.hls.nimo.tv
+    - &bug-Tsel68 p16-tiktokcdn-com.akamaized.net
+    - &bug-Tsel69 poe.garena.com
+    - &bug-Tsel70 rn-static.nimo.tv
+    - &bug-Tsel71 ruangguru.com
+    - &bug-Tsel72 skul.id
+    - &bug-Tsel73 stage5.duniagames.co.id
+    - &bug-Tsel74 starmakerstudios.com
+    - &bug-Tsel75 Tawk.to
+    - &bug-Tsel76 tsel.me
+    - &bug-Tsel77 Udemy.com
+    - &bug-Tsel78 v24.tiktokcdn.com
+    - &bug-Tsel79 v27.tiktokcdn.com
+    - &bug-Tsel80 www.covid19.go.id
+    - &bug-Tsel81 Yourupload.com
+    - &bug-Tsel82 zendesk1.tiktok.com
+    - &bug-Tsel83 zendesk2.tiktok.com
+    - &bug-Tsel84 zendesk3.tiktok.com
+    - &bug-Tsel85 zendesk4.tiktok.com
+    - &bug-Tsel86 staging-dashboard.skul.id
+    - &bug-Tsel87 apidocs.skul.id
+    - &bug-Tsel88 b2b2c.skul.id
+    - &bug-Tsel89 www.skul.id
+    - &bug-Tsel90 my.skul.id
+    - &bug-Tsel91 dashboard.skul.id
+    - &bug-Tsel92 staging-b2b2c.skul.id
+    - &bug-Tsel93 staging-api.skul.id
+    - &bug-Tsel94 staging-my.skul.id
+    - &bug-Tsel95 video.skul.id
+    - &bug-Tsel96 api.skul.id
+    - &bug-Tsel97 dev.skul.id
+    - &bug-Tsel98 mail-qwords.skul.id
+    - &bug-Tsel99 mail.skul.id
+
+#Byu
+    - &bug-Byu1 byu.id
+    - &bug-Byu2 viu.com
+    - &bug-Byu3 api.supersoccer.tv
+    - &bug-Byu4 tribenow.tv
+    - &bug-Byu5 api.tribenow.tv
+    - &bug-Byu6 vidiomax.com
+    - &bug-Byu7 apps.vidiomax.com
+    - &bug-Byu8 host.vidiomax.com
+    - &bug-Byu9 web.blackberry.com
+    - &bug-Byu10 line.me
+    - &bug-Byu11 zonagratis.telkomsel.com
+    - &bug-Byu12 manga.line.naver.jp
+    - &bug-Byu13 tsel.me
+    - &bug-Byu14 telkomselgprs.com
+    - &bug-Byu15 my.telkomsel.info
+    - &bug-Byu16 telkomsel.waze.com
+    - &bug-Byu17 m.loop.com
+    - &bug-Byu18 music.line.me
+    - &bug-Byu19 manga.line.me
+    - &bug-Byu20 mobile.line.me
+    - &bug-Byu21 whatsapp.net
+    - &bug-Byu22 www.wechat.com
+    - &bug-Byu23 telkomsel.akamobi.com
+    - &bug-Byu24 klip.telkomsel.com
+    - &bug-Byu25 indihome.co.id
+    - &bug-Byu26 tsel.com
+    - &bug-Byu27 my.telkomsel.com
+    - &bug-Byu28 operamini.net
+    - &bug-Byu29 server4.operamini.net
+    - &bug-Byu30 mobi.telkomsel.com
+    - &bug-Byu31 Byu.com
+    - &bug-Byu32 Space.byu.id
+    - &bug-Byu33 community.king.com
+    - &bug-Byu34 162.159.138.78
+    - &bug-Byu35 162.159.138.79
+    - &bug-Byu36 104.18.28.7
+    - &bug-Byu37 blog.ruangguru.com
+    - &bug-Byu38 layanan.ruangguru.com
+    - &bug-Byu39 ruangguru.com
+    - &bug-Byu40 event.ruangguru.com
+    - &bug-Byu41 cdn.zenius.net
+    - &bug-Byu42 live-class.zenius.net
+    - &bug-Byu43 instagram.fcgk8-1.fna.fbcdn.net
+    - &bug-Byu44 live-upload.instagram.com
+    - &bug-Byu45 video.fjog2-1.fna.fbcdn.net
+    - &bug-Byu46 m.instagram.com
+    - &bug-Byu47 instagram.fcgk9-1.fna.fbcdn.net
+    - &bug-Byu48 instagram.fdtm1-1.fna.fbcdn.net
+    - &bug-Byu49 104.19.143.108
+    - &bug-Byu50 riseofnowlin.mobi
+    - &bug-Byu51 104.21.65.170
+    - &bug-Byu52 cdn.riseofnowlin.mobi
+    - &bug-Byu53 172.67.164.239
+    - &bug-Byu54 www.mobile-legends.net
+    - &bug-Byu55 104.21.91.25
+    - &bug-Byu56 mobile-legends.net
+    - &bug-Byu57 172.67.208.218
+    - &bug-Byu58 msupport.pubg.com
+    - &bug-Byu59 162.159.138.6
+    - &bug-Byu60 poe.garena.com
+    - &bug-Byu61 104.19.185.16
+    - &bug-Byu62 ir.huya.com
+    - &bug-Byu63 104.17.202.159
+    - &bug-Byu64 dashboard-dev.nimo.tv
+    - &bug-Byu65 104.18.23.187
+    - &bug-Byu66 cf-vod.nimo.tv
+    - &bug-Byu67 104.18.21.219
+    - &bug-Byu68 cftxvidtest.vod.nimo.tv
+    - &bug-Byu69 104.18.13.120
+    - &bug-Byu70 cftxvid.vod.nimo.tv
+    - &bug-Byu71 104.18.12.120
+    - &bug-Byu72 overrid.cf-hls.nimo.tv
+    - &bug-Byu73 104.18.29.170
+    - &bug-Byu74 v38.tiktokcdn.com
+    - &bug-Byu75 zendesk3.tiktok.com
+    - &bug-Byu76 api2-t3.musical.ly
+    - &bug-Byu77 v27.titokcdn.com
+    - &bug-Byu78 s16.tiktok.cdn
+    - &bug-Byu79 m.vidio.com
+    - &bug-Byu80 172.67.5.14
+    - &bug-Byu81 104.22.4.240
+    - &bug-Byu82 quiz.vidio.com
+    - &bug-Byu83 quiz.int.vidio.com
+
+#XL
+    - &bug-XL1  104.17.3.81
+    - &bug-XL2  104.18.31.9
+    - &bug-XL3  141.193.213.20
+    - &bug-XL4  172.64.201.17
+    - &bug-XL5  172.67.73.39
+    - &bug-XL6 .api-t3.tiktokv.com
+    - &bug-XL7 104.16.53.111
+    - &bug-XL8 104.16.65.85
+    - &bug-XL9 104.16.66.85
+    - &bug-XL10 104.16.85.20
+    - &bug-XL11 104.16.86.20
+    - &bug-XL12 104.16.87.20
+    - &bug-XL13 104.16.88.20
+    - &bug-XL14 104.16.89.20
+    - &bug-XL15 104.17.2.81
+    - &bug-XL16 104.17.3.81
+    - &bug-XL17 104.18.11.8
+    - &bug-XL18 104.18.12.78
+    - &bug-XL19 104.18.13.78
+    - &bug-XL20 104.18.169.91
+    - &bug-XL21 104.18.18.183
+    - &bug-XL22 104.18.19.242
+    - &bug-XL23 104.18.2.2
+    - &bug-XL24 104.18.23.37
+    - &bug-XL25 104.18.3.2
+    - &bug-XL26 104.18.30.9
+    - &bug-XL27 104.18.31.9
+    - &bug-XL28 104.20.75.141
+    - &bug-XL29 104.21.71.112
+    - &bug-XL30 104.22.24.131
+    - &bug-XL31 104.26.4.126
+    - &bug-XL32 104.26.4.192
+    - &bug-XL33 104.26.5.192
+    - &bug-XL34 170.114.45.0
+    - &bug-XL35 172.65.198.136
+    - &bug-XL36 172.67.38.66
+    - &bug-XL37 172.67.73.5
+    - &bug-XL38 Api.joox.com
+    - &bug-XL39 api.midtrans.com
+    - &bug-XL40 api.midtrans.com
+    - &bug-XL41 api15-h2.tiktokv.com
+    - &bug-XL42 api22-normal-c-alisg.tiktokv.com
+    - &bug-XL43 autodiscovery.musical.ly
+    - &bug-XL44 bimbel.ruangguru.com
+    - &bug-XL45 blog.clova.line.me
+    - &bug-XL46 blogs.microsoft.com
+    - &bug-XL47 Cdn.jsdelivr.net
+    - &bug-XL48 cdn.onlymega.com
+    - &bug-XL49 cdn.udemy.com
+    - &bug-XL50 cdn.udemy.com
+    - &bug-XL51 cf-vod.nimo.tv
+    - &bug-XL52 chat.sociomile.com
+    - &bug-XL53 go.appsflyer.com
+    - &bug-XL54 gomarketplacecontent-cf.zoom.us
+    - &bug-XL55 help.viu.com
+    - &bug-XL56 investors.spotify.com
+    - &bug-XL57 ir.huya.com
+    - &bug-XL58 ir.roblox.com
+    - &bug-XL59 kelas.rangguru.com
+    - &bug-XL60 lms.uin-antasari.ac.id
+    - &bug-XL61 meetings.googleapis.com
+    - &bug-XL62 Midtrans.com
+    - &bug-XL63 msgapi.teams.live.com
+    - &bug-XL64 npca.netflix.com
+    - &bug-XL65 p16-tiktokcdn-com.akamaized.net
+    - &bug-XL66 presence.teams.live.com
+    - &bug-XL67 prod-in.viu.com
+    - &bug-XL68 pubgmobile.com
+    - &bug-XL69 quiz.int.vidio.com
+    - &bug-XL70 quiz.vidio.com
+    - &bug-XL71 ruangguru.com
+    - &bug-XL72 source.zoom.us
+    - &bug-XL73 static.starmakerstudios.com
+    - &bug-XL74 store.zoom.us
+    - &bug-XL75 talkgadget.google.com
+    - &bug-XL76 Tawk.to
+    - &bug-XL77 teams.live.com
+    - &bug-XL78 Udemy.com
+    - &bug-XL79 updates.netflix.com
+    - &bug-XL80 v24.tiktokcdn.com
+    - &bug-XL81 v27.tiktokcdn.com
+    - &bug-XL82 v27.tiktokcdn.com
+    - &bug-XL83 video.joox.com 
+    - &bug-XL84 web.web.whatsapp.com
+    - &bug-XL85 www.123.xl.co.id/min-balance
+    - &bug-XL86 www.udemy.com
+    - &bug-XL87 Yourupload.com
+    - &bug-XL88 zendesk1.appsflyer.com
+    - &bug-XL89 zendesk1.grab.com
+    - &bug-XL90 zendesk1.roblox.com
+    - &bug-XL91 zendesk1.tiktok.com
+    - &bug-XL92 zendesk2.shoppe.ph
+    - &bug-XL93 zendesk2.tiktok.com
+    - &bug-XL94 zendesk3.tiktok.com
+    - &bug-XL95 zendesk4.grabtaxi.com
+    - &bug-XL96 zendesk4.shoppe.sg
+    - &bug-XL97 zendesk4.tiktok.com
+    - &bug-XL98 zoomappdocs.zoom.us
+
+#Isat
+    - &bug-Isat1 202.152.162.239/lpisat/ramadhan
+    - &bug-Isat2 114.6.2.64
+    - &bug-Isat3 114.6.2.58
+    - &bug-Isat4 114.6.2.56
+    - &bug-Isat5 114.6.2.52
+    - &bug-Isat6 114.6.2.47 
+    - &bug-Isat7 114.6.2.34
+    - &bug-Isat8 114.6.2.27
+    - &bug-Isat9 114.6.2.16
+    - &bug-Isat10 114.5.5.66
+    - &bug-Isat11 114.5.5.5 
+    - &bug-Isat12 114.5.1.1 
+    - &bug-Isat13 202.152.161.250 
+    - &bug-Isat14 202.152.161.242 
+    - &bug-Isat15 202.152.161.235 
+    - &bug-Isat16 202.152.161.227 
+    - &bug-Isat17 202.152.161.224 
+    - &bug-Isat18 114.6.2.90
+    - &bug-Isat19 114.6.2.86
+    - &bug-Isat20 114.6.2.83
+    - &bug-Isat21 114.6.2.83
+    - &bug-Isat22 114.6.2.8o
+    - &bug-Isat23 114.6.2.70
+    - &bug-Isat24 114.6.2.60
+    - &bug-Isat25 114.6.2.57
+    - &bug-Isat26 114.6.2.54
+    - &bug-Isat27 114.6.2.51
+    - &bug-Isat28 114.6.2.50
+    - &bug-Isat29 114.6.2.49
+    - &bug-Isat30 114.6.2.44
+    - &bug-Isat31 114.6.2.30
+    - &bug-Isat32 114.6.2.25
+    - &bug-Isat33 114.6.2.20
+    - &bug-Isat34 114.6.2.14
+    - &bug-Isat35 114.6.2.13
+    - &bug-Isat36 219.83.58.30
+    - &bug-Isat37 219.83.58.13
+    - &bug-Isat38 202.155.88.112
+    - &bug-Isat39 202.155.3.234 
+    - &bug-Isat40 202.155.27.37 
+    - &bug-Isat41 202.155.150.32
+    - &bug-Isat42 202.155.100.29
+    - &bug-Isat43 202.155.100.24
+    - &bug-Isat44 124.81.92.152 
+    - &bug-Isat45 202.155.87.9
+    - &bug-Isat46 124.81.92.12
+    - &bug-Isat47 124.81.81.87
+    - &bug-Isat48 124.81.81.84
+    - &bug-Isat49 124.81.81.82
+    - &bug-Isat50 104.17.70.206
+    - &bug-Isat51 104.17.71.206
+    - &bug-Isat52 104.18.25.139
+    - &bug-Isat53 104.18.24.139
+    - &bug-Isat54 104.16.66.85
+    - &bug-Isat55 104.16.65.85
+    - &bug-Isat56 141.193.213.20
+    - &bug-Isat57 141.193.213.21
+    - &bug-Isat58 170.114.52.2
+    - &bug-Isat59 170.114.52.3
+    - &bug-Isat60 141.193.213.10
+    - &bug-Isat61 104.16.51.111
+    - &bug-Isat62 104.16.53.111
+    - &bug-Isat63 162.159.135.42
+    - &bug-Isat64 162.159.128.7
+    - &bug-Isat65 162.159.138.6
+    - &bug-Isat66 104.20.74.141
+    - &bug-Isat67 104.20.75.141
+    - &bug-Isat68 www.udemy.com
+    - &bug-Isat69 zoom.us
+    - &bug-Isat70 www.zoom.us
+    - &bug-Isat71 us02web.zoom.us
+    - &bug-Isat72 zoomcares.zoom.us
+    - &bug-Isat73 support.zoom.us
+    - &bug-Isat74 www.skillacademy.com
+    - &bug-Isat75 callinghelp.webex.com
+    - &bug-Isat76 zendesk1.appsflyer.com
+
+#Smar
+    - &bug-Smar1 fota-asset.Smartfren.com
+    - &bug-Smar2 mcomm-ops.smartfren.com
+    - &bug-Smar3 fota-api.smartfren.com
+    - &bug-Smar4 fota-admin.Smartfren.com
+    - &bug-Smar5 4g-lte.smartfren.co
+    - &bug-Smar6 m.Smartfren.com
+    - &bug-Smar7 mysmartfrend.com
+    - &bug-Smar8 jkt-mail.smartfren.com
+    - &bug-Smar9 jkt1-speedtest.Smartfren.com
+    - &bug-Smar10 com/prepaid_notification
+    - &bug-Smar11 4g-lte.smartfren.co
+    - &bug-Smar12 mysmartfrend.com
+    - &bug-Smar13 0.facebook.com
+    - &bug-Smar14 www.smartfren.com
+    - &bug-Smar15 line.me
+    - &bug-Smar16 twitter.com
+    - &bug-Smar17 facebook.com
+    - &bug-Smar18 wechat.com
+    
+base-proxy:
+  vmess:
+    - &basevmess
+      type: vmess
+      alterId: 0
+      cipher: auto
+      udp: true
+      udp-over-tcp: true
+      network: ws
+      tls: true
+      skip-cert-verify: true
+  trojan:
+    - &basetrojan
+      type: trojan
+      port: 443
+      udp: true
+      skip-cert-verify: true
+      network: ws
+  gfw:
+    - &basegrpc
+      type: trojan
+      port: 443
+      udp: true
+      skip-cert-verify: true
+  ss:
+    - &basess
+      type: ss
+      port: 1443
+      udp: true
+      skip-cert-verify: true
+base-proxy-group:
+  url:
+    - &url-gg http://www.gstatic.com/generate_204
+    - &url-cf http://cp.cloudflare.com/generate_204
+
+proxies:
+#Fmess
+    - &Fmess
+      <<: *basevmess
+      name: Tsel1
+      server: *bug-Tsel1 
+      port: 443
+      uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+      servername: sg2-v2ray.sshkit.org
+      ws-opts:
+        path: /sshkit/439427127/642f26c604981/
+        headers:
+          Host: sg2-v2ray.sshkit.org
+          Early-Data: 1
+    - <<: *Fmess
+      name: Tsel2
+      server: *bug-Tsel2
+    - <<: *Fmess
+      name: Tsel3
+      server: *bug-Tsel3
+    - <<: *Fmess
+      name: Tsel4
+      server: *bug-Tsel4
+    - <<: *Fmess
+      name: Tsel5
+      server: *bug-Tsel5
+    - <<: *Fmess
+      name: Tsel6
+      server: *bug-Tsel6
+    - <<: *Fmess
+      name: Tsel7
+      server: *bug-Tsel7
+    - <<: *Fmess
+      name: Tsel8
+      server: *bug-Tsel8
+    - <<: *Fmess
+      name: Tsel9
+      server: *bug-Tsel9
+    - <<: *Fmess
+      name: Tsel10
+      server: *bug-Tsel10
+    - <<: *Fmess
+      name: Tsel11
+      server: *bug-Tsel11
+    - <<: *Fmess
+      name: Tsel12
+      server: *bug-Tsel12
+    - <<: *Fmess
+      name: Tsel13
+      server: *bug-Tsel13
+    - <<: *Fmess
+      name: Tsel14
+      server: *bug-Tsel14
+    - <<: *Fmess
+      name: Tsel15
+      server: *bug-Tsel15
+    - <<: *Fmess
+      name: Tsel16
+      server: *bug-Tsel16
+    - <<: *Fmess
+      name: Tsel17
+      server: *bug-Tsel17
+    - <<: *Fmess
+      name: Tsel18
+      server: *bug-Tsel18
+    - <<: *Fmess
+      name: Tsel19
+      server: *bug-Tsel19
+    - <<: *Fmess
+      name: Tsel20
+      server: *bug-Tsel20
+    - <<: *Fmess
+      name: Tsel21
+      server: *bug-Tsel21
+    - <<: *Fmess
+      name: Tsel22
+      server: *bug-Tsel22
+    - <<: *Fmess
+      name: Tsel23
+      server: *bug-Tsel23
+    - <<: *Fmess
+      name: Tsel24
+      server: *bug-Tsel24
+    - <<: *Fmess
+      name: Tsel25
+      server: *bug-Tsel25
+    - <<: *Fmess
+      name: Tsel26
+      server: *bug-Tsel26
+    - <<: *Fmess
+      name: Tsel27
+      server: *bug-Tsel27
+    - <<: *Fmess
+      name: Tsel28
+      server: *bug-Tsel28
+    - <<: *Fmess
+      name: Tsel29
+      server: *bug-Tsel29
+    - <<: *Fmess
+      name: Tsel30
+      server: *bug-Tsel30
+    - <<: *Fmess
+      name: Tsel31
+      server: *bug-Tsel31
+    - <<: *Fmess
+      name: Tsel32
+      server: *bug-Tsel32
+    - <<: *Fmess
+      name: Tsel33
+      server: *bug-Tsel33
+    - <<: *Fmess
+      name: Tsel34
+      server: *bug-Tsel34
+    - <<: *Fmess
+      name: Tsel35
+      server: *bug-Tsel35
+    - <<: *Fmess
+      name: Tsel36
+      server: *bug-Tsel36
+    - <<: *Fmess
+      name: Tsel37
+      server: *bug-Tsel37
+    - <<: *Fmess
+      name: Tsel38
+      server: *bug-Tsel38
+    - <<: *Fmess
+      name: Tsel39
+      server: *bug-Tsel39
+    - <<: *Fmess
+      name: Tsel40
+      server: *bug-Tsel40
+    - <<: *Fmess
+      name: Tsel41
+      server: *bug-Tsel41
+    - <<: *Fmess
+      name: Tsel42
+      server: *bug-Tsel42
+    - <<: *Fmess
+      name: Tsel43
+      server: *bug-Tsel43
+    - <<: *Fmess
+      name: Tsel44
+      server: *bug-Tsel44
+    - <<: *Fmess
+      name: Tsel45
+      server: *bug-Tsel45
+    - <<: *Fmess
+      name: Tsel46
+      server: *bug-Tsel46
+    - <<: *Fmess
+      name: Tsel47
+      server: *bug-Tsel47
+    - <<: *Fmess
+      name: Tsel48
+      server: *bug-Tsel48
+    - <<: *Fmess
+      name: Tsel49
+      server: *bug-Tsel49
+    - <<: *Fmess
+      name: Tsel50
+      server: *bug-Tsel50
+    - <<: *Fmess
+      name: Tsel51
+      server: *bug-Tsel51
+    - <<: *Fmess
+      name: Tsel52
+      server: *bug-Tsel52
+    - <<: *Fmess
+      name: Tsel53
+      server: *bug-Tsel53
+    - <<: *Fmess
+      name: Tsel54
+      server: *bug-Tsel54
+    - <<: *Fmess
+      name: Tsel55
+      server: *bug-Tsel55
+    - <<: *Fmess
+      name: Tsel56
+      server: *bug-Tsel56
+    - <<: *Fmess
+      name: Tsel57
+      server: *bug-Tsel57
+    - <<: *Fmess
+      name: Tsel58
+      server: *bug-Tsel58
+    - <<: *Fmess
+      name: Tsel59
+      server: *bug-Tsel59
+    - <<: *Fmess
+      name: Tsel60
+      server: *bug-Tsel60
+    - <<: *Fmess
+      name: Tsel61
+      server: *bug-Tsel61
+    - <<: *Fmess
+      name: Tsel62
+      server: *bug-Tsel62
+    - <<: *Fmess
+      name: Tsel63
+      server: *bug-Tsel63
+    - <<: *Fmess
+      name: Tsel64
+      server: *bug-Tsel64
+    - <<: *Fmess
+      name: Tsel65
+      server: *bug-Tsel65
+    - <<: *Fmess
+      name: Tsel66
+      server: *bug-Tsel66
+    - <<: *Fmess
+      name: Tsel67
+      server: *bug-Tsel67
+    - <<: *Fmess
+      name: Tsel68
+      server: *bug-Tsel68
+    - <<: *Fmess
+      name: Tsel69
+      server: *bug-Tsel69
+    - <<: *Fmess
+      name: Tsel70
+      server: *bug-Tsel70
+    - <<: *Fmess
+      name: Tsel71
+      server: *bug-Tsel71
+    - <<: *Fmess
+      name: Tsel72
+      server: *bug-Tsel72
+    - <<: *Fmess
+      name: Tsel73
+      server: *bug-Tsel73
+    - <<: *Fmess
+      name: Tsel74
+      server: *bug-Tsel74
+    - <<: *Fmess
+      name: Tsel75
+      server: *bug-Tsel75
+    - <<: *Fmess
+      name: Tsel76
+      server: *bug-Tsel76
+    - <<: *Fmess
+      name: Tsel77
+      server: *bug-Tsel77
+    - <<: *Fmess
+      name: Tsel78
+      server: *bug-Tsel78
+    - <<: *Fmess
+      name: Tsel79
+      server: *bug-Tsel79
+    - <<: *Fmess
+      name: Tsel80
+      server: *bug-Tsel80
+    - <<: *Fmess
+      name: Tsel81
+      server: *bug-Tsel81
+    - <<: *Fmess
+      name: Tsel82
+      server: *bug-Tsel82
+    - <<: *Fmess
+      name: Tsel83
+      server: *bug-Tsel83
+    - <<: *Fmess
+      name: Tsel84
+      server: *bug-Tsel84
+    - <<: *Fmess
+      name: Tsel85
+      server: *bug-Tsel85
+    - <<: *Fmess
+      name: Tsel86
+      server: *bug-Tsel86
+    - <<: *Fmess
+      name: Tsel87
+      server: *bug-Tsel87
+    - <<: *Fmess
+      name: Tsel88
+      server: *bug-Tsel88
+    - <<: *Fmess
+      name: Tsel89
+      server: *bug-Tsel89
+    - <<: *Fmess
+      name: Tsel90
+      server: *bug-Tsel90
+    - <<: *Fmess
+      name: Tsel91
+      server: *bug-Tsel91
+    - <<: *Fmess
+      name: Tsel92
+      server: *bug-Tsel92
+    - <<: *Fmess
+      name: Tsel93
+      server: *bug-Tsel93
+    - <<: *Fmess
+      name: Tsel94
+      server: *bug-Tsel94
+    - <<: *Fmess
+      name: Tsel95
+      server: *bug-Tsel95
+    - <<: *Fmess
+      name: Tsel96
+      server: *bug-Tsel96
+    - <<: *Fmess
+      name: Tsel97
+      server: *bug-Tsel97
+    - <<: *Fmess
+      name: Tsel98
+      server: *bug-Tsel98
+    - <<: *Fmess
+      name: Byu1
+      server: *bug-Byu1
+    - <<: *Fmess
+      name: Byu2
+      server: *bug-Byu2
+    - <<: *Fmess
+      name: Byu3
+      server: *bug-Byu3
+    - <<: *Fmess
+      name: Byu4
+      server: *bug-Byu4
+    - <<: *Fmess
+      name: Byu5
+      server: *bug-Byu5
+    - <<: *Fmess
+      name: Byu6
+      server: *bug-Byu6
+    - <<: *Fmess
+      name: Byu7
+      server: *bug-Byu7
+    - <<: *Fmess
+      name: Byu8
+      server: *bug-Byu8
+    - <<: *Fmess
+      name: Byu9
+      server: *bug-Byu9
+    - <<: *Fmess
+      name: Byu10
+      server: *bug-Byu10
+    - <<: *Fmess
+      name: Byu11
+      server: *bug-Byu11
+    - <<: *Fmess
+      name: Byu12
+      server: *bug-Byu12
+    - <<: *Fmess
+      name: Byu13
+      server: *bug-Byu13
+    - <<: *Fmess
+      name: Byu14
+      server: *bug-Byu14
+    - <<: *Fmess
+      name: Byu15
+      server: *bug-Byu15
+    - <<: *Fmess
+      name: Byu16
+      server: *bug-Byu16
+    - <<: *Fmess
+      name: Byu17
+      server: *bug-Byu17
+    - <<: *Fmess
+      name: Byu18
+      server: *bug-Byu18
+    - <<: *Fmess
+      name: Byu19
+      server: *bug-Byu19
+    - <<: *Fmess
+      name: Byu20
+      server: *bug-Byu20
+    - <<: *Fmess
+      name: Byu21
+      server: *bug-Byu21
+    - <<: *Fmess
+      name: Byu22
+      server: *bug-Byu22
+    - <<: *Fmess
+      name: Byu23
+      server: *bug-Byu23
+    - <<: *Fmess
+      name: Byu24
+      server: *bug-Byu24
+    - <<: *Fmess
+      name: Byu25
+      server: *bug-Byu25
+    - <<: *Fmess
+      name: Byu26
+      server: *bug-Byu26
+    - <<: *Fmess
+      name: Byu27
+      server: *bug-Byu27
+    - <<: *Fmess
+      name: Byu28
+      server: *bug-Byu28
+    - <<: *Fmess
+      name: Byu29
+      server: *bug-Byu29
+    - <<: *Fmess
+      name: Byu30
+      server: *bug-Byu30
+    - <<: *Fmess
+      name: Byu31
+      server: *bug-Byu31
+    - <<: *Fmess
+      name: Byu32
+      server: *bug-Byu32
+    - <<: *Fmess
+      name: Byu33
+      server: *bug-Byu33
+    - <<: *Fmess
+      name: Byu34
+      server: *bug-Byu34
+    - <<: *Fmess
+      name: Byu35
+      server: *bug-Byu35
+    - <<: *Fmess
+      name: Byu36
+      server: *bug-Byu36
+    - <<: *Fmess
+      name: Byu37
+      server: *bug-Byu37
+    - <<: *Fmess
+      name: Byu38
+      server: *bug-Byu38
+    - <<: *Fmess
+      name: Byu39
+      server: *bug-Byu39
+    - <<: *Fmess
+      name: Byu40
+      server: *bug-Byu40
+    - <<: *Fmess
+      name: Byu41
+      server: *bug-Byu41
+    - <<: *Fmess
+      name: Byu42
+      server: *bug-Byu42
+    - <<: *Fmess
+      name: Byu43
+      server: *bug-Byu43
+    - <<: *Fmess
+      name: Byu44
+      server: *bug-Byu44
+    - <<: *Fmess
+      name: Byu45
+      server: *bug-Byu45
+    - <<: *Fmess
+      name: Byu46
+      server: *bug-Byu46
+    - <<: *Fmess
+      name: Byu47
+      server: *bug-Byu47
+    - <<: *Fmess
+      name: Byu48
+      server: *bug-Byu48
+    - <<: *Fmess
+      name: Byu49
+      server: *bug-Byu49
+    - <<: *Fmess
+      name: Byu50
+      server: *bug-Byu50
+    - <<: *Fmess
+      name: Byu51
+      server: *bug-Byu51
+    - <<: *Fmess
+      name: Byu52
+      server: *bug-Byu52
+    - <<: *Fmess
+      name: Byu53
+      server: *bug-Byu53
+    - <<: *Fmess
+      name: Byu54
+      server: *bug-Byu54
+    - <<: *Fmess
+      name: Byu55
+      server: *bug-Byu55
+    - <<: *Fmess
+      name: Byu56
+      server: *bug-Byu56
+    - <<: *Fmess
+      name: Byu57
+      server: *bug-Byu57
+    - <<: *Fmess
+      name: Byu58
+      server: *bug-Byu58
+    - <<: *Fmess
+      name: Byu59
+      server: *bug-Byu59
+    - <<: *Fmess
+      name: Byu60
+      server: *bug-Byu60
+    - <<: *Fmess
+      name: Byu61
+      server: *bug-Byu61
+    - <<: *Fmess
+      name: Byu62
+      server: *bug-Byu62
+    - <<: *Fmess
+      name: Byu63
+      server: *bug-Byu63
+    - <<: *Fmess
+      name: Byu64
+      server: *bug-Byu64
+    - <<: *Fmess
+      name: Byu65
+      server: *bug-Byu65
+    - <<: *Fmess
+      name: Byu66
+      server: *bug-Byu66
+    - <<: *Fmess
+      name: Byu67
+      server: *bug-Byu67
+    - <<: *Fmess
+      name: Byu68
+      server: *bug-Byu68
+    - <<: *Fmess
+      name: Byu69
+      server: *bug-Byu69
+    - <<: *Fmess
+      name: Byu70
+      server: *bug-Byu70
+    - <<: *Fmess
+      name: Byu71
+      server: *bug-Byu71
+    - <<: *Fmess
+      name: Byu72
+      server: *bug-Byu72
+    - <<: *Fmess
+      name: Byu73
+      server: *bug-Byu73
+    - <<: *Fmess
+      name: Byu74
+      server: *bug-Byu74
+    - <<: *Fmess
+      name: Byu75
+      server: *bug-Byu75
+    - <<: *Fmess
+      name: Byu76
+      server: *bug-Byu76
+    - <<: *Fmess
+      name: Byu77
+      server: *bug-Byu77
+    - <<: *Fmess
+      name: Byu78
+      server: *bug-Byu78
+    - <<: *Fmess
+      name: Byu79
+      server: *bug-Byu79
+    - <<: *Fmess
+      name: Byu80
+      server: *bug-Byu80
+    - <<: *Fmess
+      name: Byu81
+      server: *bug-Byu81
+    - <<: *Fmess
+      name: Byu82
+      server: *bug-Byu82
+    - <<: *Fmess
+      name: Byu83
+      server: *bug-Byu83
+    - <<: *Fmess
+      name: XL1
+      server: *bug-XL1
+    - <<: *Fmess
+      name: XL2
+      server: *bug-XL2
+    - <<: *Fmess
+      name: XL3
+      server: *bug-XL3
+    - <<: *Fmess
+      name: XL4
+      server: *bug-XL4
+    - <<: *Fmess
+      name: XL5
+      server: *bug-XL5
+    - <<: *Fmess
+      name: XL6
+      server: *bug-XL6
+    - <<: *Fmess
+      name: XL7
+      server: *bug-XL7
+    - <<: *Fmess
+      name: XL8
+      server: *bug-XL8
+    - <<: *Fmess
+      name: XL9
+      server: *bug-XL9
+    - <<: *Fmess
+      name: XL10
+      server: *bug-XL10
+    - <<: *Fmess
+      name: XL11
+      server: *bug-XL11
+    - <<: *Fmess
+      name: XL12
+      server: *bug-XL12
+    - <<: *Fmess
+      name: XL13
+      server: *bug-XL13
+    - <<: *Fmess
+      name: XL14
+      server: *bug-XL14
+    - <<: *Fmess
+      name: XL15
+      server: *bug-XL15
+    - <<: *Fmess
+      name: XL16
+      server: *bug-XL16
+    - <<: *Fmess
+      name: XL17
+      server: *bug-XL17
+    - <<: *Fmess
+      name: XL18
+      server: *bug-XL18
+    - <<: *Fmess
+      name: XL19
+      server: *bug-XL19
+    - <<: *Fmess
+      name: XL20
+      server: *bug-XL20
+    - <<: *Fmess
+      name: XL21
+      server: *bug-XL21
+    - <<: *Fmess
+      name: XL22
+      server: *bug-XL22
+    - <<: *Fmess
+      name: XL23
+      server: *bug-XL23
+    - <<: *Fmess
+      name: XL24
+      server: *bug-XL24
+    - <<: *Fmess
+      name: XL25
+      server: *bug-XL25
+    - <<: *Fmess
+      name: XL26
+      server: *bug-XL26
+    - <<: *Fmess
+      name: XL27
+      server: *bug-XL27
+    - <<: *Fmess
+      name: XL28
+      server: *bug-XL28
+    - <<: *Fmess
+      name: XL29
+      server: *bug-XL29
+    - <<: *Fmess
+      name: XL30
+      server: *bug-XL30
+    - <<: *Fmess
+      name: XL31
+      server: *bug-XL31
+    - <<: *Fmess
+      name: XL32
+      server: *bug-XL32
+    - <<: *Fmess
+      name: XL33
+      server: *bug-XL33
+    - <<: *Fmess
+      name: XL34
+      server: *bug-XL34
+    - <<: *Fmess
+      name: XL35
+      server: *bug-XL35
+    - <<: *Fmess
+      name: XL36
+      server: *bug-XL36
+    - <<: *Fmess
+      name: XL37
+      server: *bug-XL37
+    - <<: *Fmess
+      name: XL38
+      server: *bug-XL38
+    - <<: *Fmess
+      name: XL39
+      server: *bug-XL39
+    - <<: *Fmess
+      name: XL40
+      server: *bug-XL40
+    - <<: *Fmess
+      name: XL41
+      server: *bug-XL41
+    - <<: *Fmess
+      name: XL42
+      server: *bug-XL42
+    - <<: *Fmess
+      name: XL43
+      server: *bug-XL43
+    - <<: *Fmess
+      name: XL44
+      server: *bug-XL44
+    - <<: *Fmess
+      name: XL45
+      server: *bug-XL45
+    - <<: *Fmess
+      name: XL46
+      server: *bug-XL46
+    - <<: *Fmess
+      name: XL47
+      server: *bug-XL47
+    - <<: *Fmess
+      name: XL48
+      server: *bug-XL48
+    - <<: *Fmess
+      name: XL49
+      server: *bug-XL49
+    - <<: *Fmess
+      name: XL50
+      server: *bug-XL50
+    - <<: *Fmess
+      name: XL51
+      server: *bug-XL51
+    - <<: *Fmess
+      name: XL52
+      server: *bug-XL52
+    - <<: *Fmess
+      name: XL53
+      server: *bug-XL53
+    - <<: *Fmess
+      name: XL54
+      server: *bug-XL54
+    - <<: *Fmess
+      name: XL55
+      server: *bug-XL55
+    - <<: *Fmess
+      name: XL56
+      server: *bug-XL56
+    - <<: *Fmess
+      name: XL57
+      server: *bug-XL57
+    - <<: *Fmess
+      name: XL58
+      server: *bug-XL58
+    - <<: *Fmess
+      name: XL59
+      server: *bug-XL59
+    - <<: *Fmess
+      name: XL60
+      server: *bug-XL60
+    - <<: *Fmess
+      name: XL61
+      server: *bug-XL61
+    - <<: *Fmess
+      name: XL62
+      server: *bug-XL62
+    - <<: *Fmess
+      name: XL63
+      server: *bug-XL63
+    - <<: *Fmess
+      name: XL64
+      server: *bug-XL64
+    - <<: *Fmess
+      name: XL65
+      server: *bug-XL65
+    - <<: *Fmess
+      name: XL66
+      server: *bug-XL66
+    - <<: *Fmess
+      name: XL67
+      server: *bug-XL67
+    - <<: *Fmess
+      name: XL68
+      server: *bug-XL68
+    - <<: *Fmess
+      name: XL69
+      server: *bug-XL69
+    - <<: *Fmess
+      name: XL70
+      server: *bug-XL70
+    - <<: *Fmess
+      name: XL71
+      server: *bug-XL71
+    - <<: *Fmess
+      name: XL72
+      server: *bug-XL72
+    - <<: *Fmess
+      name: XL73
+      server: *bug-XL73
+    - <<: *Fmess
+      name: XL74
+      server: *bug-XL74
+    - <<: *Fmess
+      name: XL75
+      server: *bug-XL75
+    - <<: *Fmess
+      name: XL76
+      server: *bug-XL76
+    - <<: *Fmess
+      name: XL77
+      server: *bug-XL77
+    - <<: *Fmess
+      name: XL78
+      server: *bug-XL78
+    - <<: *Fmess
+      name: XL79
+      server: *bug-XL79
+    - <<: *Fmess
+      name: XL80
+      server: *bug-XL80
+    - <<: *Fmess
+      name: XL81
+      server: *bug-XL81
+    - <<: *Fmess
+      name: XL82
+      server: *bug-XL82
+    - <<: *Fmess
+      name: XL83
+      server: *bug-XL83
+    - <<: *Fmess
+      name: XL84
+      server: *bug-XL84
+    - <<: *Fmess
+      name: XL85
+      server: *bug-XL85
+    - <<: *Fmess
+      name: XL86
+      server: *bug-XL86
+    - <<: *Fmess
+      name: XL87
+      server: *bug-XL87
+    - <<: *Fmess
+      name: XL88
+      server: *bug-XL88
+    - <<: *Fmess
+      name: XL89
+      server: *bug-XL89
+    - <<: *Fmess
+      name: XL90
+      server: *bug-XL90
+    - <<: *Fmess
+      name: XL91
+      server: *bug-XL91
+    - <<: *Fmess
+      name: XL92
+      server: *bug-XL92
+    - <<: *Fmess
+      name: XL93
+      server: *bug-XL93
+    - <<: *Fmess
+      name: XL94
+      server: *bug-XL94
+    - <<: *Fmess
+      name: XL95
+      server: *bug-XL95
+    - <<: *Fmess
+      name: XL96
+      server: *bug-XL96
+    - <<: *Fmess
+      name: XL97
+      server: *bug-XL97
+    - <<: *Fmess
+      name: XL98
+      server: *bug-XL98
+    - <<: *Fmess
+      name: Isat1
+      server: *bug-Isat1
+    - <<: *Fmess
+      name: Isat2
+      server: *bug-Isat2
+    - <<: *Fmess
+      name: Isat3
+      server: *bug-Isat3
+    - <<: *Fmess
+      name: Isat4
+      server: *bug-Isat4
+    - <<: *Fmess
+      name: Isat5
+      server: *bug-Isat5
+    - <<: *Fmess
+      name: Isat6
+      server: *bug-Isat6
+    - <<: *Fmess
+      name: Isat7
+      server: *bug-Isat7
+    - <<: *Fmess
+      name: Isat8
+      server: *bug-Isat8
+    - <<: *Fmess
+      name: Isat9
+      server: *bug-Isat9
+    - <<: *Fmess
+      name: Isat10
+      server: *bug-Isat10
+    - <<: *Fmess
+      name: Isat11
+      server: *bug-Isat11
+    - <<: *Fmess
+      name: Isat12
+      server: *bug-Isat12
+    - <<: *Fmess
+      name: Isat13
+      server: *bug-Isat13
+    - <<: *Fmess
+      name: Isat14
+      server: *bug-Isat14
+    - <<: *Fmess
+      name: Isat15
+      server: *bug-Isat15
+    - <<: *Fmess
+      name: Isat16
+      server: *bug-Isat16
+    - <<: *Fmess
+      name: Isat17
+      server: *bug-Isat17
+    - <<: *Fmess
+      name: Isat18
+      server: *bug-Isat18
+    - <<: *Fmess
+      name: Isat19
+      server: *bug-Isat19
+    - <<: *Fmess
+      name: Isat20
+      server: *bug-Isat20
+    - <<: *Fmess
+      name: Isat21
+      server: *bug-Isat21
+    - <<: *Fmess
+      name: Isat22
+      server: *bug-Isat22
+    - <<: *Fmess
+      name: Isat23
+      server: *bug-Isat23
+    - <<: *Fmess
+      name: Isat24
+      server: *bug-Isat24
+    - <<: *Fmess
+      name: Isat25
+      server: *bug-Isat25
+    - <<: *Fmess
+      name: Isat26
+      server: *bug-Isat26
+    - <<: *Fmess
+      name: Isat27
+      server: *bug-Isat27
+    - <<: *Fmess
+      name: Isat28
+      server: *bug-Isat28
+    - <<: *Fmess
+      name: Isat29
+      server: *bug-Isat29
+    - <<: *Fmess
+      name: Isat30
+      server: *bug-Isat30
+    - <<: *Fmess
+      name: Isat31
+      server: *bug-Isat31
+    - <<: *Fmess
+      name: Isat32
+      server: *bug-Isat32
+    - <<: *Fmess
+      name: Isat33
+      server: *bug-Isat33
+    - <<: *Fmess
+      name: Isat34
+      server: *bug-Isat34
+    - <<: *Fmess
+      name: Isat35
+      server: *bug-Isat35
+    - <<: *Fmess
+      name: Isat36
+      server: *bug-Isat36
+    - <<: *Fmess
+      name: Isat37
+      server: *bug-Isat37
+    - <<: *Fmess
+      name: Isat38
+      server: *bug-Isat38
+    - <<: *Fmess
+      name: Isat39
+      server: *bug-Isat39
+    - <<: *Fmess
+      name: Isat40
+      server: *bug-Isat40
+    - <<: *Fmess
+      name: Isat41
+      server: *bug-Isat41
+    - <<: *Fmess
+      name: Isat42
+      server: *bug-Isat42
+    - <<: *Fmess
+      name: Isat43
+      server: *bug-Isat43
+    - <<: *Fmess
+      name: Isat44
+      server: *bug-Isat44
+    - <<: *Fmess
+      name: Isat45
+      server: *bug-Isat45
+    - <<: *Fmess
+      name: Isat46
+      server: *bug-Isat46
+    - <<: *Fmess
+      name: Isat47
+      server: *bug-Isat47
+    - <<: *Fmess
+      name: Isat48
+      server: *bug-Isat48
+    - <<: *Fmess
+      name: Isat49
+      server: *bug-Isat49
+    - <<: *Fmess
+      name: Isat50
+      server: *bug-Isat50
+    - <<: *Fmess
+      name: Isat51
+      server: *bug-Isat51
+    - <<: *Fmess
+      name: Isat52
+      server: *bug-Isat52
+    - <<: *Fmess
+      name: Isat53
+      server: *bug-Isat53
+    - <<: *Fmess
+      name: Isat54
+      server: *bug-Isat54
+    - <<: *Fmess
+      name: Isat55
+      server: *bug-Isat55
+    - <<: *Fmess
+      name: Isat56
+      server: *bug-Isat56
+    - <<: *Fmess
+      name: Isat57
+      server: *bug-Isat57
+    - <<: *Fmess
+      name: Isat58
+      server: *bug-Isat58
+    - <<: *Fmess
+      name: Isat59
+      server: *bug-Isat59
+    - <<: *Fmess
+      name: Isat60
+      server: *bug-Isat60
+    - <<: *Fmess
+      name: Isat61
+      server: *bug-Isat61
+    - <<: *Fmess
+      name: Isat62
+      server: *bug-Isat62
+    - <<: *Fmess
+      name: Isat63
+      server: *bug-Isat63
+    - <<: *Fmess
+      name: Isat64
+      server: *bug-Isat64
+    - <<: *Fmess
+      name: Isat65
+      server: *bug-Isat65
+    - <<: *Fmess
+      name: Isat66
+      server: *bug-Isat66
+    - <<: *Fmess
+      name: Isat67
+      server: *bug-Isat67
+    - <<: *Fmess
+      name: Isat68
+      server: *bug-Isat68
+    - <<: *Fmess
+      name: Isat69
+      server: *bug-Isat69
+    - <<: *Fmess
+      name: Isat70
+      server: *bug-Isat70
+    - <<: *Fmess
+      name: Isat71
+      server: *bug-Isat71
+    - <<: *Fmess
+      name: Isat72
+      server: *bug-Isat72
+    - <<: *Fmess
+      name: Isat73
+      server: *bug-Isat73
+    - <<: *Fmess
+      name: Isat74
+      server: *bug-Isat74
+    - <<: *Fmess
+      name: Isat75
+      server: *bug-Isat75
+    - <<: *Fmess
+      name: Isat76
+      server: *bug-Isat76
+    - <<: *Fmess
+      name: Smar1
+      server: *bug-Smar1
+    - <<: *Fmess
+      name: Smar2
+      server: *bug-Smar2
+    - <<: *Fmess
+      name: Smar3
+      server: *bug-Smar3
+    - <<: *Fmess
+      name: Smar4
+      server: *bug-Smar4
+    - <<: *Fmess
+      name: Smar5
+      server: *bug-Smar5
+    - <<: *Fmess
+      name: Smar6
+      server: *bug-Smar6
+    - <<: *Fmess
+      name: Smar7
+      server: *bug-Smar7
+    - <<: *Fmess
+      name: Smar8
+      server: *bug-Smar8
+    - <<: *Fmess
+      name: Smar9
+      server: *bug-Smar9
+    - <<: *Fmess
+      name: Smar10
+      server: *bug-Smar10
+    - <<: *Fmess
+      name: Smar11
+      server: *bug-Smar11
+    - <<: *Fmess
+      name: Smar12
+      server: *bug-Smar12
+    - <<: *Fmess
+      name: Smar13
+      server: *bug-Smar13
+    - <<: *Fmess
+      name: Smar14
+      server: *bug-Smar14
+    - <<: *Fmess
+      name: Smar15
+      server: *bug-Smar15
+    - <<: *Fmess
+      name: Smar16
+      server: *bug-Smar16
+    - <<: *Fmess
+      name: Smar17
+      server: *bug-Smar17
+    - <<: *Fmess
+      name: Smar18
+      server: *bug-Smar18
+
+ #trojan-amp   
+    - &ampip
+      <<: *basetrojan
+      name: Tsel1
+      server: *bug-Tsel1
+      password: opentunnel.net-perjaka99
+      sni: idt-1.opensvr.net
+      ws-opts:
+        path: /trojan
+        headers:
+          Host: idt-1.opensvr.net
+          Early-Data: 1
+    - <<: *ampip
+      name: Tsel2
+      server: *bug-Tsel2
+    - <<: *ampip
+      name: Tsel3
+      server: *bug-Tsel3
+    - <<: *ampip
+      name: Tsel4
+      server: *bug-Tsel4
+    - <<: *ampip
+      name: Tsel5
+      server: *bug-Tsel5
+    - <<: *ampip
+      name: Tsel6
+      server: *bug-Tsel6
+    - <<: *ampip
+      name: Tsel7
+      server: *bug-Tsel7
+    - <<: *ampip
+      name: Tsel8
+      server: *bug-Tsel8
+    - <<: *ampip
+      name: Tsel9
+      server: *bug-Tsel9
+    - <<: *ampip
+      name: Tsel10
+      server: *bug-Tsel10
+    - <<: *ampip
+      name: Tsel11
+      server: *bug-Tsel11
+    - <<: *ampip
+      name: Tsel12
+      server: *bug-Tsel12
+    - <<: *ampip
+      name: Tsel13
+      server: *bug-Tsel13
+    - <<: *ampip
+      name: Tsel14
+      server: *bug-Tsel14
+    - <<: *ampip
+      name: Tsel15
+      server: *bug-Tsel15
+    - <<: *ampip
+      name: Tsel16
+      server: *bug-Tsel16
+    - <<: *ampip
+      name: Tsel17
+      server: *bug-Tsel17
+    - <<: *ampip
+      name: Tsel18
+      server: *bug-Tsel18
+    - <<: *ampip
+      name: Tsel19
+      server: *bug-Tsel19
+    - <<: *ampip
+      name: Tsel20
+      server: *bug-Tsel20
+    - <<: *ampip
+      name: Tsel21
+      server: *bug-Tsel21
+    - <<: *ampip
+      name: Tsel22
+      server: *bug-Tsel22
+    - <<: *ampip
+      name: Tsel23
+      server: *bug-Tsel23
+    - <<: *ampip
+      name: Tsel24
+      server: *bug-Tsel24
+    - <<: *ampip
+      name: Tsel25
+      server: *bug-Tsel25
+    - <<: *ampip
+      name: Tsel26
+      server: *bug-Tsel26
+    - <<: *ampip
+      name: Tsel27
+      server: *bug-Tsel27
+    - <<: *ampip
+      name: Tsel28
+      server: *bug-Tsel28
+    - <<: *ampip
+      name: Tsel29
+      server: *bug-Tsel29
+    - <<: *ampip
+      name: Tsel30
+      server: *bug-Tsel30
+    - <<: *ampip
+      name: Tsel31
+      server: *bug-Tsel31
+    - <<: *ampip
+      name: Tsel32
+      server: *bug-Tsel32
+    - <<: *ampip
+      name: Tsel33
+      server: *bug-Tsel33
+    - <<: *ampip
+      name: Tsel34
+      server: *bug-Tsel34
+    - <<: *ampip
+      name: Tsel35
+      server: *bug-Tsel35
+    - <<: *ampip
+      name: Tsel36
+      server: *bug-Tsel36
+    - <<: *ampip
+      name: Tsel37
+      server: *bug-Tsel37
+    - <<: *ampip
+      name: Tsel38
+      server: *bug-Tsel38
+    - <<: *ampip
+      name: Tsel39
+      server: *bug-Tsel39
+    - <<: *ampip
+      name: Tsel40
+      server: *bug-Tsel40
+    - <<: *ampip
+      name: Tsel41
+      server: *bug-Tsel41
+    - <<: *ampip
+      name: Tsel42
+      server: *bug-Tsel42
+    - <<: *ampip
+      name: Tsel43
+      server: *bug-Tsel43
+    - <<: *ampip
+      name: Tsel44
+      server: *bug-Tsel44
+    - <<: *ampip
+      name: Tsel45
+      server: *bug-Tsel45
+    - <<: *ampip
+      name: Tsel46
+      server: *bug-Tsel46
+    - <<: *ampip
+      name: Tsel47
+      server: *bug-Tsel47
+    - <<: *ampip
+      name: Tsel48
+      server: *bug-Tsel48
+    - <<: *ampip
+      name: Tsel49
+      server: *bug-Tsel49
+    - <<: *ampip
+      name: Tsel50
+      server: *bug-Tsel50
+    - <<: *ampip
+      name: Tsel51
+      server: *bug-Tsel51
+    - <<: *ampip
+      name: Tsel52
+      server: *bug-Tsel52
+    - <<: *ampip
+      name: Tsel53
+      server: *bug-Tsel53
+    - <<: *ampip
+      name: Tsel54
+      server: *bug-Tsel54
+    - <<: *ampip
+      name: Tsel55
+      server: *bug-Tsel55
+    - <<: *ampip
+      name: Tsel56
+      server: *bug-Tsel56
+    - <<: *ampip
+      name: Tsel57
+      server: *bug-Tsel57
+    - <<: *ampip
+      name: Tsel58
+      server: *bug-Tsel58
+    - <<: *ampip
+      name: Tsel59
+      server: *bug-Tsel59
+    - <<: *ampip
+      name: Tsel60
+      server: *bug-Tsel60
+    - <<: *ampip
+      name: Tsel61
+      server: *bug-Tsel61
+    - <<: *ampip
+      name: Tsel62
+      server: *bug-Tsel62
+    - <<: *ampip
+      name: Tsel63
+      server: *bug-Tsel63
+    - <<: *ampip
+      name: Tsel64
+      server: *bug-Tsel64
+    - <<: *ampip
+      name: Tsel65
+      server: *bug-Tsel65
+    - <<: *ampip
+      name: Tsel66
+      server: *bug-Tsel66
+    - <<: *ampip
+      name: Tsel67
+      server: *bug-Tsel67
+    - <<: *ampip
+      name: Tsel68
+      server: *bug-Tsel68
+    - <<: *ampip
+      name: Tsel69
+      server: *bug-Tsel69
+    - <<: *ampip
+      name: Tsel70
+      server: *bug-Tsel70
+    - <<: *ampip
+      name: Tsel71
+      server: *bug-Tsel71
+    - <<: *ampip
+      name: Tsel72
+      server: *bug-Tsel72
+    - <<: *ampip
+      name: Tsel73
+      server: *bug-Tsel73
+    - <<: *ampip
+      name: Tsel74
+      server: *bug-Tsel74
+    - <<: *ampip
+      name: Tsel75
+      server: *bug-Tsel75
+    - <<: *ampip
+      name: Tsel76
+      server: *bug-Tsel76
+    - <<: *ampip
+      name: Tsel77
+      server: *bug-Tsel77
+    - <<: *ampip
+      name: Tsel78
+      server: *bug-Tsel78
+    - <<: *ampip
+      name: Tsel79
+      server: *bug-Tsel79
+    - <<: *ampip
+      name: Tsel80
+      server: *bug-Tsel80
+    - <<: *ampip
+      name: Tsel81
+      server: *bug-Tsel81
+    - <<: *ampip
+      name: Tsel82
+      server: *bug-Tsel82
+    - <<: *ampip
+      name: Tsel83
+      server: *bug-Tsel83
+    - <<: *ampip
+      name: Tsel84
+      server: *bug-Tsel84
+    - <<: *ampip
+      name: Tsel85
+      server: *bug-Tsel85
+    - <<: *ampip
+      name: Tsel86
+      server: *bug-Tsel86
+    - <<: *ampip
+      name: Tsel87
+      server: *bug-Tsel87
+    - <<: *ampip
+      name: Tsel88
+      server: *bug-Tsel88
+    - <<: *ampip
+      name: Tsel89
+      server: *bug-Tsel89
+    - <<: *ampip
+      name: Tsel90
+      server: *bug-Tsel90
+    - <<: *ampip
+      name: Tsel91
+      server: *bug-Tsel91
+    - <<: *ampip
+      name: Tsel92
+      server: *bug-Tsel92
+    - <<: *ampip
+      name: Tsel93
+      server: *bug-Tsel93
+    - <<: *ampip
+      name: Tsel94
+      server: *bug-Tsel94
+    - <<: *ampip
+      name: Tsel95
+      server: *bug-Tsel95
+    - <<: *ampip
+      name: Tsel96
+      server: *bug-Tsel96
+    - <<: *ampip
+      name: Tsel97
+      server: *bug-Tsel97
+    - <<: *ampip
+      name: Tsel98
+      server: *bug-Tsel98
+    - <<: *ampip
+      name: Byu1
+      server: *bug-Byu1
+    - <<: *ampip
+      name: Byu2
+      server: *bug-Byu2
+    - <<: *ampip
+      name: Byu3
+      server: *bug-Byu3
+    - <<: *ampip
+      name: Byu4
+      server: *bug-Byu4
+    - <<: *ampip
+      name: Byu5
+      server: *bug-Byu5
+    - <<: *ampip
+      name: Byu6
+      server: *bug-Byu6
+    - <<: *ampip
+      name: Byu7
+      server: *bug-Byu7
+    - <<: *ampip
+      name: Byu8
+      server: *bug-Byu8
+    - <<: *ampip
+      name: Byu9
+      server: *bug-Byu9
+    - <<: *ampip
+      name: Byu10
+      server: *bug-Byu10
+    - <<: *ampip
+      name: Byu11
+      server: *bug-Byu11
+    - <<: *ampip
+      name: Byu12
+      server: *bug-Byu12
+    - <<: *ampip
+      name: Byu13
+      server: *bug-Byu13
+    - <<: *ampip
+      name: Byu14
+      server: *bug-Byu14
+    - <<: *ampip
+      name: Byu15
+      server: *bug-Byu15
+    - <<: *ampip
+      name: Byu16
+      server: *bug-Byu16
+    - <<: *ampip
+      name: Byu17
+      server: *bug-Byu17
+    - <<: *ampip
+      name: Byu18
+      server: *bug-Byu18
+    - <<: *ampip
+      name: Byu19
+      server: *bug-Byu19
+    - <<: *ampip
+      name: Byu20
+      server: *bug-Byu20
+    - <<: *ampip
+      name: Byu21
+      server: *bug-Byu21
+    - <<: *ampip
+      name: Byu22
+      server: *bug-Byu22
+    - <<: *ampip
+      name: Byu23
+      server: *bug-Byu23
+    - <<: *ampip
+      name: Byu24
+      server: *bug-Byu24
+    - <<: *ampip
+      name: Byu25
+      server: *bug-Byu25
+    - <<: *ampip
+      name: Byu26
+      server: *bug-Byu26
+    - <<: *ampip
+      name: Byu27
+      server: *bug-Byu27
+    - <<: *ampip
+      name: Byu28
+      server: *bug-Byu28
+    - <<: *ampip
+      name: Byu29
+      server: *bug-Byu29
+    - <<: *ampip
+      name: Byu30
+      server: *bug-Byu30
+    - <<: *ampip
+      name: Byu31
+      server: *bug-Byu31
+    - <<: *ampip
+      name: Byu32
+      server: *bug-Byu32
+    - <<: *ampip
+      name: Byu33
+      server: *bug-Byu33
+    - <<: *ampip
+      name: Byu34
+      server: *bug-Byu34
+    - <<: *ampip
+      name: Byu35
+      server: *bug-Byu35
+    - <<: *ampip
+      name: Byu36
+      server: *bug-Byu36
+    - <<: *ampip
+      name: Byu37
+      server: *bug-Byu37
+    - <<: *ampip
+      name: Byu38
+      server: *bug-Byu38
+    - <<: *ampip
+      name: Byu39
+      server: *bug-Byu39
+    - <<: *ampip
+      name: Byu40
+      server: *bug-Byu40
+    - <<: *ampip
+      name: Byu41
+      server: *bug-Byu41
+    - <<: *ampip
+      name: Byu42
+      server: *bug-Byu42
+    - <<: *ampip
+      name: Byu43
+      server: *bug-Byu43
+    - <<: *ampip
+      name: Byu44
+      server: *bug-Byu44
+    - <<: *ampip
+      name: Byu45
+      server: *bug-Byu45
+    - <<: *ampip
+      name: Byu46
+      server: *bug-Byu46
+    - <<: *ampip
+      name: Byu47
+      server: *bug-Byu47
+    - <<: *ampip
+      name: Byu48
+      server: *bug-Byu48
+    - <<: *ampip
+      name: Byu49
+      server: *bug-Byu49
+    - <<: *ampip
+      name: Byu50
+      server: *bug-Byu50
+    - <<: *ampip
+      name: Byu51
+      server: *bug-Byu51
+    - <<: *ampip
+      name: Byu52
+      server: *bug-Byu52
+    - <<: *ampip
+      name: Byu53
+      server: *bug-Byu53
+    - <<: *ampip
+      name: Byu54
+      server: *bug-Byu54
+    - <<: *ampip
+      name: Byu55
+      server: *bug-Byu55
+    - <<: *ampip
+      name: Byu56
+      server: *bug-Byu56
+    - <<: *ampip
+      name: Byu57
+      server: *bug-Byu57
+    - <<: *ampip
+      name: Byu58
+      server: *bug-Byu58
+    - <<: *ampip
+      name: Byu59
+      server: *bug-Byu59
+    - <<: *ampip
+      name: Byu60
+      server: *bug-Byu60
+    - <<: *ampip
+      name: Byu61
+      server: *bug-Byu61
+    - <<: *ampip
+      name: Byu62
+      server: *bug-Byu62
+    - <<: *ampip
+      name: Byu63
+      server: *bug-Byu63
+    - <<: *ampip
+      name: Byu64
+      server: *bug-Byu64
+    - <<: *ampip
+      name: Byu65
+      server: *bug-Byu65
+    - <<: *ampip
+      name: Byu66
+      server: *bug-Byu66
+    - <<: *ampip
+      name: Byu67
+      server: *bug-Byu67
+    - <<: *ampip
+      name: Byu68
+      server: *bug-Byu68
+    - <<: *ampip
+      name: Byu69
+      server: *bug-Byu69
+    - <<: *ampip
+      name: Byu70
+      server: *bug-Byu70
+    - <<: *ampip
+      name: Byu71
+      server: *bug-Byu71
+    - <<: *ampip
+      name: Byu72
+      server: *bug-Byu72
+    - <<: *ampip
+      name: Byu73
+      server: *bug-Byu73
+    - <<: *ampip
+      name: Byu74
+      server: *bug-Byu74
+    - <<: *ampip
+      name: Byu75
+      server: *bug-Byu75
+    - <<: *ampip
+      name: Byu76
+      server: *bug-Byu76
+    - <<: *ampip
+      name: Byu77
+      server: *bug-Byu77
+    - <<: *ampip
+      name: Byu78
+      server: *bug-Byu78
+    - <<: *ampip
+      name: Byu79
+      server: *bug-Byu79
+    - <<: *ampip
+      name: Byu80
+      server: *bug-Byu80
+    - <<: *ampip
+      name: Byu81
+      server: *bug-Byu81
+    - <<: *ampip
+      name: Byu82
+      server: *bug-Byu82
+    - <<: *ampip
+      name: Byu83
+      server: *bug-Byu83
+    - <<: *ampip
+      name: XL1
+      server: *bug-XL1
+    - <<: *ampip
+      name: XL2
+      server: *bug-XL2
+    - <<: *ampip
+      name: XL3
+      server: *bug-XL3
+    - <<: *ampip
+      name: XL4
+      server: *bug-XL4
+    - <<: *ampip
+      name: XL5
+      server: *bug-XL5
+    - <<: *ampip
+      name: XL6
+      server: *bug-XL6
+    - <<: *ampip
+      name: XL7
+      server: *bug-XL7
+    - <<: *ampip
+      name: XL8
+      server: *bug-XL8
+    - <<: *ampip
+      name: XL9
+      server: *bug-XL9
+    - <<: *ampip
+      name: XL10
+      server: *bug-XL10
+    - <<: *ampip
+      name: XL11
+      server: *bug-XL11
+    - <<: *ampip
+      name: XL12
+      server: *bug-XL12
+    - <<: *ampip
+      name: XL13
+      server: *bug-XL13
+    - <<: *ampip
+      name: XL14
+      server: *bug-XL14
+    - <<: *ampip
+      name: XL15
+      server: *bug-XL15
+    - <<: *ampip
+      name: XL16
+      server: *bug-XL16
+    - <<: *ampip
+      name: XL17
+      server: *bug-XL17
+    - <<: *ampip
+      name: XL18
+      server: *bug-XL18
+    - <<: *ampip
+      name: XL19
+      server: *bug-XL19
+    - <<: *ampip
+      name: XL20
+      server: *bug-XL20
+    - <<: *ampip
+      name: XL21
+      server: *bug-XL21
+    - <<: *ampip
+      name: XL22
+      server: *bug-XL22
+    - <<: *ampip
+      name: XL23
+      server: *bug-XL23
+    - <<: *ampip
+      name: XL24
+      server: *bug-XL24
+    - <<: *ampip
+      name: XL25
+      server: *bug-XL25
+    - <<: *ampip
+      name: XL26
+      server: *bug-XL26
+    - <<: *ampip
+      name: XL27
+      server: *bug-XL27
+    - <<: *ampip
+      name: XL28
+      server: *bug-XL28
+    - <<: *ampip
+      name: XL29
+      server: *bug-XL29
+    - <<: *ampip
+      name: XL30
+      server: *bug-XL30
+    - <<: *ampip
+      name: XL31
+      server: *bug-XL31
+    - <<: *ampip
+      name: XL32
+      server: *bug-XL32
+    - <<: *ampip
+      name: XL33
+      server: *bug-XL33
+    - <<: *ampip
+      name: XL34
+      server: *bug-XL34
+    - <<: *ampip
+      name: XL35
+      server: *bug-XL35
+    - <<: *ampip
+      name: XL36
+      server: *bug-XL36
+    - <<: *ampip
+      name: XL37
+      server: *bug-XL37
+    - <<: *ampip
+      name: XL38
+      server: *bug-XL38
+    - <<: *ampip
+      name: XL39
+      server: *bug-XL39
+    - <<: *ampip
+      name: XL40
+      server: *bug-XL40
+    - <<: *ampip
+      name: XL41
+      server: *bug-XL41
+    - <<: *ampip
+      name: XL42
+      server: *bug-XL42
+    - <<: *ampip
+      name: XL43
+      server: *bug-XL43
+    - <<: *ampip
+      name: XL44
+      server: *bug-XL44
+    - <<: *ampip
+      name: XL45
+      server: *bug-XL45
+    - <<: *ampip
+      name: XL46
+      server: *bug-XL46
+    - <<: *ampip
+      name: XL47
+      server: *bug-XL47
+    - <<: *ampip
+      name: XL48
+      server: *bug-XL48
+    - <<: *ampip
+      name: XL49
+      server: *bug-XL49
+    - <<: *ampip
+      name: XL50
+      server: *bug-XL50
+    - <<: *ampip
+      name: XL51
+      server: *bug-XL51
+    - <<: *ampip
+      name: XL52
+      server: *bug-XL52
+    - <<: *ampip
+      name: XL53
+      server: *bug-XL53
+    - <<: *ampip
+      name: XL54
+      server: *bug-XL54
+    - <<: *ampip
+      name: XL55
+      server: *bug-XL55
+    - <<: *ampip
+      name: XL56
+      server: *bug-XL56
+    - <<: *ampip
+      name: XL57
+      server: *bug-XL57
+    - <<: *ampip
+      name: XL58
+      server: *bug-XL58
+    - <<: *ampip
+      name: XL59
+      server: *bug-XL59
+    - <<: *ampip
+      name: XL60
+      server: *bug-XL60
+    - <<: *ampip
+      name: XL61
+      server: *bug-XL61
+    - <<: *ampip
+      name: XL62
+      server: *bug-XL62
+    - <<: *ampip
+      name: XL63
+      server: *bug-XL63
+    - <<: *ampip
+      name: XL64
+      server: *bug-XL64
+    - <<: *ampip
+      name: XL65
+      server: *bug-XL65
+    - <<: *ampip
+      name: XL66
+      server: *bug-XL66
+    - <<: *ampip
+      name: XL67
+      server: *bug-XL67
+    - <<: *ampip
+      name: XL68
+      server: *bug-XL68
+    - <<: *ampip
+      name: XL69
+      server: *bug-XL69
+    - <<: *ampip
+      name: XL70
+      server: *bug-XL70
+    - <<: *ampip
+      name: XL71
+      server: *bug-XL71
+    - <<: *ampip
+      name: XL72
+      server: *bug-XL72
+    - <<: *ampip
+      name: XL73
+      server: *bug-XL73
+    - <<: *ampip
+      name: XL74
+      server: *bug-XL74
+    - <<: *ampip
+      name: XL75
+      server: *bug-XL75
+    - <<: *ampip
+      name: XL76
+      server: *bug-XL76
+    - <<: *ampip
+      name: XL77
+      server: *bug-XL77
+    - <<: *ampip
+      name: XL78
+      server: *bug-XL78
+    - <<: *ampip
+      name: XL79
+      server: *bug-XL79
+    - <<: *ampip
+      name: XL80
+      server: *bug-XL80
+    - <<: *ampip
+      name: XL81
+      server: *bug-XL81
+    - <<: *ampip
+      name: XL82
+      server: *bug-XL82
+    - <<: *ampip
+      name: XL83
+      server: *bug-XL83
+    - <<: *ampip
+      name: XL84
+      server: *bug-XL84
+    - <<: *ampip
+      name: XL85
+      server: *bug-XL85
+    - <<: *ampip
+      name: XL86
+      server: *bug-XL86
+    - <<: *ampip
+      name: XL87
+      server: *bug-XL87
+    - <<: *ampip
+      name: XL88
+      server: *bug-XL88
+    - <<: *ampip
+      name: XL89
+      server: *bug-XL89
+    - <<: *ampip
+      name: XL90
+      server: *bug-XL90
+    - <<: *ampip
+      name: XL91
+      server: *bug-XL91
+    - <<: *ampip
+      name: XL92
+      server: *bug-XL92
+    - <<: *ampip
+      name: XL93
+      server: *bug-XL93
+    - <<: *ampip
+      name: XL94
+      server: *bug-XL94
+    - <<: *ampip
+      name: XL95
+      server: *bug-XL95
+    - <<: *ampip
+      name: XL96
+      server: *bug-XL96
+    - <<: *ampip
+      name: XL97
+      server: *bug-XL97
+    - <<: *ampip
+      name: XL98
+      server: *bug-XL98
+    - <<: *ampip
+      name: Isat1
+      server: *bug-Isat1
+    - <<: *ampip
+      name: Isat2
+      server: *bug-Isat2
+    - <<: *ampip
+      name: Isat3
+      server: *bug-Isat3
+    - <<: *ampip
+      name: Isat4
+      server: *bug-Isat4
+    - <<: *ampip
+      name: Isat5
+      server: *bug-Isat5
+    - <<: *ampip
+      name: Isat6
+      server: *bug-Isat6
+    - <<: *ampip
+      name: Isat7
+      server: *bug-Isat7
+    - <<: *ampip
+      name: Isat8
+      server: *bug-Isat8
+    - <<: *ampip
+      name: Isat9
+      server: *bug-Isat9
+    - <<: *ampip
+      name: Isat10
+      server: *bug-Isat10
+    - <<: *ampip
+      name: Isat11
+      server: *bug-Isat11
+    - <<: *ampip
+      name: Isat12
+      server: *bug-Isat12
+    - <<: *ampip
+      name: Isat13
+      server: *bug-Isat13
+    - <<: *ampip
+      name: Isat14
+      server: *bug-Isat14
+    - <<: *ampip
+      name: Isat15
+      server: *bug-Isat15
+    - <<: *ampip
+      name: Isat16
+      server: *bug-Isat16
+    - <<: *ampip
+      name: Isat17
+      server: *bug-Isat17
+    - <<: *ampip
+      name: Isat18
+      server: *bug-Isat18
+    - <<: *ampip
+      name: Isat19
+      server: *bug-Isat19
+    - <<: *ampip
+      name: Isat20
+      server: *bug-Isat20
+    - <<: *ampip
+      name: Isat21
+      server: *bug-Isat21
+    - <<: *ampip
+      name: Isat22
+      server: *bug-Isat22
+    - <<: *ampip
+      name: Isat23
+      server: *bug-Isat23
+    - <<: *ampip
+      name: Isat24
+      server: *bug-Isat24
+    - <<: *ampip
+      name: Isat25
+      server: *bug-Isat25
+    - <<: *ampip
+      name: Isat26
+      server: *bug-Isat26
+    - <<: *ampip
+      name: Isat27
+      server: *bug-Isat27
+    - <<: *ampip
+      name: Isat28
+      server: *bug-Isat28
+    - <<: *ampip
+      name: Isat29
+      server: *bug-Isat29
+    - <<: *ampip
+      name: Isat30
+      server: *bug-Isat30
+    - <<: *ampip
+      name: Isat31
+      server: *bug-Isat31
+    - <<: *ampip
+      name: Isat32
+      server: *bug-Isat32
+    - <<: *ampip
+      name: Isat33
+      server: *bug-Isat33
+    - <<: *ampip
+      name: Isat34
+      server: *bug-Isat34
+    - <<: *ampip
+      name: Isat35
+      server: *bug-Isat35
+    - <<: *ampip
+      name: Isat36
+      server: *bug-Isat36
+    - <<: *ampip
+      name: Isat37
+      server: *bug-Isat37
+    - <<: *ampip
+      name: Isat38
+      server: *bug-Isat38
+    - <<: *ampip
+      name: Isat39
+      server: *bug-Isat39
+    - <<: *ampip
+      name: Isat40
+      server: *bug-Isat40
+    - <<: *ampip
+      name: Isat41
+      server: *bug-Isat41
+    - <<: *ampip
+      name: Isat42
+      server: *bug-Isat42
+    - <<: *ampip
+      name: Isat43
+      server: *bug-Isat43
+    - <<: *ampip
+      name: Isat44
+      server: *bug-Isat44
+    - <<: *ampip
+      name: Isat45
+      server: *bug-Isat45
+    - <<: *ampip
+      name: Isat46
+      server: *bug-Isat46
+    - <<: *ampip
+      name: Isat47
+      server: *bug-Isat47
+    - <<: *ampip
+      name: Isat48
+      server: *bug-Isat48
+    - <<: *ampip
+      name: Isat49
+      server: *bug-Isat49
+    - <<: *ampip
+      name: Isat50
+      server: *bug-Isat50
+    - <<: *ampip
+      name: Isat51
+      server: *bug-Isat51
+    - <<: *ampip
+      name: Isat52
+      server: *bug-Isat52
+    - <<: *ampip
+      name: Isat53
+      server: *bug-Isat53
+    - <<: *ampip
+      name: Isat54
+      server: *bug-Isat54
+    - <<: *ampip
+      name: Isat55
+      server: *bug-Isat55
+    - <<: *ampip
+      name: Isat56
+      server: *bug-Isat56
+    - <<: *ampip
+      name: Isat57
+      server: *bug-Isat57
+    - <<: *ampip
+      name: Isat58
+      server: *bug-Isat58
+    - <<: *ampip
+      name: Isat59
+      server: *bug-Isat59
+    - <<: *ampip
+      name: Isat60
+      server: *bug-Isat60
+    - <<: *ampip
+      name: Isat61
+      server: *bug-Isat61
+    - <<: *ampip
+      name: Isat62
+      server: *bug-Isat62
+    - <<: *ampip
+      name: Isat63
+      server: *bug-Isat63
+    - <<: *ampip
+      name: Isat64
+      server: *bug-Isat64
+    - <<: *ampip
+      name: Isat65
+      server: *bug-Isat65
+    - <<: *ampip
+      name: Isat66
+      server: *bug-Isat66
+    - <<: *ampip
+      name: Isat67
+      server: *bug-Isat67
+    - <<: *ampip
+      name: Isat68
+      server: *bug-Isat68
+    - <<: *ampip
+      name: Isat69
+      server: *bug-Isat69
+    - <<: *ampip
+      name: Isat70
+      server: *bug-Isat70
+    - <<: *ampip
+      name: Isat71
+      server: *bug-Isat71
+    - <<: *ampip
+      name: Isat72
+      server: *bug-Isat72
+    - <<: *ampip
+      name: Isat73
+      server: *bug-Isat73
+    - <<: *ampip
+      name: Isat74
+      server: *bug-Isat74
+    - <<: *ampip
+      name: Isat75
+      server: *bug-Isat75
+    - <<: *ampip
+      name: Isat76
+      server: *bug-Isat76
+    - <<: *ampip
+      name: Smar1
+      server: *bug-Smar1
+    - <<: *ampip
+      name: Smar2
+      server: *bug-Smar2
+    - <<: *ampip
+      name: Smar3
+      server: *bug-Smar3
+    - <<: *ampip
+      name: Smar4
+      server: *bug-Smar4
+    - <<: *ampip
+      name: Smar5
+      server: *bug-Smar5
+    - <<: *ampip
+      name: Smar6
+      server: *bug-Smar6
+    - <<: *ampip
+      name: Smar7
+      server: *bug-Smar7
+    - <<: *ampip
+      name: Smar8
+      server: *bug-Smar8
+    - <<: *ampip
+      name: Smar9
+      server: *bug-Smar9
+    - <<: *ampip
+      name: Smar10
+      server: *bug-Smar10
+    - <<: *ampip
+      name: Smar11
+      server: *bug-Smar11
+    - <<: *ampip
+      name: Smar12
+      server: *bug-Smar12
+    - <<: *ampip
+      name: Smar13
+      server: *bug-Smar13
+    - <<: *ampip
+      name: Smar14
+      server: *bug-Smar14
+    - <<: *ampip
+      name: Smar15
+      server: *bug-Smar15
+    - <<: *ampip
+      name: Smar16
+      server: *bug-Smar16
+    - <<: *ampip
+      name: Smar17
+      server: *bug-Smar17
+    - <<: *ampip
+      name: Smar18
+      server: *bug-Smar18
+
+#trojan-herza
+    - &herzaip
+      <<: *basetrojan
+      name: Tsel1
+      server: *bug-Tsel1
+      password: 1ff50a30-d4be-11ed-b782-1239d0255272
+      sni: sg1.socifiles.com
+      ws-opts:
+        path: /trojanws
+        headers:
+          Host: sg1.socifiles.com
+          Early-Data: 1
+    - <<: *herzaip
+      name: Tsel2
+      server: *bug-Tsel2
+    - <<: *herzaip
+      name: Tsel3
+      server: *bug-Tsel3
+    - <<: *herzaip
+      name: Tsel4
+      server: *bug-Tsel4
+    - <<: *herzaip
+      name: Tsel5
+      server: *bug-Tsel5
+    - <<: *herzaip
+      name: Tsel6
+      server: *bug-Tsel6
+    - <<: *herzaip
+      name: Tsel7
+      server: *bug-Tsel7
+    - <<: *herzaip
+      name: Tsel8
+      server: *bug-Tsel8
+    - <<: *herzaip
+      name: Tsel9
+      server: *bug-Tsel9
+    - <<: *herzaip
+      name: Tsel10
+      server: *bug-Tsel10
+    - <<: *herzaip
+      name: Tsel11
+      server: *bug-Tsel11
+    - <<: *herzaip
+      name: Tsel12
+      server: *bug-Tsel12
+    - <<: *herzaip
+      name: Tsel13
+      server: *bug-Tsel13
+    - <<: *herzaip
+      name: Tsel14
+      server: *bug-Tsel14
+    - <<: *herzaip
+      name: Tsel15
+      server: *bug-Tsel15
+    - <<: *herzaip
+      name: Tsel16
+      server: *bug-Tsel16
+    - <<: *herzaip
+      name: Tsel17
+      server: *bug-Tsel17
+    - <<: *herzaip
+      name: Tsel18
+      server: *bug-Tsel18
+    - <<: *herzaip
+      name: Tsel19
+      server: *bug-Tsel19
+    - <<: *herzaip
+      name: Tsel20
+      server: *bug-Tsel20
+    - <<: *herzaip
+      name: Tsel21
+      server: *bug-Tsel21
+    - <<: *herzaip
+      name: Tsel22
+      server: *bug-Tsel22
+    - <<: *herzaip
+      name: Tsel23
+      server: *bug-Tsel23
+    - <<: *herzaip
+      name: Tsel24
+      server: *bug-Tsel24
+    - <<: *herzaip
+      name: Tsel25
+      server: *bug-Tsel25
+    - <<: *herzaip
+      name: Tsel26
+      server: *bug-Tsel26
+    - <<: *herzaip
+      name: Tsel27
+      server: *bug-Tsel27
+    - <<: *herzaip
+      name: Tsel28
+      server: *bug-Tsel28
+    - <<: *herzaip
+      name: Tsel29
+      server: *bug-Tsel29
+    - <<: *herzaip
+      name: Tsel30
+      server: *bug-Tsel30
+    - <<: *herzaip
+      name: Tsel31
+      server: *bug-Tsel31
+    - <<: *herzaip
+      name: Tsel32
+      server: *bug-Tsel32
+    - <<: *herzaip
+      name: Tsel33
+      server: *bug-Tsel33
+    - <<: *herzaip
+      name: Tsel34
+      server: *bug-Tsel34
+    - <<: *herzaip
+      name: Tsel35
+      server: *bug-Tsel35
+    - <<: *herzaip
+      name: Tsel36
+      server: *bug-Tsel36
+    - <<: *herzaip
+      name: Tsel37
+      server: *bug-Tsel37
+    - <<: *herzaip
+      name: Tsel38
+      server: *bug-Tsel38
+    - <<: *herzaip
+      name: Tsel39
+      server: *bug-Tsel39
+    - <<: *herzaip
+      name: Tsel40
+      server: *bug-Tsel40
+    - <<: *herzaip
+      name: Tsel41
+      server: *bug-Tsel41
+    - <<: *herzaip
+      name: Tsel42
+      server: *bug-Tsel42
+    - <<: *herzaip
+      name: Tsel43
+      server: *bug-Tsel43
+    - <<: *herzaip
+      name: Tsel44
+      server: *bug-Tsel44
+    - <<: *herzaip
+      name: Tsel45
+      server: *bug-Tsel45
+    - <<: *herzaip
+      name: Tsel46
+      server: *bug-Tsel46
+    - <<: *herzaip
+      name: Tsel47
+      server: *bug-Tsel47
+    - <<: *herzaip
+      name: Tsel48
+      server: *bug-Tsel48
+    - <<: *herzaip
+      name: Tsel49
+      server: *bug-Tsel49
+    - <<: *herzaip
+      name: Tsel50
+      server: *bug-Tsel50
+    - <<: *herzaip
+      name: Tsel51
+      server: *bug-Tsel51
+    - <<: *herzaip
+      name: Tsel52
+      server: *bug-Tsel52
+    - <<: *herzaip
+      name: Tsel53
+      server: *bug-Tsel53
+    - <<: *herzaip
+      name: Tsel54
+      server: *bug-Tsel54
+    - <<: *herzaip
+      name: Tsel55
+      server: *bug-Tsel55
+    - <<: *herzaip
+      name: Tsel56
+      server: *bug-Tsel56
+    - <<: *herzaip
+      name: Tsel57
+      server: *bug-Tsel57
+    - <<: *herzaip
+      name: Tsel58
+      server: *bug-Tsel58
+    - <<: *herzaip
+      name: Tsel59
+      server: *bug-Tsel59
+    - <<: *herzaip
+      name: Tsel60
+      server: *bug-Tsel60
+    - <<: *herzaip
+      name: Tsel61
+      server: *bug-Tsel61
+    - <<: *herzaip
+      name: Tsel62
+      server: *bug-Tsel62
+    - <<: *herzaip
+      name: Tsel63
+      server: *bug-Tsel63
+    - <<: *herzaip
+      name: Tsel64
+      server: *bug-Tsel64
+    - <<: *herzaip
+      name: Tsel65
+      server: *bug-Tsel65
+    - <<: *herzaip
+      name: Tsel66
+      server: *bug-Tsel66
+    - <<: *herzaip
+      name: Tsel67
+      server: *bug-Tsel67
+    - <<: *herzaip
+      name: Tsel68
+      server: *bug-Tsel68
+    - <<: *herzaip
+      name: Tsel69
+      server: *bug-Tsel69
+    - <<: *herzaip
+      name: Tsel70
+      server: *bug-Tsel70
+    - <<: *herzaip
+      name: Tsel71
+      server: *bug-Tsel71
+    - <<: *herzaip
+      name: Tsel72
+      server: *bug-Tsel72
+    - <<: *herzaip
+      name: Tsel73
+      server: *bug-Tsel73
+    - <<: *herzaip
+      name: Tsel74
+      server: *bug-Tsel74
+    - <<: *herzaip
+      name: Tsel75
+      server: *bug-Tsel75
+    - <<: *herzaip
+      name: Tsel76
+      server: *bug-Tsel76
+    - <<: *herzaip
+      name: Tsel77
+      server: *bug-Tsel77
+    - <<: *herzaip
+      name: Tsel78
+      server: *bug-Tsel78
+    - <<: *herzaip
+      name: Tsel79
+      server: *bug-Tsel79
+    - <<: *herzaip
+      name: Tsel80
+      server: *bug-Tsel80
+    - <<: *herzaip
+      name: Tsel81
+      server: *bug-Tsel81
+    - <<: *herzaip
+      name: Tsel82
+      server: *bug-Tsel82
+    - <<: *herzaip
+      name: Tsel83
+      server: *bug-Tsel83
+    - <<: *herzaip
+      name: Tsel84
+      server: *bug-Tsel84
+    - <<: *herzaip
+      name: Tsel85
+      server: *bug-Tsel85
+    - <<: *herzaip
+      name: Tsel86
+      server: *bug-Tsel86
+    - <<: *herzaip
+      name: Tsel87
+      server: *bug-Tsel87
+    - <<: *herzaip
+      name: Tsel88
+      server: *bug-Tsel88
+    - <<: *herzaip
+      name: Tsel89
+      server: *bug-Tsel89
+    - <<: *herzaip
+      name: Tsel90
+      server: *bug-Tsel90
+    - <<: *herzaip
+      name: Tsel91
+      server: *bug-Tsel91
+    - <<: *herzaip
+      name: Tsel92
+      server: *bug-Tsel92
+    - <<: *herzaip
+      name: Tsel93
+      server: *bug-Tsel93
+    - <<: *herzaip
+      name: Tsel94
+      server: *bug-Tsel94
+    - <<: *herzaip
+      name: Tsel95
+      server: *bug-Tsel95
+    - <<: *herzaip
+      name: Tsel96
+      server: *bug-Tsel96
+    - <<: *herzaip
+      name: Tsel97
+      server: *bug-Tsel97
+    - <<: *herzaip
+      name: Tsel98
+      server: *bug-Tsel98
+    - <<: *herzaip
+      name: Byu1
+      server: *bug-Byu1
+    - <<: *herzaip
+      name: Byu2
+      server: *bug-Byu2
+    - <<: *herzaip
+      name: Byu3
+      server: *bug-Byu3
+    - <<: *herzaip
+      name: Byu4
+      server: *bug-Byu4
+    - <<: *herzaip
+      name: Byu5
+      server: *bug-Byu5
+    - <<: *herzaip
+      name: Byu6
+      server: *bug-Byu6
+    - <<: *herzaip
+      name: Byu7
+      server: *bug-Byu7
+    - <<: *herzaip
+      name: Byu8
+      server: *bug-Byu8
+    - <<: *herzaip
+      name: Byu9
+      server: *bug-Byu9
+    - <<: *herzaip
+      name: Byu10
+      server: *bug-Byu10
+    - <<: *herzaip
+      name: Byu11
+      server: *bug-Byu11
+    - <<: *herzaip
+      name: Byu12
+      server: *bug-Byu12
+    - <<: *herzaip
+      name: Byu13
+      server: *bug-Byu13
+    - <<: *herzaip
+      name: Byu14
+      server: *bug-Byu14
+    - <<: *herzaip
+      name: Byu15
+      server: *bug-Byu15
+    - <<: *herzaip
+      name: Byu16
+      server: *bug-Byu16
+    - <<: *herzaip
+      name: Byu17
+      server: *bug-Byu17
+    - <<: *herzaip
+      name: Byu18
+      server: *bug-Byu18
+    - <<: *herzaip
+      name: Byu19
+      server: *bug-Byu19
+    - <<: *herzaip
+      name: Byu20
+      server: *bug-Byu20
+    - <<: *herzaip
+      name: Byu21
+      server: *bug-Byu21
+    - <<: *herzaip
+      name: Byu22
+      server: *bug-Byu22
+    - <<: *herzaip
+      name: Byu23
+      server: *bug-Byu23
+    - <<: *herzaip
+      name: Byu24
+      server: *bug-Byu24
+    - <<: *herzaip
+      name: Byu25
+      server: *bug-Byu25
+    - <<: *herzaip
+      name: Byu26
+      server: *bug-Byu26
+    - <<: *herzaip
+      name: Byu27
+      server: *bug-Byu27
+    - <<: *herzaip
+      name: Byu28
+      server: *bug-Byu28
+    - <<: *herzaip
+      name: Byu29
+      server: *bug-Byu29
+    - <<: *herzaip
+      name: Byu30
+      server: *bug-Byu30
+    - <<: *herzaip
+      name: Byu31
+      server: *bug-Byu31
+    - <<: *herzaip
+      name: Byu32
+      server: *bug-Byu32
+    - <<: *herzaip
+      name: Byu33
+      server: *bug-Byu33
+    - <<: *herzaip
+      name: Byu34
+      server: *bug-Byu34
+    - <<: *herzaip
+      name: Byu35
+      server: *bug-Byu35
+    - <<: *herzaip
+      name: Byu36
+      server: *bug-Byu36
+    - <<: *herzaip
+      name: Byu37
+      server: *bug-Byu37
+    - <<: *herzaip
+      name: Byu38
+      server: *bug-Byu38
+    - <<: *herzaip
+      name: Byu39
+      server: *bug-Byu39
+    - <<: *herzaip
+      name: Byu40
+      server: *bug-Byu40
+    - <<: *herzaip
+      name: Byu41
+      server: *bug-Byu41
+    - <<: *herzaip
+      name: Byu42
+      server: *bug-Byu42
+    - <<: *herzaip
+      name: Byu43
+      server: *bug-Byu43
+    - <<: *herzaip
+      name: Byu44
+      server: *bug-Byu44
+    - <<: *herzaip
+      name: Byu45
+      server: *bug-Byu45
+    - <<: *herzaip
+      name: Byu46
+      server: *bug-Byu46
+    - <<: *herzaip
+      name: Byu47
+      server: *bug-Byu47
+    - <<: *herzaip
+      name: Byu48
+      server: *bug-Byu48
+    - <<: *herzaip
+      name: Byu49
+      server: *bug-Byu49
+    - <<: *herzaip
+      name: Byu50
+      server: *bug-Byu50
+    - <<: *herzaip
+      name: Byu51
+      server: *bug-Byu51
+    - <<: *herzaip
+      name: Byu52
+      server: *bug-Byu52
+    - <<: *herzaip
+      name: Byu53
+      server: *bug-Byu53
+    - <<: *herzaip
+      name: Byu54
+      server: *bug-Byu54
+    - <<: *herzaip
+      name: Byu55
+      server: *bug-Byu55
+    - <<: *herzaip
+      name: Byu56
+      server: *bug-Byu56
+    - <<: *herzaip
+      name: Byu57
+      server: *bug-Byu57
+    - <<: *herzaip
+      name: Byu58
+      server: *bug-Byu58
+    - <<: *herzaip
+      name: Byu59
+      server: *bug-Byu59
+    - <<: *herzaip
+      name: Byu60
+      server: *bug-Byu60
+    - <<: *herzaip
+      name: Byu61
+      server: *bug-Byu61
+    - <<: *herzaip
+      name: Byu62
+      server: *bug-Byu62
+    - <<: *herzaip
+      name: Byu63
+      server: *bug-Byu63
+    - <<: *herzaip
+      name: Byu64
+      server: *bug-Byu64
+    - <<: *herzaip
+      name: Byu65
+      server: *bug-Byu65
+    - <<: *herzaip
+      name: Byu66
+      server: *bug-Byu66
+    - <<: *herzaip
+      name: Byu67
+      server: *bug-Byu67
+    - <<: *herzaip
+      name: Byu68
+      server: *bug-Byu68
+    - <<: *herzaip
+      name: Byu69
+      server: *bug-Byu69
+    - <<: *herzaip
+      name: Byu70
+      server: *bug-Byu70
+    - <<: *herzaip
+      name: Byu71
+      server: *bug-Byu71
+    - <<: *herzaip
+      name: Byu72
+      server: *bug-Byu72
+    - <<: *herzaip
+      name: Byu73
+      server: *bug-Byu73
+    - <<: *herzaip
+      name: Byu74
+      server: *bug-Byu74
+    - <<: *herzaip
+      name: Byu75
+      server: *bug-Byu75
+    - <<: *herzaip
+      name: Byu76
+      server: *bug-Byu76
+    - <<: *herzaip
+      name: Byu77
+      server: *bug-Byu77
+    - <<: *herzaip
+      name: Byu78
+      server: *bug-Byu78
+    - <<: *herzaip
+      name: Byu79
+      server: *bug-Byu79
+    - <<: *herzaip
+      name: Byu80
+      server: *bug-Byu80
+    - <<: *herzaip
+      name: Byu81
+      server: *bug-Byu81
+    - <<: *herzaip
+      name: Byu82
+      server: *bug-Byu82
+    - <<: *herzaip
+      name: Byu83
+      server: *bug-Byu83
+    - <<: *herzaip
+      name: XL1
+      server: *bug-XL1
+    - <<: *herzaip
+      name: XL2
+      server: *bug-XL2
+    - <<: *herzaip
+      name: XL3
+      server: *bug-XL3
+    - <<: *herzaip
+      name: XL4
+      server: *bug-XL4
+    - <<: *herzaip
+      name: XL5
+      server: *bug-XL5
+    - <<: *herzaip
+      name: XL6
+      server: *bug-XL6
+    - <<: *herzaip
+      name: XL7
+      server: *bug-XL7
+    - <<: *herzaip
+      name: XL8
+      server: *bug-XL8
+    - <<: *herzaip
+      name: XL9
+      server: *bug-XL9
+    - <<: *herzaip
+      name: XL10
+      server: *bug-XL10
+    - <<: *herzaip
+      name: XL11
+      server: *bug-XL11
+    - <<: *herzaip
+      name: XL12
+      server: *bug-XL12
+    - <<: *herzaip
+      name: XL13
+      server: *bug-XL13
+    - <<: *herzaip
+      name: XL14
+      server: *bug-XL14
+    - <<: *herzaip
+      name: XL15
+      server: *bug-XL15
+    - <<: *herzaip
+      name: XL16
+      server: *bug-XL16
+    - <<: *herzaip
+      name: XL17
+      server: *bug-XL17
+    - <<: *herzaip
+      name: XL18
+      server: *bug-XL18
+    - <<: *herzaip
+      name: XL19
+      server: *bug-XL19
+    - <<: *herzaip
+      name: XL20
+      server: *bug-XL20
+    - <<: *herzaip
+      name: XL21
+      server: *bug-XL21
+    - <<: *herzaip
+      name: XL22
+      server: *bug-XL22
+    - <<: *herzaip
+      name: XL23
+      server: *bug-XL23
+    - <<: *herzaip
+      name: XL24
+      server: *bug-XL24
+    - <<: *herzaip
+      name: XL25
+      server: *bug-XL25
+    - <<: *herzaip
+      name: XL26
+      server: *bug-XL26
+    - <<: *herzaip
+      name: XL27
+      server: *bug-XL27
+    - <<: *herzaip
+      name: XL28
+      server: *bug-XL28
+    - <<: *herzaip
+      name: XL29
+      server: *bug-XL29
+    - <<: *herzaip
+      name: XL30
+      server: *bug-XL30
+    - <<: *herzaip
+      name: XL31
+      server: *bug-XL31
+    - <<: *herzaip
+      name: XL32
+      server: *bug-XL32
+    - <<: *herzaip
+      name: XL33
+      server: *bug-XL33
+    - <<: *herzaip
+      name: XL34
+      server: *bug-XL34
+    - <<: *herzaip
+      name: XL35
+      server: *bug-XL35
+    - <<: *herzaip
+      name: XL36
+      server: *bug-XL36
+    - <<: *herzaip
+      name: XL37
+      server: *bug-XL37
+    - <<: *herzaip
+      name: XL38
+      server: *bug-XL38
+    - <<: *herzaip
+      name: XL39
+      server: *bug-XL39
+    - <<: *herzaip
+      name: XL40
+      server: *bug-XL40
+    - <<: *herzaip
+      name: XL41
+      server: *bug-XL41
+    - <<: *herzaip
+      name: XL42
+      server: *bug-XL42
+    - <<: *herzaip
+      name: XL43
+      server: *bug-XL43
+    - <<: *herzaip
+      name: XL44
+      server: *bug-XL44
+    - <<: *herzaip
+      name: XL45
+      server: *bug-XL45
+    - <<: *herzaip
+      name: XL46
+      server: *bug-XL46
+    - <<: *herzaip
+      name: XL47
+      server: *bug-XL47
+    - <<: *herzaip
+      name: XL48
+      server: *bug-XL48
+    - <<: *herzaip
+      name: XL49
+      server: *bug-XL49
+    - <<: *herzaip
+      name: XL50
+      server: *bug-XL50
+    - <<: *herzaip
+      name: XL51
+      server: *bug-XL51
+    - <<: *herzaip
+      name: XL52
+      server: *bug-XL52
+    - <<: *herzaip
+      name: XL53
+      server: *bug-XL53
+    - <<: *herzaip
+      name: XL54
+      server: *bug-XL54
+    - <<: *herzaip
+      name: XL55
+      server: *bug-XL55
+    - <<: *herzaip
+      name: XL56
+      server: *bug-XL56
+    - <<: *herzaip
+      name: XL57
+      server: *bug-XL57
+    - <<: *herzaip
+      name: XL58
+      server: *bug-XL58
+    - <<: *herzaip
+      name: XL59
+      server: *bug-XL59
+    - <<: *herzaip
+      name: XL60
+      server: *bug-XL60
+    - <<: *herzaip
+      name: XL61
+      server: *bug-XL61
+    - <<: *herzaip
+      name: XL62
+      server: *bug-XL62
+    - <<: *herzaip
+      name: XL63
+      server: *bug-XL63
+    - <<: *herzaip
+      name: XL64
+      server: *bug-XL64
+    - <<: *herzaip
+      name: XL65
+      server: *bug-XL65
+    - <<: *herzaip
+      name: XL66
+      server: *bug-XL66
+    - <<: *herzaip
+      name: XL67
+      server: *bug-XL67
+    - <<: *herzaip
+      name: XL68
+      server: *bug-XL68
+    - <<: *herzaip
+      name: XL69
+      server: *bug-XL69
+    - <<: *herzaip
+      name: XL70
+      server: *bug-XL70
+    - <<: *herzaip
+      name: XL71
+      server: *bug-XL71
+    - <<: *herzaip
+      name: XL72
+      server: *bug-XL72
+    - <<: *herzaip
+      name: XL73
+      server: *bug-XL73
+    - <<: *herzaip
+      name: XL74
+      server: *bug-XL74
+    - <<: *herzaip
+      name: XL75
+      server: *bug-XL75
+    - <<: *herzaip
+      name: XL76
+      server: *bug-XL76
+    - <<: *herzaip
+      name: XL77
+      server: *bug-XL77
+    - <<: *herzaip
+      name: XL78
+      server: *bug-XL78
+    - <<: *herzaip
+      name: XL79
+      server: *bug-XL79
+    - <<: *herzaip
+      name: XL80
+      server: *bug-XL80
+    - <<: *herzaip
+      name: XL81
+      server: *bug-XL81
+    - <<: *herzaip
+      name: XL82
+      server: *bug-XL82
+    - <<: *herzaip
+      name: XL83
+      server: *bug-XL83
+    - <<: *herzaip
+      name: XL84
+      server: *bug-XL84
+    - <<: *herzaip
+      name: XL85
+      server: *bug-XL85
+    - <<: *herzaip
+      name: XL86
+      server: *bug-XL86
+    - <<: *herzaip
+      name: XL87
+      server: *bug-XL87
+    - <<: *herzaip
+      name: XL88
+      server: *bug-XL88
+    - <<: *herzaip
+      name: XL89
+      server: *bug-XL89
+    - <<: *herzaip
+      name: XL90
+      server: *bug-XL90
+    - <<: *herzaip
+      name: XL91
+      server: *bug-XL91
+    - <<: *herzaip
+      name: XL92
+      server: *bug-XL92
+    - <<: *herzaip
+      name: XL93
+      server: *bug-XL93
+    - <<: *herzaip
+      name: XL94
+      server: *bug-XL94
+    - <<: *herzaip
+      name: XL95
+      server: *bug-XL95
+    - <<: *herzaip
+      name: XL96
+      server: *bug-XL96
+    - <<: *herzaip
+      name: XL97
+      server: *bug-XL97
+    - <<: *herzaip
+      name: XL98
+      server: *bug-XL98
+    - <<: *herzaip
+      name: Isat1
+      server: *bug-Isat1
+    - <<: *herzaip
+      name: Isat2
+      server: *bug-Isat2
+    - <<: *herzaip
+      name: Isat3
+      server: *bug-Isat3
+    - <<: *herzaip
+      name: Isat4
+      server: *bug-Isat4
+    - <<: *herzaip
+      name: Isat5
+      server: *bug-Isat5
+    - <<: *herzaip
+      name: Isat6
+      server: *bug-Isat6
+    - <<: *herzaip
+      name: Isat7
+      server: *bug-Isat7
+    - <<: *herzaip
+      name: Isat8
+      server: *bug-Isat8
+    - <<: *herzaip
+      name: Isat9
+      server: *bug-Isat9
+    - <<: *herzaip
+      name: Isat10
+      server: *bug-Isat10
+    - <<: *herzaip
+      name: Isat11
+      server: *bug-Isat11
+    - <<: *herzaip
+      name: Isat12
+      server: *bug-Isat12
+    - <<: *herzaip
+      name: Isat13
+      server: *bug-Isat13
+    - <<: *herzaip
+      name: Isat14
+      server: *bug-Isat14
+    - <<: *herzaip
+      name: Isat15
+      server: *bug-Isat15
+    - <<: *herzaip
+      name: Isat16
+      server: *bug-Isat16
+    - <<: *herzaip
+      name: Isat17
+      server: *bug-Isat17
+    - <<: *herzaip
+      name: Isat18
+      server: *bug-Isat18
+    - <<: *herzaip
+      name: Isat19
+      server: *bug-Isat19
+    - <<: *herzaip
+      name: Isat20
+      server: *bug-Isat20
+    - <<: *herzaip
+      name: Isat21
+      server: *bug-Isat21
+    - <<: *herzaip
+      name: Isat22
+      server: *bug-Isat22
+    - <<: *herzaip
+      name: Isat23
+      server: *bug-Isat23
+    - <<: *herzaip
+      name: Isat24
+      server: *bug-Isat24
+    - <<: *herzaip
+      name: Isat25
+      server: *bug-Isat25
+    - <<: *herzaip
+      name: Isat26
+      server: *bug-Isat26
+    - <<: *herzaip
+      name: Isat27
+      server: *bug-Isat27
+    - <<: *herzaip
+      name: Isat28
+      server: *bug-Isat28
+    - <<: *herzaip
+      name: Isat29
+      server: *bug-Isat29
+    - <<: *herzaip
+      name: Isat30
+      server: *bug-Isat30
+    - <<: *herzaip
+      name: Isat31
+      server: *bug-Isat31
+    - <<: *herzaip
+      name: Isat32
+      server: *bug-Isat32
+    - <<: *herzaip
+      name: Isat33
+      server: *bug-Isat33
+    - <<: *herzaip
+      name: Isat34
+      server: *bug-Isat34
+    - <<: *herzaip
+      name: Isat35
+      server: *bug-Isat35
+    - <<: *herzaip
+      name: Isat36
+      server: *bug-Isat36
+    - <<: *herzaip
+      name: Isat37
+      server: *bug-Isat37
+    - <<: *herzaip
+      name: Isat38
+      server: *bug-Isat38
+    - <<: *herzaip
+      name: Isat39
+      server: *bug-Isat39
+    - <<: *herzaip
+      name: Isat40
+      server: *bug-Isat40
+    - <<: *herzaip
+      name: Isat41
+      server: *bug-Isat41
+    - <<: *herzaip
+      name: Isat42
+      server: *bug-Isat42
+    - <<: *herzaip
+      name: Isat43
+      server: *bug-Isat43
+    - <<: *herzaip
+      name: Isat44
+      server: *bug-Isat44
+    - <<: *herzaip
+      name: Isat45
+      server: *bug-Isat45
+    - <<: *herzaip
+      name: Isat46
+      server: *bug-Isat46
+    - <<: *herzaip
+      name: Isat47
+      server: *bug-Isat47
+    - <<: *herzaip
+      name: Isat48
+      server: *bug-Isat48
+    - <<: *herzaip
+      name: Isat49
+      server: *bug-Isat49
+    - <<: *herzaip
+      name: Isat50
+      server: *bug-Isat50
+    - <<: *herzaip
+      name: Isat51
+      server: *bug-Isat51
+    - <<: *herzaip
+      name: Isat52
+      server: *bug-Isat52
+    - <<: *herzaip
+      name: Isat53
+      server: *bug-Isat53
+    - <<: *herzaip
+      name: Isat54
+      server: *bug-Isat54
+    - <<: *herzaip
+      name: Isat55
+      server: *bug-Isat55
+    - <<: *herzaip
+      name: Isat56
+      server: *bug-Isat56
+    - <<: *herzaip
+      name: Isat57
+      server: *bug-Isat57
+    - <<: *herzaip
+      name: Isat58
+      server: *bug-Isat58
+    - <<: *herzaip
+      name: Isat59
+      server: *bug-Isat59
+    - <<: *herzaip
+      name: Isat60
+      server: *bug-Isat60
+    - <<: *herzaip
+      name: Isat61
+      server: *bug-Isat61
+    - <<: *herzaip
+      name: Isat62
+      server: *bug-Isat62
+    - <<: *herzaip
+      name: Isat63
+      server: *bug-Isat63
+    - <<: *herzaip
+      name: Isat64
+      server: *bug-Isat64
+    - <<: *herzaip
+      name: Isat65
+      server: *bug-Isat65
+    - <<: *herzaip
+      name: Isat66
+      server: *bug-Isat66
+    - <<: *herzaip
+      name: Isat67
+      server: *bug-Isat67
+    - <<: *herzaip
+      name: Isat68
+      server: *bug-Isat68
+    - <<: *herzaip
+      name: Isat69
+      server: *bug-Isat69
+    - <<: *herzaip
+      name: Isat70
+      server: *bug-Isat70
+    - <<: *herzaip
+      name: Isat71
+      server: *bug-Isat71
+    - <<: *herzaip
+      name: Isat72
+      server: *bug-Isat72
+    - <<: *herzaip
+      name: Isat73
+      server: *bug-Isat73
+    - <<: *herzaip
+      name: Isat74
+      server: *bug-Isat74
+    - <<: *herzaip
+      name: Isat75
+      server: *bug-Isat75
+    - <<: *herzaip
+      name: Isat76
+      server: *bug-Isat76
+    - <<: *herzaip
+      name: Smar1
+      server: *bug-Smar1
+    - <<: *herzaip
+      name: Smar2
+      server: *bug-Smar2
+    - <<: *herzaip
+      name: Smar3
+      server: *bug-Smar3
+    - <<: *herzaip
+      name: Smar4
+      server: *bug-Smar4
+    - <<: *herzaip
+      name: Smar5
+      server: *bug-Smar5
+    - <<: *herzaip
+      name: Smar6
+      server: *bug-Smar6
+    - <<: *herzaip
+      name: Smar7
+      server: *bug-Smar7
+    - <<: *herzaip
+      name: Smar8
+      server: *bug-Smar8
+    - <<: *herzaip
+      name: Smar9
+      server: *bug-Smar9
+    - <<: *herzaip
+      name: Smar10
+      server: *bug-Smar10
+    - <<: *herzaip
+      name: Smar11
+      server: *bug-Smar11
+    - <<: *herzaip
+      name: Smar12
+      server: *bug-Smar12
+    - <<: *herzaip
+      name: Smar13
+      server: *bug-Smar13
+    - <<: *herzaip
+      name: Smar14
+      server: *bug-Smar14
+    - <<: *herzaip
+      name: Smar15
+      server: *bug-Smar15
+    - <<: *herzaip
+      name: Smar16
+      server: *bug-Smar16
+    - <<: *herzaip
+      name: Smar17
+      server: *bug-Smar17
+    - <<: *herzaip
+      name: Smar18
+      server: *bug-Smar18
+      
+#Shadowsock
+    - &ssip
+      <<: *basess
+      name: Tsel1
+      server: id-ss.sshmax.xyz
+      cipher: chacha20-ietf-poly1305
+      password: NGI4N2Mz
+      plugin: obfs
+      plugin-opts:
+        mode: tls
+      host: *bug-Tsel1
+      Early-Data: 1
+    - <<: *ssip
+      name: Tsel2
+      server: *bug-Tsel2
+    - <<: *ssip
+      name: Tsel3
+      server: *bug-Tsel3
+    - <<: *ssip
+      name: Tsel4
+      server: *bug-Tsel4
+    - <<: *ssip
+      name: Tsel5
+      server: *bug-Tsel5
+    - <<: *ssip
+      name: Tsel6
+      server: *bug-Tsel6
+    - <<: *ssip
+      name: Tsel7
+      server: *bug-Tsel7
+    - <<: *ssip
+      name: Tsel8
+      server: *bug-Tsel8
+    - <<: *ssip
+      name: Tsel9
+      server: *bug-Tsel9
+    - <<: *ssip
+      name: Tsel10
+      server: *bug-Tsel10
+    - <<: *ssip
+      name: Tsel11
+      server: *bug-Tsel11
+    - <<: *ssip
+      name: Tsel12
+      server: *bug-Tsel12
+    - <<: *ssip
+      name: Tsel13
+      server: *bug-Tsel13
+    - <<: *ssip
+      name: Tsel14
+      server: *bug-Tsel14
+    - <<: *ssip
+      name: Tsel15
+      server: *bug-Tsel15
+    - <<: *ssip
+      name: Tsel16
+      server: *bug-Tsel16
+    - <<: *ssip
+      name: Tsel17
+      server: *bug-Tsel17
+    - <<: *ssip
+      name: Tsel18
+      server: *bug-Tsel18
+    - <<: *ssip
+      name: Tsel19
+      server: *bug-Tsel19
+    - <<: *ssip
+      name: Tsel20
+      server: *bug-Tsel20
+    - <<: *ssip
+      name: Tsel21
+      server: *bug-Tsel21
+    - <<: *ssip
+      name: Tsel22
+      server: *bug-Tsel22
+    - <<: *ssip
+      name: Tsel23
+      server: *bug-Tsel23
+    - <<: *ssip
+      name: Tsel24
+      server: *bug-Tsel24
+    - <<: *ssip
+      name: Tsel25
+      server: *bug-Tsel25
+    - <<: *ssip
+      name: Tsel26
+      server: *bug-Tsel26
+    - <<: *ssip
+      name: Tsel27
+      server: *bug-Tsel27
+    - <<: *ssip
+      name: Tsel28
+      server: *bug-Tsel28
+    - <<: *ssip
+      name: Tsel29
+      server: *bug-Tsel29
+    - <<: *ssip
+      name: Tsel30
+      server: *bug-Tsel30
+    - <<: *ssip
+      name: Tsel31
+      server: *bug-Tsel31
+    - <<: *ssip
+      name: Tsel32
+      server: *bug-Tsel32
+    - <<: *ssip
+      name: Tsel33
+      server: *bug-Tsel33
+    - <<: *ssip
+      name: Tsel34
+      server: *bug-Tsel34
+    - <<: *ssip
+      name: Tsel35
+      server: *bug-Tsel35
+    - <<: *ssip
+      name: Tsel36
+      server: *bug-Tsel36
+    - <<: *ssip
+      name: Tsel37
+      server: *bug-Tsel37
+    - <<: *ssip
+      name: Tsel38
+      server: *bug-Tsel38
+    - <<: *ssip
+      name: Tsel39
+      server: *bug-Tsel39
+    - <<: *ssip
+      name: Tsel40
+      server: *bug-Tsel40
+    - <<: *ssip
+      name: Tsel41
+      server: *bug-Tsel41
+    - <<: *ssip
+      name: Tsel42
+      server: *bug-Tsel42
+    - <<: *ssip
+      name: Tsel43
+      server: *bug-Tsel43
+    - <<: *ssip
+      name: Tsel44
+      server: *bug-Tsel44
+    - <<: *ssip
+      name: Tsel45
+      server: *bug-Tsel45
+    - <<: *ssip
+      name: Tsel46
+      server: *bug-Tsel46
+    - <<: *ssip
+      name: Tsel47
+      server: *bug-Tsel47
+    - <<: *ssip
+      name: Tsel48
+      server: *bug-Tsel48
+    - <<: *ssip
+      name: Tsel49
+      server: *bug-Tsel49
+    - <<: *ssip
+      name: Tsel50
+      server: *bug-Tsel50
+    - <<: *ssip
+      name: Tsel51
+      server: *bug-Tsel51
+    - <<: *ssip
+      name: Tsel52
+      server: *bug-Tsel52
+    - <<: *ssip
+      name: Tsel53
+      server: *bug-Tsel53
+    - <<: *ssip
+      name: Tsel54
+      server: *bug-Tsel54
+    - <<: *ssip
+      name: Tsel55
+      server: *bug-Tsel55
+    - <<: *ssip
+      name: Tsel56
+      server: *bug-Tsel56
+    - <<: *ssip
+      name: Tsel57
+      server: *bug-Tsel57
+    - <<: *ssip
+      name: Tsel58
+      server: *bug-Tsel58
+    - <<: *ssip
+      name: Tsel59
+      server: *bug-Tsel59
+    - <<: *ssip
+      name: Tsel60
+      server: *bug-Tsel60
+    - <<: *ssip
+      name: Tsel61
+      server: *bug-Tsel61
+    - <<: *ssip
+      name: Tsel62
+      server: *bug-Tsel62
+    - <<: *ssip
+      name: Tsel63
+      server: *bug-Tsel63
+    - <<: *ssip
+      name: Tsel64
+      server: *bug-Tsel64
+    - <<: *ssip
+      name: Tsel65
+      server: *bug-Tsel65
+    - <<: *ssip
+      name: Tsel66
+      server: *bug-Tsel66
+    - <<: *ssip
+      name: Tsel67
+      server: *bug-Tsel67
+    - <<: *ssip
+      name: Tsel68
+      server: *bug-Tsel68
+    - <<: *ssip
+      name: Tsel69
+      server: *bug-Tsel69
+    - <<: *ssip
+      name: Tsel70
+      server: *bug-Tsel70
+    - <<: *ssip
+      name: Tsel71
+      server: *bug-Tsel71
+    - <<: *ssip
+      name: Tsel72
+      server: *bug-Tsel72
+    - <<: *ssip
+      name: Tsel73
+      server: *bug-Tsel73
+    - <<: *ssip
+      name: Tsel74
+      server: *bug-Tsel74
+    - <<: *ssip
+      name: Tsel75
+      server: *bug-Tsel75
+    - <<: *ssip
+      name: Tsel76
+      server: *bug-Tsel76
+    - <<: *ssip
+      name: Tsel77
+      server: *bug-Tsel77
+    - <<: *ssip
+      name: Tsel78
+      server: *bug-Tsel78
+    - <<: *ssip
+      name: Tsel79
+      server: *bug-Tsel79
+    - <<: *ssip
+      name: Tsel80
+      server: *bug-Tsel80
+    - <<: *ssip
+      name: Tsel81
+      server: *bug-Tsel81
+    - <<: *ssip
+      name: Tsel82
+      server: *bug-Tsel82
+    - <<: *ssip
+      name: Tsel83
+      server: *bug-Tsel83
+    - <<: *ssip
+      name: Tsel84
+      server: *bug-Tsel84
+    - <<: *ssip
+      name: Tsel85
+      server: *bug-Tsel85
+    - <<: *ssip
+      name: Tsel86
+      server: *bug-Tsel86
+    - <<: *ssip
+      name: Tsel87
+      server: *bug-Tsel87
+    - <<: *ssip
+      name: Tsel88
+      server: *bug-Tsel88
+    - <<: *ssip
+      name: Tsel89
+      server: *bug-Tsel89
+    - <<: *ssip
+      name: Tsel90
+      server: *bug-Tsel90
+    - <<: *ssip
+      name: Tsel91
+      server: *bug-Tsel91
+    - <<: *ssip
+      name: Tsel92
+      server: *bug-Tsel92
+    - <<: *ssip
+      name: Tsel93
+      server: *bug-Tsel93
+    - <<: *ssip
+      name: Tsel94
+      server: *bug-Tsel94
+    - <<: *ssip
+      name: Tsel95
+      server: *bug-Tsel95
+    - <<: *ssip
+      name: Tsel96
+      server: *bug-Tsel96
+    - <<: *ssip
+      name: Tsel97
+      server: *bug-Tsel97
+    - <<: *ssip
+      name: Tsel98
+      server: *bug-Tsel98
+    - <<: *ssip
+      name: Byu1
+      server: *bug-Byu1
+    - <<: *ssip
+      name: Byu2
+      server: *bug-Byu2
+    - <<: *ssip
+      name: Byu3
+      server: *bug-Byu3
+    - <<: *ssip
+      name: Byu4
+      server: *bug-Byu4
+    - <<: *ssip
+      name: Byu5
+      server: *bug-Byu5
+    - <<: *ssip
+      name: Byu6
+      server: *bug-Byu6
+    - <<: *ssip
+      name: Byu7
+      server: *bug-Byu7
+    - <<: *ssip
+      name: Byu8
+      server: *bug-Byu8
+    - <<: *ssip
+      name: Byu9
+      server: *bug-Byu9
+    - <<: *ssip
+      name: Byu10
+      server: *bug-Byu10
+    - <<: *ssip
+      name: Byu11
+      server: *bug-Byu11
+    - <<: *ssip
+      name: Byu12
+      server: *bug-Byu12
+    - <<: *ssip
+      name: Byu13
+      server: *bug-Byu13
+    - <<: *ssip
+      name: Byu14
+      server: *bug-Byu14
+    - <<: *ssip
+      name: Byu15
+      server: *bug-Byu15
+    - <<: *ssip
+      name: Byu16
+      server: *bug-Byu16
+    - <<: *ssip
+      name: Byu17
+      server: *bug-Byu17
+    - <<: *ssip
+      name: Byu18
+      server: *bug-Byu18
+    - <<: *ssip
+      name: Byu19
+      server: *bug-Byu19
+    - <<: *ssip
+      name: Byu20
+      server: *bug-Byu20
+    - <<: *ssip
+      name: Byu21
+      server: *bug-Byu21
+    - <<: *ssip
+      name: Byu22
+      server: *bug-Byu22
+    - <<: *ssip
+      name: Byu23
+      server: *bug-Byu23
+    - <<: *ssip
+      name: Byu24
+      server: *bug-Byu24
+    - <<: *ssip
+      name: Byu25
+      server: *bug-Byu25
+    - <<: *ssip
+      name: Byu26
+      server: *bug-Byu26
+    - <<: *ssip
+      name: Byu27
+      server: *bug-Byu27
+    - <<: *ssip
+      name: Byu28
+      server: *bug-Byu28
+    - <<: *ssip
+      name: Byu29
+      server: *bug-Byu29
+    - <<: *ssip
+      name: Byu30
+      server: *bug-Byu30
+    - <<: *ssip
+      name: Byu31
+      server: *bug-Byu31
+    - <<: *ssip
+      name: Byu32
+      server: *bug-Byu32
+    - <<: *ssip
+      name: Byu33
+      server: *bug-Byu33
+    - <<: *ssip
+      name: Byu34
+      server: *bug-Byu34
+    - <<: *ssip
+      name: Byu35
+      server: *bug-Byu35
+    - <<: *ssip
+      name: Byu36
+      server: *bug-Byu36
+    - <<: *ssip
+      name: Byu37
+      server: *bug-Byu37
+    - <<: *ssip
+      name: Byu38
+      server: *bug-Byu38
+    - <<: *ssip
+      name: Byu39
+      server: *bug-Byu39
+    - <<: *ssip
+      name: Byu40
+      server: *bug-Byu40
+    - <<: *ssip
+      name: Byu41
+      server: *bug-Byu41
+    - <<: *ssip
+      name: Byu42
+      server: *bug-Byu42
+    - <<: *ssip
+      name: Byu43
+      server: *bug-Byu43
+    - <<: *ssip
+      name: Byu44
+      server: *bug-Byu44
+    - <<: *ssip
+      name: Byu45
+      server: *bug-Byu45
+    - <<: *ssip
+      name: Byu46
+      server: *bug-Byu46
+    - <<: *ssip
+      name: Byu47
+      server: *bug-Byu47
+    - <<: *ssip
+      name: Byu48
+      server: *bug-Byu48
+    - <<: *ssip
+      name: Byu49
+      server: *bug-Byu49
+    - <<: *ssip
+      name: Byu50
+      server: *bug-Byu50
+    - <<: *ssip
+      name: Byu51
+      server: *bug-Byu51
+    - <<: *ssip
+      name: Byu52
+      server: *bug-Byu52
+    - <<: *ssip
+      name: Byu53
+      server: *bug-Byu53
+    - <<: *ssip
+      name: Byu54
+      server: *bug-Byu54
+    - <<: *ssip
+      name: Byu55
+      server: *bug-Byu55
+    - <<: *ssip
+      name: Byu56
+      server: *bug-Byu56
+    - <<: *ssip
+      name: Byu57
+      server: *bug-Byu57
+    - <<: *ssip
+      name: Byu58
+      server: *bug-Byu58
+    - <<: *ssip
+      name: Byu59
+      server: *bug-Byu59
+    - <<: *ssip
+      name: Byu60
+      server: *bug-Byu60
+    - <<: *ssip
+      name: Byu61
+      server: *bug-Byu61
+    - <<: *ssip
+      name: Byu62
+      server: *bug-Byu62
+    - <<: *ssip
+      name: Byu63
+      server: *bug-Byu63
+    - <<: *ssip
+      name: Byu64
+      server: *bug-Byu64
+    - <<: *ssip
+      name: Byu65
+      server: *bug-Byu65
+    - <<: *ssip
+      name: Byu66
+      server: *bug-Byu66
+    - <<: *ssip
+      name: Byu67
+      server: *bug-Byu67
+    - <<: *ssip
+      name: Byu68
+      server: *bug-Byu68
+    - <<: *ssip
+      name: Byu69
+      server: *bug-Byu69
+    - <<: *ssip
+      name: Byu70
+      server: *bug-Byu70
+    - <<: *ssip
+      name: Byu71
+      server: *bug-Byu71
+    - <<: *ssip
+      name: Byu72
+      server: *bug-Byu72
+    - <<: *ssip
+      name: Byu73
+      server: *bug-Byu73
+    - <<: *ssip
+      name: Byu74
+      server: *bug-Byu74
+    - <<: *ssip
+      name: Byu75
+      server: *bug-Byu75
+    - <<: *ssip
+      name: Byu76
+      server: *bug-Byu76
+    - <<: *ssip
+      name: Byu77
+      server: *bug-Byu77
+    - <<: *ssip
+      name: Byu78
+      server: *bug-Byu78
+    - <<: *ssip
+      name: Byu79
+      server: *bug-Byu79
+    - <<: *ssip
+      name: Byu80
+      server: *bug-Byu80
+    - <<: *ssip
+      name: Byu81
+      server: *bug-Byu81
+    - <<: *ssip
+      name: Byu82
+      server: *bug-Byu82
+    - <<: *ssip
+      name: Byu83
+      server: *bug-Byu83
+    - <<: *ssip
+      name: XL1
+      server: *bug-XL1
+    - <<: *ssip
+      name: XL2
+      server: *bug-XL2
+    - <<: *ssip
+      name: XL3
+      server: *bug-XL3
+    - <<: *ssip
+      name: XL4
+      server: *bug-XL4
+    - <<: *ssip
+      name: XL5
+      server: *bug-XL5
+    - <<: *ssip
+      name: XL6
+      server: *bug-XL6
+    - <<: *ssip
+      name: XL7
+      server: *bug-XL7
+    - <<: *ssip
+      name: XL8
+      server: *bug-XL8
+    - <<: *ssip
+      name: XL9
+      server: *bug-XL9
+    - <<: *ssip
+      name: XL10
+      server: *bug-XL10
+    - <<: *ssip
+      name: XL11
+      server: *bug-XL11
+    - <<: *ssip
+      name: XL12
+      server: *bug-XL12
+    - <<: *ssip
+      name: XL13
+      server: *bug-XL13
+    - <<: *ssip
+      name: XL14
+      server: *bug-XL14
+    - <<: *ssip
+      name: XL15
+      server: *bug-XL15
+    - <<: *ssip
+      name: XL16
+      server: *bug-XL16
+    - <<: *ssip
+      name: XL17
+      server: *bug-XL17
+    - <<: *ssip
+      name: XL18
+      server: *bug-XL18
+    - <<: *ssip
+      name: XL19
+      server: *bug-XL19
+    - <<: *ssip
+      name: XL20
+      server: *bug-XL20
+    - <<: *ssip
+      name: XL21
+      server: *bug-XL21
+    - <<: *ssip
+      name: XL22
+      server: *bug-XL22
+    - <<: *ssip
+      name: XL23
+      server: *bug-XL23
+    - <<: *ssip
+      name: XL24
+      server: *bug-XL24
+    - <<: *ssip
+      name: XL25
+      server: *bug-XL25
+    - <<: *ssip
+      name: XL26
+      server: *bug-XL26
+    - <<: *ssip
+      name: XL27
+      server: *bug-XL27
+    - <<: *ssip
+      name: XL28
+      server: *bug-XL28
+    - <<: *ssip
+      name: XL29
+      server: *bug-XL29
+    - <<: *ssip
+      name: XL30
+      server: *bug-XL30
+    - <<: *ssip
+      name: XL31
+      server: *bug-XL31
+    - <<: *ssip
+      name: XL32
+      server: *bug-XL32
+    - <<: *ssip
+      name: XL33
+      server: *bug-XL33
+    - <<: *ssip
+      name: XL34
+      server: *bug-XL34
+    - <<: *ssip
+      name: XL35
+      server: *bug-XL35
+    - <<: *ssip
+      name: XL36
+      server: *bug-XL36
+    - <<: *ssip
+      name: XL37
+      server: *bug-XL37
+    - <<: *ssip
+      name: XL38
+      server: *bug-XL38
+    - <<: *ssip
+      name: XL39
+      server: *bug-XL39
+    - <<: *ssip
+      name: XL40
+      server: *bug-XL40
+    - <<: *ssip
+      name: XL41
+      server: *bug-XL41
+    - <<: *ssip
+      name: XL42
+      server: *bug-XL42
+    - <<: *ssip
+      name: XL43
+      server: *bug-XL43
+    - <<: *ssip
+      name: XL44
+      server: *bug-XL44
+    - <<: *ssip
+      name: XL45
+      server: *bug-XL45
+    - <<: *ssip
+      name: XL46
+      server: *bug-XL46
+    - <<: *ssip
+      name: XL47
+      server: *bug-XL47
+    - <<: *ssip
+      name: XL48
+      server: *bug-XL48
+    - <<: *ssip
+      name: XL49
+      server: *bug-XL49
+    - <<: *ssip
+      name: XL50
+      server: *bug-XL50
+    - <<: *ssip
+      name: XL51
+      server: *bug-XL51
+    - <<: *ssip
+      name: XL52
+      server: *bug-XL52
+    - <<: *ssip
+      name: XL53
+      server: *bug-XL53
+    - <<: *ssip
+      name: XL54
+      server: *bug-XL54
+    - <<: *ssip
+      name: XL55
+      server: *bug-XL55
+    - <<: *ssip
+      name: XL56
+      server: *bug-XL56
+    - <<: *ssip
+      name: XL57
+      server: *bug-XL57
+    - <<: *ssip
+      name: XL58
+      server: *bug-XL58
+    - <<: *ssip
+      name: XL59
+      server: *bug-XL59
+    - <<: *ssip
+      name: XL60
+      server: *bug-XL60
+    - <<: *ssip
+      name: XL61
+      server: *bug-XL61
+    - <<: *ssip
+      name: XL62
+      server: *bug-XL62
+    - <<: *ssip
+      name: XL63
+      server: *bug-XL63
+    - <<: *ssip
+      name: XL64
+      server: *bug-XL64
+    - <<: *ssip
+      name: XL65
+      server: *bug-XL65
+    - <<: *ssip
+      name: XL66
+      server: *bug-XL66
+    - <<: *ssip
+      name: XL67
+      server: *bug-XL67
+    - <<: *ssip
+      name: XL68
+      server: *bug-XL68
+    - <<: *ssip
+      name: XL69
+      server: *bug-XL69
+    - <<: *ssip
+      name: XL70
+      server: *bug-XL70
+    - <<: *ssip
+      name: XL71
+      server: *bug-XL71
+    - <<: *ssip
+      name: XL72
+      server: *bug-XL72
+    - <<: *ssip
+      name: XL73
+      server: *bug-XL73
+    - <<: *ssip
+      name: XL74
+      server: *bug-XL74
+    - <<: *ssip
+      name: XL75
+      server: *bug-XL75
+    - <<: *ssip
+      name: XL76
+      server: *bug-XL76
+    - <<: *ssip
+      name: XL77
+      server: *bug-XL77
+    - <<: *ssip
+      name: XL78
+      server: *bug-XL78
+    - <<: *ssip
+      name: XL79
+      server: *bug-XL79
+    - <<: *ssip
+      name: XL80
+      server: *bug-XL80
+    - <<: *ssip
+      name: XL81
+      server: *bug-XL81
+    - <<: *ssip
+      name: XL82
+      server: *bug-XL82
+    - <<: *ssip
+      name: XL83
+      server: *bug-XL83
+    - <<: *ssip
+      name: XL84
+      server: *bug-XL84
+    - <<: *ssip
+      name: XL85
+      server: *bug-XL85
+    - <<: *ssip
+      name: XL86
+      server: *bug-XL86
+    - <<: *ssip
+      name: XL87
+      server: *bug-XL87
+    - <<: *ssip
+      name: XL88
+      server: *bug-XL88
+    - <<: *ssip
+      name: XL89
+      server: *bug-XL89
+    - <<: *ssip
+      name: XL90
+      server: *bug-XL90
+    - <<: *ssip
+      name: XL91
+      server: *bug-XL91
+    - <<: *ssip
+      name: XL92
+      server: *bug-XL92
+    - <<: *ssip
+      name: XL93
+      server: *bug-XL93
+    - <<: *ssip
+      name: XL94
+      server: *bug-XL94
+    - <<: *ssip
+      name: XL95
+      server: *bug-XL95
+    - <<: *ssip
+      name: XL96
+      server: *bug-XL96
+    - <<: *ssip
+      name: XL97
+      server: *bug-XL97
+    - <<: *ssip
+      name: XL98
+      server: *bug-XL98
+    - <<: *ssip
+      name: Isat1
+      server: *bug-Isat1
+    - <<: *ssip
+      name: Isat2
+      server: *bug-Isat2
+    - <<: *ssip
+      name: Isat3
+      server: *bug-Isat3
+    - <<: *ssip
+      name: Isat4
+      server: *bug-Isat4
+    - <<: *ssip
+      name: Isat5
+      server: *bug-Isat5
+    - <<: *ssip
+      name: Isat6
+      server: *bug-Isat6
+    - <<: *ssip
+      name: Isat7
+      server: *bug-Isat7
+    - <<: *ssip
+      name: Isat8
+      server: *bug-Isat8
+    - <<: *ssip
+      name: Isat9
+      server: *bug-Isat9
+    - <<: *ssip
+      name: Isat10
+      server: *bug-Isat10
+    - <<: *ssip
+      name: Isat11
+      server: *bug-Isat11
+    - <<: *ssip
+      name: Isat12
+      server: *bug-Isat12
+    - <<: *ssip
+      name: Isat13
+      server: *bug-Isat13
+    - <<: *ssip
+      name: Isat14
+      server: *bug-Isat14
+    - <<: *ssip
+      name: Isat15
+      server: *bug-Isat15
+    - <<: *ssip
+      name: Isat16
+      server: *bug-Isat16
+    - <<: *ssip
+      name: Isat17
+      server: *bug-Isat17
+    - <<: *ssip
+      name: Isat18
+      server: *bug-Isat18
+    - <<: *ssip
+      name: Isat19
+      server: *bug-Isat19
+    - <<: *ssip
+      name: Isat20
+      server: *bug-Isat20
+    - <<: *ssip
+      name: Isat21
+      server: *bug-Isat21
+    - <<: *ssip
+      name: Isat22
+      server: *bug-Isat22
+    - <<: *ssip
+      name: Isat23
+      server: *bug-Isat23
+    - <<: *ssip
+      name: Isat24
+      server: *bug-Isat24
+    - <<: *ssip
+      name: Isat25
+      server: *bug-Isat25
+    - <<: *ssip
+      name: Isat26
+      server: *bug-Isat26
+    - <<: *ssip
+      name: Isat27
+      server: *bug-Isat27
+    - <<: *ssip
+      name: Isat28
+      server: *bug-Isat28
+    - <<: *ssip
+      name: Isat29
+      server: *bug-Isat29
+    - <<: *ssip
+      name: Isat30
+      server: *bug-Isat30
+    - <<: *ssip
+      name: Isat31
+      server: *bug-Isat31
+    - <<: *ssip
+      name: Isat32
+      server: *bug-Isat32
+    - <<: *ssip
+      name: Isat33
+      server: *bug-Isat33
+    - <<: *ssip
+      name: Isat34
+      server: *bug-Isat34
+    - <<: *ssip
+      name: Isat35
+      server: *bug-Isat35
+    - <<: *ssip
+      name: Isat36
+      server: *bug-Isat36
+    - <<: *ssip
+      name: Isat37
+      server: *bug-Isat37
+    - <<: *ssip
+      name: Isat38
+      server: *bug-Isat38
+    - <<: *ssip
+      name: Isat39
+      server: *bug-Isat39
+    - <<: *ssip
+      name: Isat40
+      server: *bug-Isat40
+    - <<: *ssip
+      name: Isat41
+      server: *bug-Isat41
+    - <<: *ssip
+      name: Isat42
+      server: *bug-Isat42
+    - <<: *ssip
+      name: Isat43
+      server: *bug-Isat43
+    - <<: *ssip
+      name: Isat44
+      server: *bug-Isat44
+    - <<: *ssip
+      name: Isat45
+      server: *bug-Isat45
+    - <<: *ssip
+      name: Isat46
+      server: *bug-Isat46
+    - <<: *ssip
+      name: Isat47
+      server: *bug-Isat47
+    - <<: *ssip
+      name: Isat48
+      server: *bug-Isat48
+    - <<: *ssip
+      name: Isat49
+      server: *bug-Isat49
+    - <<: *ssip
+      name: Isat50
+      server: *bug-Isat50
+    - <<: *ssip
+      name: Isat51
+      server: *bug-Isat51
+    - <<: *ssip
+      name: Isat52
+      server: *bug-Isat52
+    - <<: *ssip
+      name: Isat53
+      server: *bug-Isat53
+    - <<: *ssip
+      name: Isat54
+      server: *bug-Isat54
+    - <<: *ssip
+      name: Isat55
+      server: *bug-Isat55
+    - <<: *ssip
+      name: Isat56
+      server: *bug-Isat56
+    - <<: *ssip
+      name: Isat57
+      server: *bug-Isat57
+    - <<: *ssip
+      name: Isat58
+      server: *bug-Isat58
+    - <<: *ssip
+      name: Isat59
+      server: *bug-Isat59
+    - <<: *ssip
+      name: Isat60
+      server: *bug-Isat60
+    - <<: *ssip
+      name: Isat61
+      server: *bug-Isat61
+    - <<: *ssip
+      name: Isat62
+      server: *bug-Isat62
+    - <<: *ssip
+      name: Isat63
+      server: *bug-Isat63
+    - <<: *ssip
+      name: Isat64
+      server: *bug-Isat64
+    - <<: *ssip
+      name: Isat65
+      server: *bug-Isat65
+    - <<: *ssip
+      name: Isat66
+      server: *bug-Isat66
+    - <<: *ssip
+      name: Isat67
+      server: *bug-Isat67
+    - <<: *ssip
+      name: Isat68
+      server: *bug-Isat68
+    - <<: *ssip
+      name: Isat69
+      server: *bug-Isat69
+    - <<: *ssip
+      name: Isat70
+      server: *bug-Isat70
+    - <<: *ssip
+      name: Isat71
+      server: *bug-Isat71
+    - <<: *ssip
+      name: Isat72
+      server: *bug-Isat72
+    - <<: *ssip
+      name: Isat73
+      server: *bug-Isat73
+    - <<: *ssip
+      name: Isat74
+      server: *bug-Isat74
+    - <<: *ssip
+      name: Isat75
+      server: *bug-Isat75
+    - <<: *ssip
+      name: Isat76
+      server: *bug-Isat76
+    - <<: *ssip
+      name: Smar1
+      server: *bug-Smar1
+    - <<: *ssip
+      name: Smar2
+      server: *bug-Smar2
+    - <<: *ssip
+      name: Smar3
+      server: *bug-Smar3
+    - <<: *ssip
+      name: Smar4
+      server: *bug-Smar4
+    - <<: *ssip
+      name: Smar5
+      server: *bug-Smar5
+    - <<: *ssip
+      name: Smar6
+      server: *bug-Smar6
+    - <<: *ssip
+      name: Smar7
+      server: *bug-Smar7
+    - <<: *ssip
+      name: Smar8
+      server: *bug-Smar8
+    - <<: *ssip
+      name: Smar9
+      server: *bug-Smar9
+    - <<: *ssip
+      name: Smar10
+      server: *bug-Smar10
+    - <<: *ssip
+      name: Smar11
+      server: *bug-Smar11
+    - <<: *ssip
+      name: Smar12
+      server: *bug-Smar12
+    - <<: *ssip
+      name: Smar13
+      server: *bug-Smar13
+    - <<: *ssip
+      name: Smar14
+      server: *bug-Smar14
+    - <<: *ssip
+      name: Smar15
+      server: *bug-Smar15
+    - <<: *ssip
+      name: Smar16
+      server: *bug-Smar16
+    - <<: *ssip
+      name: Smar17
+      server: *bug-Smar17
+    - <<: *ssip
+      name: Smar18
+      server: *bug-Smar18
