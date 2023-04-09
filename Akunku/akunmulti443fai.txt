@@ -426,12 +426,12 @@ proxies:
       name: Tsel1
       server: *bug-Tsel1 
       port: 443
-      uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-      servername: sg2-v2ray.sshkit.org
+      uuid: f4f3bf22-b015-49ee-b04e-814c43d7cfb0
+      servername: w5mv6f.scsidklongtong.tech
       ws-opts:
-        path: /sshkit/439427127/642f26c604981/
+        path: /vmess
         headers:
-          Host: sg2-v2ray.sshkit.org
+          Host: w5mv6f.scsidklongtong.tech
           Early-Data: 1
     - <<: *Fmess
       name: Tsel2
@@ -1555,7 +1555,7 @@ proxies:
       <<: *basetrojan
       name: Tsel1
       server: *bug-Tsel1
-      password: opentunnel.net-perjaka99
+      password: opentunnel.net-perjaka88
       sni: idt-1.opensvr.net
       ws-opts:
         path: /trojan
@@ -3812,13 +3812,13 @@ proxies:
     - &ssip
       <<: *basess
       name: Tsel1
-      server: id-ss.sshmax.xyz
+      server: *bug-Tsel1
       cipher: chacha20-ietf-poly1305
       password: NGI4N2Mz
       plugin: obfs
       plugin-opts:
         mode: tls
-      host: *bug-Tsel1
+      host: id-ss.sshmax.xyz
       Early-Data: 1
     - <<: *ssip
       name: Tsel2
