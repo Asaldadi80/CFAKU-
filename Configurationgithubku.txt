@@ -1,0 +1,563 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+tproxy-port: 9001
+ipv6: false
+mode: rule
+log-level: silent
+allow-lan: true
+external-controller: 0.0.0.0:9090
+secret: ""
+bind-address: "*"
+unified-delay: true
+tun:
+  enable: true
+  stack: system
+  dns-hijack:
+  - tcp://8.8.8.8:53
+  - tcp://8.8.4.4:53
+profile:
+  store-selected: true
+  store-fake-ip: true
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: redir-host
+  listen: 127.0.0.1:7874
+  nameserver:
+    - 8.8.8.8
+    - 1.0.0.1
+    - https://dns.google/dns-query
+  fallback:
+    - 1.1.1.1
+    - 8.8.4.4
+    - https://cloudflare-dns.com/dns-query
+    - 112.215.203.254
+  default-nameserver:
+    - 8.8.8.8
+    - 1.1.1.1
+    - 112.215.203.254
+proxies:
+proxy-groups:
+  - name: ALLSTORE
+    type: select
+    proxies:
+      - Best-PingVmess
+      - Best-PingTrojan
+      - Best-PingMulti443
+      - LBMulti443
+      - LBVmess
+      - LBTrojan
+      - FallbackVmess
+      - FallbackTrojan
+      - FallbackSI
+      - LBSI
+      - FallbackMulti443
+      - MULTI443
+      - MULTI80
+      - VMESS
+      - TROJAN
+      - Best-PingFBSI
+      - LBFBSI
+      - FallbackFBSI
+      - RELAY-TRAFFIC
+      - DIRECT
+  - name: VMESS
+    type: select
+    use:
+      - akunvmess
+  - name: TROJAN
+    type: select
+    use:
+      - akuntrojan
+  - name: MULTI443
+    type: select
+    use:
+      - akunmulti443
+  - name: MULTI80
+    type: select
+    use:
+      - akunmulti80
+  - name: Best-PingVmess
+    type: url-test
+    url: http://hi.bonds.id/ping
+    interval: 60
+    tolerance: 50
+    use:
+      - akunvmess
+  - name: Best-PingTrojan
+    type: url-test
+    url: http://hi.bonds.id/ping
+    interval: 60
+    tolerance: 50
+    use:
+      - akuntrojan
+  - name: LBVmess
+    type: load-balance
+    strategy: round-robin
+    url: http://www.gstatic.com/generate_204
+    interval: 60
+    use:
+      - akunvmess
+  - name: LBTrojan
+    type: load-balance
+    strategy: round-robin
+    url: http://www.gstatic.com/generate_204
+    interval: 60
+    use:
+      - akuntrojan
+  - name: FallbackVmess
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 60
+    use:
+      - akunvmess
+  - name: FallbackTrojan
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 60
+    use:
+      - akuntrojan
+  - name: LBSI
+    type: load-balance
+    strategy: round-robin
+    url: http://www.gstatic.com/generate_204
+    interval: 60
+    use:
+      - akuntrojan
+      - akunvmess
+  - name: FallbackSI
+    type: fallback
+    strategy: round-robin
+    url: http://www.gstatic.com/generate_204
+    interval: 60
+    use:
+      - akuntrojan
+      - akunvmess
+  - name: Best-PingMulti443
+    type: url-test
+    url: http://hi.bonds.id/ping
+    interval: 120
+    tolerance: 50
+    use:
+      - akunmulti443
+  - name: FallbackMulti443
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 60
+    use:
+      - akunmulti443
+  - name: LBMulti443
+    type: load-balance
+    strategy: round-robin
+    url: http://www.gstatic.com/generate_204
+    interval: 60
+    use:
+      - akunmulti443
+  - name: LBFBSI
+    type: load-balance
+    strategy: round-robin
+    url: http://www.gstatic.com/generate_204
+    interval: 60
+    use:
+      - akuntrojan
+      - akunvmess
+      - akunmulti443
+      - akunmulti80
+  - name: FallbackFBSI
+    type: fallback
+    strategy: round-robin
+    url: http://www.gstatic.com/generate_204
+    interval: 60
+    use:
+      - akuntrojan
+      - akunvmess
+      - akunmulti443
+      - akunmulti80
+  - name: Best-PingFBSI
+    type: url-test
+    url: http://hi.bonds.id/ping
+    interval: 60
+    tolerance: 50
+    use:
+      - akuntrojan
+      - akunvmess
+      - akunmulti443
+  - name: RELAY-TRAFFIC
+    type: relay
+    disable-udp: false
+    proxies:
+      - VMESS
+      - TROJAN
+      - MULTI443
+     
+proxy-providers:
+  akunvmess:
+    type: http
+    behavior: classical
+    path: ./akunvmess.txt
+    url: https://raw.githubusercontent.com/Asaldadi80/Clash/main/akunvmess.txt
+    health-check:
+      enable: true
+      url: http://cp.cloudflare.com/generate_204
+      interval: 3600
+  akuntrojan:
+    type: http
+    behavior: classical
+    path: ./akuntrojan.txt
+    url: https://raw.githubusercontent.com/Asaldadi80/Clash/main/akuntrojan.txt
+    health-check:
+      enable: true
+      url: http://cp.cloudflare.com/generate_204
+      interval: 3600
+  akunmulti443:
+    type: http
+    behavior: classical
+    path: ./akunmulti443.txt
+    url: https://raw.githubusercontent.com/Asaldadi80/Clash/main/akunmulti443.txt
+    health-check:
+      enable: true
+      url: http://cp.cloudflare.com/generate_204
+      interval: 3600
+  akunmulti80:
+    type: http
+    behavior: classical
+    path: ./akunmulti80.txt
+    url: https://raw.githubusercontent.com/Asaldadi80/Clash/main/akunmulti80.txt
+    health-check:
+      enable: true
+      url: http://cp.cloudflare.com/generate_204
+      interval: 3600
+
+  # Rule Providers
+# Check time conversion here https://www.timecalculator.net/hours-to-seconds
+rules-providers:
+  AnyDesk:
+    type: http
+    behavior: classical
+    path: "./AnyDesk.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/AnyDesk.yaml
+    interval: 86400 # Update rules every 24 hours
+  BCA_Mobile:
+    type: http
+    behavior: classical
+    path: "./XL_Akrab.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/BCA_Mobile.yaml
+    interval: 86400 # Update rules every 24 hours
+  BeforeAdblock:
+    type: http
+    behavior: classical
+    path: "./BeforeAdblock.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/BeforeAdblock.yaml
+    interval: 86400 # Update rules every 24 hours
+  BlokIklan:
+    type: http
+    behavior: classical
+    path: "./BlokIklan.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/BlokIklan.yaml
+    interval: 86400 # Update rules every 24 hours
+  Discord_Global:
+    type: http
+    behavior: classical
+    path: "./Discord_Global.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Discord_Global.yaml
+    interval: 86400 # Update rules every 24 hours
+  Discord_Ports:
+    type: http
+    behavior: classical
+    path: "./Discord_Ports.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Discord_Ports.yaml
+    interval: 86400 # Update rules every 24 hours
+  Facebook:
+    type: http
+    behavior: classical
+    path: "./Facebook.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Facebook.yaml
+    interval: 86400 # Update rules every 24 hours
+  Flip_id:
+    type: http
+    behavior: classical
+    path: "./Flip_id.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Flip_id.yaml
+    interval: 86400 # Update rules every 24 hours
+  Game_ArenaOfValor_Ports:
+    type: http
+    behavior: classical
+    path: "./Game_ArenaOfValor_Ports.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Game_ArenaOfValor_Ports.yaml
+    interval: 86400 # Update rules every 24 hours
+  myXL:
+    type: http
+    behavior: classical
+    path: "./myXL.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/myXL.yaml
+    interval: 86400 # Update rules every 24 hours
+  myIM3:
+    type: http
+    behavior: classical
+    path: "./myIM3.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/myIM3.yaml
+    interval: 86400 # Update rules every 24 hours
+  byU:
+    type: http
+    behavior: classical
+    path: "./byU.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/byU.yaml
+    interval: 86400 # Update rules every 24 hours
+  XL_Akrab:
+    type: http
+    behavior: classical
+    path: "./XL_Akrab.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/XL_Akrab.yaml
+    interval: 86400 # Update rules every 24 hours
+  Zerotier:
+    type: http
+    behavior: classical
+    path: "./Zerotier.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Zerotier.yaml
+    interval: 86400 # Update rules every 24 hours
+  Zoom:
+    type: http
+    behavior: classical
+    path: "./Zoom.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Zoom.yaml
+    interval: 86400 # Update rules every 24 hours
+  Youtube:
+    type: http
+    behavior: classical
+    path: "./Youtube.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Youtube.yaml
+    interval: 86400 # Update rules every 24 hours
+  WhatsApp:
+    type: http
+    behavior: classical
+    path: "./WhatsApp.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/WhatsApp.yaml
+    interval: 86400 # Update rules every 24 hours
+  WeTV:
+    type: http
+    behavior: classical
+    path: "./WeTV.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/WeTV.yaml
+    interval: 86400 # Update rules every 24 hours
+  Twitter:
+    type: http
+    behavior: classical
+    path: "./Twitter.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Twitter.yaml
+    interval: 86400 # Update rules every 24 hours
+  Tokopedia:
+    type: http
+    behavior: classical
+    path: "./Tokopedia.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Tokopedia.yaml
+    interval: 86400 # Update rules every 24 hours
+  Tiktok:
+    type: http
+    behavior: classical
+    path: "./Tiktok.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Tiktok.yaml
+    interval: 86400 # Update rules every 24 hours
+  Telegram:
+    type: http
+    behavior: classical
+    path: "./Telegram.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Telegram.yaml
+    interval: 86400 # Update rules every 24 hours
+  Stream_VisionPlus:
+    type: http
+    behavior: classical
+    path: "./Stream_VisionPlus.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Stream_VisionPlus.yaml
+    interval: 86400 # Update rules every 24 hours
+  Stream_Vidio:
+    type: http
+    behavior: classical
+    path: "./Stream_Vidio.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Stream_Vidio.yaml
+    interval: 86400 # Update rules every 24 hours
+  Stream_IFLIX_WeTV:
+    type: http
+    behavior: classical
+    path: "./Stream_IFLIX_WeTV.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Stream_IFLIX_WeTV.yaml
+    interval: 86400 # Update rules every 24 hours
+  Stream_DisneyHotstar:
+    type: http
+    behavior: classical
+    path: "./Stream_DisneyHotstar.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Stream_DisneyHotstar.yaml
+    interval: 86400 # Update rules every 24 hours
+  Steam:
+    type: http
+    behavior: classical
+    path: "./Steam.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Steam.yaml
+    interval: 86400 # Update rules every 24 hours
+  Spotify:
+    type: http
+    behavior: classical
+    path: "./Spotify.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Spotify.yaml
+    interval: 86400 # Update rules every 24 hours
+  Shopee:
+    type: http
+    behavior: classical
+    path: "./Shopee.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Shopee.yaml
+    interval: 86400 # Update rules every 24 hours
+  Ruangguru:
+    type: http
+    behavior: classical
+    path: "./Ruangguru.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Ruangguru.yaml
+    interval: 86400 # Update rules every 24 hours
+  MyTelkomsel:
+    type: http
+    behavior: classical
+    path: "./MyTelkomsel.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/MyTelkomsel.yaml
+    interval: 86400 # Update rules every 24 hours
+  Microsoft_Teams:
+    type: http
+    behavior: classical
+    path: "./Microsoft_Teams.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Microsoft_Teams.yaml
+    interval: 86400 # Update rules every 24 hours
+  LINE:
+    type: http
+    behavior: classical
+    path: "./LINE.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/LINE.yaml
+    interval: 86400 # Update rules every 24 hours
+  Jenius:
+    type: http
+    behavior: classical
+    path: "./Jenius.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Jenius.yaml
+    interval: 86400 # Update rules every 24 hours
+  Instagram:
+    type: http
+    behavior: classical
+    path: "./Instagram.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Instagram.yaml
+    interval: 86400 # Update rules every 24 hours
+  Hoyoverse_miHoYo_Global:
+    type: http
+    behavior: classical
+    path: "./Hoyoverse_miHoYo_Global.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Hoyoverse_miHoYo_Global.yaml
+    interval: 86400 # Update rules every 24 hours
+  Google_Meet_Maps_Classroom:
+    type: http
+    behavior: classical
+    path: "./Google_Meet_Maps_Classroom.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Google_Meet_Maps_Classroom.yaml
+    interval: 86400 # Update rules every 24 hours
+  Game_Valorant:
+    type: http
+    behavior: classical
+    path: "./Game_Valorant.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Game_Valorant.yaml
+    interval: 86400 # Update rules every 24 hours
+  Game_TowerOfFantasy_Ports:
+    type: http
+    behavior: classical
+    path: "./Game_TowerOfFantasy_Ports.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Game_TowerOfFantasy_Ports.yaml
+    interval: 86400 # Update rules every 24 hours
+  Game_TowerOfFantasy_Global:
+    type: http
+    behavior: classical
+    path: "./Game_TowerOfFantasy_Global.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Game_TowerOfFantasy_Global.yaml
+    interval: 86400 # Update rules every 24 hours
+  Game_StumbleGuys:
+    type: http
+    behavior: classical
+    path: "./Game_StumbleGuys.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Game_StumbleGuys.yaml
+    interval: 86400 # Update rules every 24 hours
+  Game_SausageMan:
+    type: http
+    behavior: classical
+    path: "./Game_SausageMan.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Game_SausageMan.yaml
+    interval: 86400 # Update rules every 24 hours
+  Game_PUBGMobile_Ports:
+    type: http
+    behavior: classical
+    path: "./Game_PUBGMobile_Ports.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Game_PUBGMobile_Ports.yaml
+    interval: 86400 # Update rules every 24 hours
+  Game_MobileLegends_Ports:
+    type: http
+    behavior: classical
+    path: "./Game_MobileLegends_Ports.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Game_MobileLegends_Ports.yaml
+    interval: 86400 # Update rules every 24 hours
+  Game_LeagueOf_Legends_Ports:
+    type: http
+    behavior: classical
+    path: "./Game_LeagueOf_Legends_Ports.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Game_LeagueOf_Legends_Ports.yaml
+    interval: 86400 # Update rules every 24 hours
+  Game_GenshinImpact_Ports:
+    type: http
+    behavior: classical
+    path: "./Game_GenshinImpact_Ports.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Game_GenshinImpact_Ports.yaml
+    interval: 86400 # Update rules every 24 hours
+  Game_Freefire_Ports:
+    type: http
+    behavior: classical
+    path: "./Game_Freefire_Ports.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Game_Freefire_Ports.yaml
+    interval: 86400 # Update rules every 24 hours
+  Game_FallGuys:
+    type: http
+    behavior: classical
+    path: "./Game_FallGuys.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Game_FallGuys.yaml
+    interval: 86400 # Update rules every 24 hours
+  Game_FIFAOnline_Ports:
+    type: http
+    behavior: classical
+    path: "./Game_FIFAOnline_Ports.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Game_FIFAOnline_Ports.yaml
+    interval: 86400 # Update rules every 24 hours
+  Game_CallOfDutyMobile:
+    type: http
+    behavior: classical
+    path: "./Game_CallOfDutyMobile.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Game_CallOfDutyMobile.yaml
+    interval: 86400 # Update rules every 24 hours
+  Game_COC_ClashRoyale:
+    type: http
+    behavior: classical
+    path: "./Game_COC_ClashRoyale.yaml"
+    url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/Game_COC_ClashRoyale.yaml
+    interval: 86400 # Update rules every 24 hours
+
+  Bundling:
+    type: http
+    behavior: classical
+    path: "./Rule-Bundling"
+    url: https://raw.githubusercontent.com/Yogi-0796/rule_provider/main/Simerah/Rule-Bundling.yaml
+    interval: 86400
+  Gaming:
+    type: http
+    behavior: classical
+    path: "./ruleGamemax.yaml"
+    url: https://raw.githubusercontent.com/Yogi-0796/rule_provider/main/ruleGamemax.yaml
+    interval: 86400
+  Sosmed:
+    type: http
+    behavior: domain
+    path: "./Rule-Sosmed.yaml"
+    url: https://raw.githubusercontent.com/Yogi-0796/rule_provider/main/Simerah/Rule-Sosmed.yaml
+    interval: 86400
+
+rules:
+  - MATCH,ALLSTORE
