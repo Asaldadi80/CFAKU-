@@ -192,7 +192,7 @@ proxy-groups:
       - TROJAN
       - MULTI443
      
-proxy-groups:
+proxy-providers:
   akunvmess:
     type: http
     behavior: classical
