@@ -192,43 +192,6 @@ proxy-groups:
       - TROJAN
       - MULTI443
      
-proxy-providers:
-  akunvmess:
-    type: http
-    behavior: classical
-    path: ./akunvmess.txt
-    url: https://raw.githubusercontent.com/Asaldadi80/Clash/main/akunvmess.txt
-    health-check:
-      enable: true
-      url: http://cp.cloudflare.com/generate_204
-      interval: 3600
-  akuntrojan:
-    type: http
-    behavior: classical
-    path: ./akuntrojan.txt
-    url: https://raw.githubusercontent.com/Asaldadi80/Clash/main/akuntrojan.txt
-    health-check:
-      enable: true
-      url: http://cp.cloudflare.com/generate_204
-      interval: 3600
-  akunmulti443:
-    type: http
-    behavior: classical
-    path: ./akunmulti443.txt
-    url: https://raw.githubusercontent.com/Asaldadi80/Clash/main/akunmulti443.txt
-    health-check:
-      enable: true
-      url: http://cp.cloudflare.com/generate_204
-      interval: 3600
-  akunmulti80:
-    type: http
-    behavior: classical
-    path: ./akunmulti80.txt
-    url: https://raw.githubusercontent.com/Asaldadi80/Clash/main/akunmulti80.txt
-    health-check:
-      enable: true
-      url: http://cp.cloudflare.com/generate_204
-      interval: 3600
 
   # Rule Providers
 # Check time conversion here https://www.timecalculator.net/hours-to-seconds
