@@ -191,8 +191,6 @@ proxy-groups:
       - VMESS
       - TROJAN
       - MULTI443
-     
-
   # Rule Providers
 # Check time conversion here https://www.timecalculator.net/hours-to-seconds
 rules-providers:
