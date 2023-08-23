@@ -132,6 +132,7 @@ proxies: [
 {name: 'XLVISION1 (ðŸ‡¸ðŸ‡¬) ðŸ‡¸ðŸ‡¬ SG', server: trojan-ovh-sg01.globalssh.xyz, port: 443, type: trojan, password: Free80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, sni: cdnodeb.visionplus.id, network: ws, ws-opts: {path: /anything/trojan-ws, headers: {Host: trojan-ovh-sg01.globalssh.xyz, X-Online-Host: tor.cloudflare-dns.com, X-Forward-Host: tor.cloudflare-dns.com}}, udp: true, strategy: consistent-hashing, url: 'https://dns.alidns.com/dns-query', interval: 300}, 
 {name: 'XLVISION2 ðŸ‡¸ðŸ‡¬ SG', server: cdnodeb.visionplus.id, port: 443, type: trojan, password: Free80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, sni: trojan-ovh-sg01.globalssh.xyz, network: ws, ws-opts: {path: /anything/trojan-ws, headers: {Host: trojan-ovh-sg01.globalssh.xyz, X-Online-Host: tor.cloudflare-dns.com, X-Forward-Host: tor.cloudflare-dns.com}}, udp: true, strategy: consistent-hashing, url: 'https://dns.alidns.com/dns-query', interval: 300}, 
 {name: 'XL VIDIO ðŸ‡¸ðŸ‡¬ðŸ‡¸ðŸ‡¬ SG', password: Free80, server: trojan-ovh-sg01.globalssh.xyz, port: 443, type: trojan, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, sni: quiz.int.vidio.com, network: ws, ws-opts: {path: /anything/trojan-ws, headers: {Host: trojan-ovh-sg01.globalssh.xyz, X-Online-Host: tor.cloudflare-dns.com, X-Forward-Host: tor.cloudflare-dns.com}}, udp: true, udp-gateway: 7300, strategy: consistent-hashing, url: 'https://dns.alidns.com/dns-query', interval: 300}], 
+
 proxy-groups: [
 {name: ALLSTORE, type: select, 
 proxies: [
