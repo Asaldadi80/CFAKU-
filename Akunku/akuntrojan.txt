@@ -262,5 +262,5 @@ TROJAN1, TROJAN2]},
 {name: Direct, type: select, 
 proxies: [DIRECT]}, 
 {name: BLOCK, type: select, 
-proxies: [REJECT]}], 
+proxies: [REJECT]}, 
 rules:['GEOIP,IR,Direct', 'MATCH,ALLSTORE']
