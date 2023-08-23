@@ -258,8 +258,7 @@ TROJAN1, TROJAN2]},
 {name: RELAY-TRAFFIC, type: relay, disable-udp: false, 
 proxies: [
 TROJAN1, TROJAN2]}, 
-{name: LOADBALANCE, type: load-balance, strategy: round-robin, url: http://www.gstatic.com/generate_204, interval: 60, 
-proxies: [
+{name: LOADBALANCE, type: load-balance, strategy: round-robin, url: 'http://www.gstatic.com/generate_204', interval: 60, proxies: [
 TROJAN1, TROJAN2]}, 
 {name: Direct, type: select, 
 proxies: [DIRECT]}, 
