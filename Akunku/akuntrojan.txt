@@ -134,7 +134,10 @@ proxies: [
 {name: 'XL VIDIO ðŸ‡¸ðŸ‡¬ðŸ‡¸ðŸ‡¬ SG', password: Free80, server: trojan-ovh-sg01.globalssh.xyz, port: 443, type: trojan, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, sni: quiz.int.vidio.com, network: ws, ws-opts: {path: /anything/trojan-ws, headers: {Host: trojan-ovh-sg01.globalssh.xyz, X-Online-Host: tor.cloudflare-dns.com, X-Forward-Host: tor.cloudflare-dns.com}}, udp: true, udp-gateway: 7300, strategy: consistent-hashing, url: 'https://dns.alidns.com/dns-query', interval: 300}], 
 
 proxy-groups: [
-{name: SERVER ID & SG, type: select, 
+{name: ALLSTORE, type: select, 
+proxies: [
+TROJAN1, TROJAN2, BPT1, BPT2, BEST-PING, FALLBACK, LOADBALANCE, RELAY-TRAFFIC, DIRECT,BLOCK]}, 
+{name: TROJAN1, type: select, 
 proxies: [
 'AXISGAME1 ðŸ‡®ðŸ‡© ID (ðŸ‡®ðŸ‡©)', 
 'AXISGAME2 ðŸ‡®ðŸ‡© ID', 
@@ -187,7 +190,9 @@ proxies: [
 'XLTURBO3 ðŸ‡®ðŸ‡© ID', 
 'XLVISION1 (ðŸ‡®ðŸ‡©) ðŸ‡®ðŸ‡© ID', 
 'XLVISION2 ðŸ‡®ðŸ‡© ID', 
-'XL VIDIO ðŸ‡®ðŸ‡©ðŸ‡®ðŸ‡© ID', 
+'XL VIDIO ðŸ‡®ðŸ‡©ðŸ‡®ðŸ‡© ID']}, 
+{name: TROJAN2, type: select, 
+proxies: [
 'AXISGAME1 ðŸ‡¸ðŸ‡¬ SG (ðŸ‡¸ðŸ‡¬)', 
 'AXISGAME2 ðŸ‡¸ðŸ‡¬ SG', 
 'AXISGAME3 ðŸ‡¸ðŸ‡¬ SG', 
@@ -239,5 +244,25 @@ proxies: [
 'XLTURBO3 ðŸ‡¸ðŸ‡¬ SG', 
 'XLVISION1 (ðŸ‡¸ðŸ‡¬) ðŸ‡¸ðŸ‡¬ SG', 
 'XLVISION2 ðŸ‡¸ðŸ‡¬ SG', 
-'XL VIDIO ðŸ‡¸ðŸ‡¬ðŸ‡¸ðŸ‡¬ SG']}], 
-rules: ['MATCH,SERVER ID & SG']}
+'XL VIDIO ðŸ‡¸ðŸ‡¬ðŸ‡¸ðŸ‡¬ SG']}, 
+{name: FALLBACK, type: fallback, strategy: round-robin, url: 'http://www.gstatic.com/generate_204', interval: 60, 
+proxies: [
+TROJAN1, TROJAN2]}, 
+{name: BPT1, type: url-test, url: 'http://hi.bonds.id/ping', interval: 60, tolerance: 50, 
+proxies: [TROJAN1]}, 
+{name: BPT2, type: url-test, url: 'http://hi.bonds.id/ping', interval: 60, tolerance: 50, 
+proxies: [TROJAN2]}, 
+{name: BEST-PING, type: url-test, url: 'http://hi.bonds.id/ping', interval: 60, tolerance: 50, 
+proxies: [
+TROJAN1, TROJAN2]}, 
+{name: RELAY-TRAFFIC, type: relay, disable-udp: false, 
+proxies: [
+TROJAN1, TROJAN2]}, 
+{name: LOADBALANCE, type: load-balance, strategy: round-robin, url: `http://www.gstatic.com/generate_204`, interval: 60, 
+proxies: [
+TROJAN1, TROJAN2]}, 
+{name: Direct, type: select, 
+proxies: [DIRECT]}, 
+{name: BLOCK, type: select, 
+proxies: [REJECT]}, 
+rules:['GEOIP,IR,Direct', 'MATCH,ALLSTORE']}], 
